@@ -1,0 +1,51 @@
+[user]
+	email = jimmy.briggs@jimbrig.com
+	name = Jimmy Briggs
+	signingKey = FF361E144EE31125E028D670786742B2314D2B34 
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+[color]
+	ui = auto
+[default]
+	protocol = ssh
+[gpg]
+	program = gpg
+[tag]
+	forceSignAnnotated = true
+[core]
+	longpaths = true
+	# excludesfile = ~/.config/git/.gitignore
+    	# attributesfile = ~/.config/git/.gitattributes
+[github]
+	user = jimbrig
+[pull]
+	rebase = true
+[push]
+	default = current
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	unstage = reset HEAD --
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+
+#----------
+# GPG Keys
+#----------
+
+# DESKTOP-MSI - jimmy.briggs@jimbrig.com:
+# signingKey = FF361E144EE31125E028D670786742B2314D2B34 
+
+# DESKTOP-MSI - jimmy.briggs@pwc.com: 
+# signingKey = 7B6A462F595FA24EC24B40E663FCA87061A4E0D6
+
+# DESKTOP - MSI - WSL Ubuntu CommPrev:
+# signingKey = B8BA217A94B30E9D25FE01F601163DF4AE4BA708
+
