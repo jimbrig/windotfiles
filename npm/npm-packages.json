@@ -1,0 +1,44 @@
+{
+  "resolved": "file:../ProgramData/nvm/v17.0.1",
+  "dependencies": {
+    "dockly": {
+      "version": "3.21.4"
+    },
+    "eslint": {
+      "version": "8.1.0"
+    },
+    "jshint": {
+      "version": "2.13.1"
+    },
+    "npm-check-updates": {
+      "version": "11.8.5"
+    },
+    "npm-check": {
+      "version": "5.9.2"
+    },
+    "npm": {
+      "version": "8.1.1"
+    },
+    "npq": {
+      "version": "2.0.23"
+    },
+    "prettier": {
+      "version": "2.4.1"
+    },
+    "rimraf": {
+      "version": "3.0.2"
+    },
+    "serve": {
+      "version": "12.0.1"
+    },
+    "speedtest-cli": {
+      "version": "0.1.0"
+    },
+    "tldr": {
+      "version": "3.3.7"
+    },
+    "yarn": {
+      "version": "1.22.17"
+    }
+  }
+}
