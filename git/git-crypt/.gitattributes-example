@@ -1,0 +1,8 @@
+# Git-Crypt
+secrets/** filter=git-crypt diff=git-crypt
+exported-configs/** filter=git-crypt diff=git-crypt
+
+.npmrc filter=git-crypt diff=git-crypt
+.b2_account_info filter=git-crypt diff=git-crypt
+.aws/credentials filter=git-crypt diff=git-crypt
+.config/gh/config.yml filter=git-crypt diff=git-crypt
