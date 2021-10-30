@@ -1,0 +1,7 @@
+{
+	"stay_in_tray": true,
+	"global_shortcuts": {
+		"activate": "Super+Alt+S",
+		"quick_add": "Super+Alt+Q"
+	}
+}
