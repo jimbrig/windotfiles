@@ -1,0 +1,223 @@
+{
+  "pullRequests": {
+    "filters": [
+      {
+        "id": "be2539b4-3fa4-4a72-bdc9-85e2d13c9af8",
+        "filter": "author:jimbrig",
+        "name": "My Pull Requests",
+        "author": [
+          {
+            "not": false,
+            "values": [
+              "jimbrig"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e45f0ae9-b045-41af-a30e-c6384eab8af0",
+        "filter": "assignee:jimbrig",
+        "name": "Assigned To Me",
+        "assignee": [
+          {
+            "not": false,
+            "values": [
+              "jimbrig"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1df6ad21-d11f-45d3-84d3-091d477f69de",
+        "filter": "review-requested:jimbrig",
+        "name": "Awaiting My Review",
+        "review-requested": [
+          {
+            "not": false,
+            "values": [
+              "jimbrig"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6ed5ab82-1f72-41ce-9278-fae668a3282c",
+        "filter": "",
+        "name": "All Pull Requests",
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "teams": {
+    "hasFinishedSettingUpTeams": true
+  },
+  "remoteParents": {
+    "github": {
+      "jimbrig": {
+        "jimsdots": {
+          "hostingServiceType": "github",
+          "owner": "jimbrig",
+          "name": "jimsdots"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "8864da85b878b2361e3ffbaa93012b9a9472343b",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/main"
+      },
+      "refs/heads/develop": {
+        "name": "refs/heads/develop",
+        "oid": "8f0b89e2cc7e86ad6192f35a9726df290286316d",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/feature/restructure": {
+        "name": "refs/heads/feature/restructure",
+        "oid": "af8d09dc178efe82ff614682286d5a689be78302",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/main": {
+        "name": "refs/heads/main",
+        "oid": "8864da85b878b2361e3ffbaa93012b9a9472343b",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/1/head": {
+        "name": "refs/pull/1/head",
+        "oid": "7abb27d57c7d96c709c5b6036f4fc010419b257c",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/10/head": {
+        "name": "refs/pull/10/head",
+        "oid": "8d60e0f7bb35fbaddd161b7a8844d722f05cecb4",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/11/head": {
+        "name": "refs/pull/11/head",
+        "oid": "f2463c803628c57bea2482fb1af18e3581bc058d",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/14/head": {
+        "name": "refs/pull/14/head",
+        "oid": "af8d09dc178efe82ff614682286d5a689be78302",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/14/merge": {
+        "name": "refs/pull/14/merge",
+        "oid": "97589e239fa986da15ae1f5500aff872c93e6498",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/15/head": {
+        "name": "refs/pull/15/head",
+        "oid": "ef16acfe99561b9eca88352036c1da622e94f1d4",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/2/head": {
+        "name": "refs/pull/2/head",
+        "oid": "6207ba27889a8294ac31d91c883d8561fd7b8cd2",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/3/head": {
+        "name": "refs/pull/3/head",
+        "oid": "5474516f35ae6d00d21dec96d93ca16c3d0d2366",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/5/head": {
+        "name": "refs/pull/5/head",
+        "oid": "5cd0da31be7a4c3f4375bfe480e99a16e6234dbe",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/6/head": {
+        "name": "refs/pull/6/head",
+        "oid": "0731ede525437f06e015a1cd25712b4b8627c58d",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/7/head": {
+        "name": "refs/pull/7/head",
+        "oid": "be9729b6dac5d544df7bed6b5b1a61ba9b7df037",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/8/head": {
+        "name": "refs/pull/8/head",
+        "oid": "0cbee16de5cdf684ac12b44f16f5f6bb7dbccff5",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/pull/9/head": {
+        "name": "refs/pull/9/head",
+        "oid": "59b1c059ad697d4e25440b3e981617e8a7a39c44",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  }
+}
