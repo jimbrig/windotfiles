@@ -1,1 +1,1 @@
-profiles/jimmy.briggs@jimbrig.com/signedInUser.json git-crypt/keys/** filter=git-crypt diff=git-crypt
+profiles/jimmy.briggs@jimbrig.com/signedInUser.json filter=git-crypt diff=git-crypt
