@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<registrySnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <user>S-1-5-21-658990459-1207598912-842708687-1001</user>
+  <keys>
+    <key installerType="Unknown" displayName="Google Chrome" displayVersion="97.0.4676.0">
+      <RegistryView>Registry64</RegistryView>
+      <KeyPath>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome</KeyPath>
+      <DefaultValue />
+      <InstallLocation><![CDATA[C:\Users\jimmy\AppData\Local\Google\Chrome\Application]]></InstallLocation>
+      <UninstallString><![CDATA["C:\Users\jimmy\AppData\Local\Google\Chrome\Application\97.0.4676.0\Installer\setup.exe" --uninstall --channel=dev --verbose-logging]]></UninstallString>
+      <HasQuietUninstall>false</HasQuietUninstall>
+      <Publisher><![CDATA[Google LLC]]></Publisher>
+      <InstallDate>20211022</InstallDate>
+      <InstallSource><![CDATA[]]></InstallSource>
+      <Language />
+      <Version>97.0.4676.0</Version>
+      <VersionMajor>4676</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <SystemComponent>false</SystemComponent>
+      <WindowsInstaller>false</WindowsInstaller>
+      <NoRemove>false</NoRemove>
+      <NoModify>true</NoModify>
+      <NoRepair>true</NoRepair>
+      <ReleaseType />
+      <ParentKeyName />
+    </key>
+  </keys>
+</registrySnapshot>

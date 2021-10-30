@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\nvm.portable\nvm-noinstall.zip.txt" checksum="4445B6D97A18CF58437F261ECCC92291" />
+    <file path="C:\ProgramData\chocolatey\lib\nvm.portable\nvm.portable.nupkg" checksum="56545FFFB8A470D541D52AEF9E93CA61" />
+    <file path="C:\ProgramData\chocolatey\lib\nvm.portable\nvm.portable.nuspec" checksum="87365AC332DF0BC7F9274A321A7EAA34" />
+    <file path="C:\ProgramData\chocolatey\lib\nvm.portable\tools\chocolateybeforemodify.ps1" checksum="099AF74AA10DBF58C4CEBF960814ED6A" />
+    <file path="C:\ProgramData\chocolatey\lib\nvm.portable\tools\chocolateyinstall.ps1" checksum="90710FCC83244CC14239AA3BABDAD879" />
+    <file path="C:\ProgramData\chocolatey\lib\nvm.portable\tools\chocolateyuninstall.ps1" checksum="5D43AB720AB797DDE6754A0C672F6D8F" />
+  </files>
+</fileSnapshot>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\vcredist2017\vcredist2017.nupkg" checksum="957A884F272FB3CB1411AA83B4BDF82F" />
+    <file path="C:\ProgramData\chocolatey\lib\vcredist2017\vcredist2017.nuspec" checksum="1F00D706D461F87E6C9B5B078DBE7E6C" />
+  </files>
+</fileSnapshot>

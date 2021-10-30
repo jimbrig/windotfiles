@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\Less\Less.nupkg" checksum="2806A07ECDCFA1AE39F866CD62FDA068" />
+    <file path="C:\ProgramData\chocolatey\lib\Less\Less.nuspec" checksum="64E093F51F3822306A34E5AB8628B958" />
+    <file path="C:\ProgramData\chocolatey\lib\Less\legal\LICENSE.txt" checksum="1EBBD3E34237AF26DA5DC08A4E440464" />
+    <file path="C:\ProgramData\chocolatey\lib\Less\legal\VERIFICATION.txt" checksum="B3EF29793743E775958ADB68FCFA8357" />
+    <file path="C:\ProgramData\chocolatey\lib\Less\tools\chocolateyInstall.ps1" checksum="DE6979F99AA4DA799F30871E24297358" />
+    <file path="C:\ProgramData\chocolatey\lib\Less\tools\chocolateyUninstall.ps1" checksum="0314D299BF075A6E82405A6F77AC0191" />
+    <file path="C:\ProgramData\chocolatey\lib\Less\tools\less.exe" checksum="52CB044AF3AE9766F1081247E3204E9A" />
+  </files>
+</fileSnapshot>

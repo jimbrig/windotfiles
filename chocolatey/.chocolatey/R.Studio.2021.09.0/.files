@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\R.Studio\R.Studio.nupkg" checksum="7E65956BA3D8EDD8DB75C6960B203EB7" />
+    <file path="C:\ProgramData\chocolatey\lib\R.Studio\R.Studio.nuspec" checksum="85B7891217245E82207727947DB16D6F" />
+    <file path="C:\ProgramData\chocolatey\lib\R.Studio\tools\chocolateyInstall.ps1" checksum="83B309066CFC756FFD4E5702C054C067" />
+  </files>
+</fileSnapshot>

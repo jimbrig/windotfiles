@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\Everything\Everything.nupkg" checksum="B53C16B57A4097989F76D180B33709A4" />
+    <file path="C:\ProgramData\chocolatey\lib\Everything\Everything.nuspec" checksum="42B5682905329B2B5B091D4FA4FE4218" />
+    <file path="C:\ProgramData\chocolatey\lib\Everything\legal\License.txt" checksum="64B5F6C922D8B825217C4BDB4D4A08CE" />
+    <file path="C:\ProgramData\chocolatey\lib\Everything\legal\VERIFICATION.txt" checksum="DB70E99A55030C041EEB249E2D1DA6FE" />
+    <file path="C:\ProgramData\chocolatey\lib\Everything\tools\chocolateyInstall.ps1" checksum="4EC28D2AD1EE920CE27FD18063768E0B" />
+    <file path="C:\ProgramData\chocolatey\lib\Everything\tools\chocolateyUninstall.ps1" checksum="BEAED296FBAA58B33F251152F9963BF1" />
+    <file path="C:\ProgramData\chocolatey\lib\Everything\tools\es.exe" checksum="3AEB709CD6444A9B6A1E2C3C1C299017" />
+    <file path="C:\ProgramData\chocolatey\lib\Everything\tools\Everything-1.4.1.1009.x64-Setup.exe.ignore" checksum="BEA07E6D2B8DCE396FE21BAA61B34956" />
+  </files>
+</fileSnapshot>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\python3\python3.nupkg" checksum="65E66D002F080064E78DF03DC6E84340" />
+    <file path="C:\ProgramData\chocolatey\lib\python3\python3.nuspec" checksum="3366DC10244153841DC14D757B0F6E07" />
+    <file path="C:\ProgramData\chocolatey\lib\python3\legal\LICENSE.txt" checksum="3FBFBB88B1C6F11A666EB20C490B6DD6" />
+    <file path="C:\ProgramData\chocolatey\lib\python3\legal\VERIFICATION.txt" checksum="DF35F080FA296C487F70B382D675AA59" />
+    <file path="C:\ProgramData\chocolatey\lib\python3\tools\chocolateyInstall.ps1" checksum="3BECD845ED96E79B57B6D9D11E743752" />
+    <file path="C:\ProgramData\chocolatey\lib\python3\tools\helpers.ps1" checksum="04A31283F88111DD5B09834176171FCC" />
+    <file path="C:\ProgramData\chocolatey\lib\python3\tools\python-3.10.0-amd64.exe.ignore" checksum="BEA07E6D2B8DCE396FE21BAA61B34956" />
+  </files>
+</fileSnapshot>

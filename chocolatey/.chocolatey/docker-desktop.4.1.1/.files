@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\docker-desktop\docker-desktop.nupkg" checksum="70694D7A26B10814459949EDACE358E8" />
+    <file path="C:\ProgramData\chocolatey\lib\docker-desktop\docker-desktop.nuspec" checksum="E0AA3F631F4A18E863DC72CF8E7647A3" />
+    <file path="C:\ProgramData\chocolatey\lib\docker-desktop\tools\chocolateyinstall.ps1" checksum="001F0F4E146488630BA1FD72EFFC5883" />
+    <file path="C:\ProgramData\chocolatey\lib\docker-desktop\tools\chocolateyuninstall.ps1" checksum="DFBA3F028A673C1D5B9D40189AA9D8FC" />
+  </files>
+</fileSnapshot>

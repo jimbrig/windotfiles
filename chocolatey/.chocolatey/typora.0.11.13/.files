@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\typora\typora.nupkg" checksum="A1EB27C79A645DCC34553C57129C146F" />
+    <file path="C:\ProgramData\chocolatey\lib\typora\typora.nuspec" checksum="34CE5452768466CC190A56BF03911806" />
+    <file path="C:\ProgramData\chocolatey\lib\typora\tools\chocolateyinstall.ps1" checksum="67E392C44D3175C2E6F326CA688804C4" />
+  </files>
+</fileSnapshot>

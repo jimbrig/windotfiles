@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\rtools\rtools.nupkg" checksum="F9E60799D93C47A9232531BE092C6081" />
+    <file path="C:\ProgramData\chocolatey\lib\rtools\rtools.nuspec" checksum="163614C2ED9B6D02DE8F97130C4F79D5" />
+    <file path="C:\ProgramData\chocolatey\lib\rtools\tools\chocolateyInstall.ps1" checksum="79833B808ACEE8AF66662A5AA11A9A6E" />
+  </files>
+</fileSnapshot>

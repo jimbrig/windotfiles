@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\gh\gh.nupkg" checksum="FF473C686E87CF887E59572F2211ECCE" />
+    <file path="C:\ProgramData\chocolatey\lib\gh\gh.nuspec" checksum="35099D89270A19480F8700091E1104C4" />
+    <file path="C:\ProgramData\chocolatey\lib\gh\tools\chocolateyInstall.ps1" checksum="1DBEA4129DBD828CD1783A50D2FDF3C7" />
+    <file path="C:\ProgramData\chocolatey\lib\gh\tools\gh_2.1.0_windows_amd64.msi" checksum="9DD768C4C7A02DC24E4350E6DFA3CE14" />
+    <file path="C:\ProgramData\chocolatey\lib\gh\tools\gh_2.1.0_windows_amd64.msi.ignore" checksum="BEA07E6D2B8DCE396FE21BAA61B34956" />
+    <file path="C:\ProgramData\chocolatey\lib\gh\tools\LICENSE.txt" checksum="C98B001C5BAFB798814A9505D5B722F7" />
+    <file path="C:\ProgramData\chocolatey\lib\gh\tools\VERIFICATION.txt" checksum="10B2C84044B3483B6740EF6BC7865AC8" />
+  </files>
+</fileSnapshot>

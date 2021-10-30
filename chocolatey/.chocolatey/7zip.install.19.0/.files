@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\7zip.install\7zip.install.nupkg" checksum="C9C2399FBD769A6964ADE0C9D3509898" />
+    <file path="C:\ProgramData\chocolatey\lib\7zip.install\7zip.install.nuspec" checksum="6B20F0946351971DF2D0D2E9BD021438" />
+    <file path="C:\ProgramData\chocolatey\lib\7zip.install\legal\LICENSE.txt" checksum="650BD91878930A925935C6103A4422CC" />
+    <file path="C:\ProgramData\chocolatey\lib\7zip.install\legal\VERIFICATION.txt" checksum="ADCFFBF81623DAB3DBD2C6F6D6216D31" />
+    <file path="C:\ProgramData\chocolatey\lib\7zip.install\tools\7zip_x64.exe.ignore" checksum="BEA07E6D2B8DCE396FE21BAA61B34956" />
+    <file path="C:\ProgramData\chocolatey\lib\7zip.install\tools\chocolateyInstall.ps1" checksum="0BCA1D66A247FCE19914D0F2C63E6581" />
+    <file path="C:\ProgramData\chocolatey\lib\7zip.install\tools\chocolateyUninstall.ps1" checksum="9575DFA835A44C14B24732DC994B5C96" />
+  </files>
+</fileSnapshot>

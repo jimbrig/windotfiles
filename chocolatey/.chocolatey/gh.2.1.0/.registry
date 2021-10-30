@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<registrySnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <user>S-1-5-21-658990459-1207598912-842708687-1001</user>
+  <keys>
+    <key installerType="Msi" displayName="GitHub CLI" displayVersion="2.1.0">
+      <RegistryView>Registry32</RegistryView>
+      <KeyPath>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{7B2B5232-3377-484A-BF8F-CE09AAEEF48E}</KeyPath>
+      <DefaultValue />
+      <InstallLocation><![CDATA[]]></InstallLocation>
+      <UninstallString><![CDATA[MsiExec.exe /I{7B2B5232-3377-484A-BF8F-CE09AAEEF48E}]]></UninstallString>
+      <HasQuietUninstall>false</HasQuietUninstall>
+      <Publisher><![CDATA[GitHub, Inc.]]></Publisher>
+      <InstallDate>20211022</InstallDate>
+      <InstallSource><![CDATA[C:\ProgramData\chocolatey\lib\gh\tools\]]></InstallSource>
+      <Language>1033</Language>
+      <Version>33619968</Version>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <SystemComponent>false</SystemComponent>
+      <WindowsInstaller>true</WindowsInstaller>
+      <NoRemove>false</NoRemove>
+      <NoModify>false</NoModify>
+      <NoRepair>false</NoRepair>
+      <ReleaseType />
+      <ParentKeyName />
+      <LocalPackage><![CDATA[C:\WINDOWS\Installer\421937.msi]]></LocalPackage>
+    </key>
+  </keys>
+</registrySnapshot>
