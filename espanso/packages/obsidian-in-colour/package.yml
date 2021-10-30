@@ -1,0 +1,22 @@
+# Obsidian in colour
+
+name: obsidian-in-colour
+parent: default
+
+matches:
+  - trigger: ":col"
+    replace: "{{output}}"
+    vars: 
+      - name: styleform
+        type: form
+        params:
+          layout: | 
+            Colour {{colour}}
+            Size {{size}}
+
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%/scripts/obsidian_colour.py"
