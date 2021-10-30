@@ -1,0 +1,153 @@
+{
+  "lastUpgradeScriptRun": "v8.0.0",
+  "appId": "b0725f44b44120f5336bc29ebb69cbcd046d8b72",
+  "sslWhitelist": [],
+  "lastVersion": "8.1.0",
+  "lastReleaseNotesDisplayed": "8.1.0",
+  "windowSettings": {
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 1100,
+    "fullScreen": false,
+    "maximized": true
+  },
+  "registration": {
+    "email": "jimmy.briggs@jimbrig.com",
+    "name": "Jimmy Briggs",
+    "status": "activated",
+    "loginType": "github",
+    "date": "2021-10-22T23:06:48.422Z",
+    "EULA": {
+      "version": "7.5.0",
+      "status": "agree_verified"
+    }
+  },
+  "userId": "56ec49f4-c27b-4fd8-86e0-791b3fe1d2a8",
+  "licensedFeatures": [
+    "pro"
+  ],
+  "userFeatures": [
+    {
+      "name": "gitkraken"
+    },
+    {
+      "name": "glo"
+    },
+    {
+      "name": "timelines"
+    },
+    {
+      "name": "cli"
+    }
+  ],
+  "hasSeenNewUserOnboarding": true,
+  "system": {
+    "shPath": "C:\\Program Files\\Git\\bin\\sh.exe"
+  },
+  "repoDeepLinkMap": {
+    "dea13369fe36cd9fa5e5b2e957cf8bfa111bafb7": {
+      "paths": [
+        "C:/Users/jimmy/dev/jimbrig/jimsdots/"
+      ],
+      "pullUrls": {
+        "https://github.com/jimbrig/jimsdots.git": {
+          "paths": [
+            "C:/Users/jimmy/dev/jimbrig/jimsdots/"
+          ],
+          "name": "jimsdots",
+          "hostName": "github.com",
+          "owner": "jimbrig",
+          "hostingServiceType": "github"
+        }
+      }
+    },
+    "16985236fcdeb63185cae2f01d2741c689172ae2": {
+      "paths": [
+        "C:/Users/jimmy/OneDrive/Documents/PowerShell/"
+      ],
+      "pullUrls": {
+        "git@github.com:jimbrig/PowerShell.git": {
+          "paths": [
+            "C:/Users/jimmy/OneDrive/Documents/PowerShell/"
+          ],
+          "name": "PowerShell",
+          "hostName": "github.com",
+          "owner": "jimbrig",
+          "hostingServiceType": "github"
+        }
+      }
+    },
+    "c5d2da3a36d6ec2faf21f1dfe15fd96b54d86d85": {
+      "paths": [
+        "C:/Users/jimmy/Dev/obsidian/KaaS/",
+        "C:/Users/jimmy/Dev/jimbrig/KaaS-2/"
+      ],
+      "pullUrls": {
+        "git@github.com:jimbrig/KaaS.git": {
+          "paths": [
+            "C:/Users/jimmy/Dev/obsidian/KaaS/",
+            "C:/Users/jimmy/Dev/jimbrig/KaaS-2/"
+          ],
+          "name": "KaaS",
+          "hostName": "github.com",
+          "owner": "jimbrig",
+          "hostingServiceType": "github"
+        }
+      }
+    },
+    "07695bb1099ac78f1928937f7fffe8737efaa66c": {
+      "paths": [
+        "C:/Users/jimmy/.dotfiles/"
+      ],
+      "pullUrls": {
+        "git@github.com:jimbrig/dotfiles.git": {
+          "paths": [
+            "C:/Users/jimmy/.dotfiles/"
+          ],
+          "name": "dotfiles",
+          "hostName": "github.com",
+          "owner": "jimbrig",
+          "hostingServiceType": "github"
+        }
+      }
+    }
+  },
+  "commits": {
+    "maxCommitsInGraph": 2000
+  },
+  "notification": {
+    "settings": {
+      "local": {
+        "showDesktopNotifications": true
+      }
+    }
+  },
+  "ui": {
+    "toolbar": {
+      "showGlo": true,
+      "showTimelines": true
+    }
+  },
+  "profileGuid": "d6e5a8ca26e14325a4275fc33b17e16f",
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-C:\\Users\\jimmy\\Dev\\obsidian\\KaaS": {
+          "id": "openRepo-C:\\Users\\jimmy\\Dev\\obsidian\\KaaS",
+          "timestamps": [
+            1635286699050
+          ],
+          "total": 1
+        },
+        "openRepo-C:/Users/jimmy/Dev/obsidian/KaaS/": {
+          "id": "openRepo-C:/Users/jimmy/Dev/obsidian/KaaS/",
+          "timestamps": [
+            1635286701410
+          ],
+          "total": 1
+        }
+      }
+    }
+  }
+}
