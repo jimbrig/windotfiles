@@ -1,0 +1,2 @@
+keys/** filter=git-crypt diff=git-crypt
+gpg-users/** filter=git-crypt diff=git-crypt
