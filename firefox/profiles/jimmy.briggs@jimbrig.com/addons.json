@@ -1,0 +1,846 @@
+{
+    "schema": 6,
+    "addons": [
+        {
+            "id": "extension@one-tab.com",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/525/525044-32.png?modified=mcrushed",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/525/525044-64.png?modified=mcrushed",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/525/525044-128.png?modified=mcrushed"
+            },
+            "name": "OneTab",
+            "version": "1.54",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3739030/onetab-1.54-an+fx.xpi",
+            "homepageURL": "http://www.one-tab.com",
+            "supportURL": "http://www.one-tab.com",
+            "description": "OneTab - Too many tabs? Convert tabs to a list and reduce browser memory",
+            "fullDescription": "Whenever you find yourself with too many tabs, click the OneTab icon to convert all of your tabs into a list. When you need to access the tabs again, you can either restore them individually or all at once.\n\nWhen your tabs are in the OneTab list, you will save memory and CPU utilization because you will have reduced the number of tabs open in your browser.\n\nPrivacy assurance\n\nInformation about your tabs are never transmitted or disclosed to either the OneTab developers or any other party. The only exception to this is if you intentionally click on our 'share as a web page' feature that allows you to upload your list of tabs into a web page in order to share them with others. Tabs are never shared unless you specifically use the 'share as a web page' button. We use Google's favicon generator to retrieve favicons for each domain in your list, but only the domain name is used and the full URL is never disclosed.\n\nAdditional Benefits\n\nDepending on how many scripts are running inside your tabs, moving them to OneTab can also speed up your computer by reducing the CPU load. We have also had reports that this also contributes to your computer resuming from sleep more quickly.\n\nFAQ: Why do I need OneTab, when I can just use my browser history?\nA: Your browser history contains every site you've ever visited. OneTab is typically used to store just the smaller selection of open tabs you are not finished with yet - such as when you are mid way through researching a topic.\n\nFAQ: Why do I need OneTab, when I can just use the \"bookmark all tabs\" browser feature?\nA: OneTab is the quickest way, with only one click, to store all of your open tabs into a list. Once they are in your list, OneTab makes it much easier to scan over, delete, label and manage your list of saved tabs. There are also plenty of special options and features, such as the ability to exclude certain web sites, to remove duplicates, and to export/import tabs.",
+            "weeklyDownloads": 2883,
+            "type": "extension",
+            "creator": {
+                "name": "OneTab Team",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/10945418/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/174/174500.png?modified=1622132161",
+                    "width": 700,
+                    "height": 438,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/174/174500.jpg?modified=1622132161",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 334
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 4.21,
+            "reviewCount": 887,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/onetab/reviews/",
+            "updateDate": 1615201695000
+        },
+        {
+            "id": "simple-translate@sienori",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/857/857110-32.png?modified=260ce8c8",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/857/857110-64.png?modified=260ce8c8",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/857/857110-128.png?modified=260ce8c8"
+            },
+            "name": "Simple Translate",
+            "version": "2.6.1",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3832892/simple_translate-2.6.1-fx.xpi",
+            "homepageURL": "https://simple-translate.sienori.com",
+            "supportURL": "https://github.com/sienori/simple-translate",
+            "description": "Quickly translate selected text on web page. In toolbar popup, you can translate input text.",
+            "fullDescription": "When you select text, the translation button pops up and the translation is displayed instantly.\nIf you enable \"Do not display the button if translation is not required\" option, you will not get frustrated by the button appearing when it is not necessary.\n\nIn the toolbar popup, translate the input text in real time.\nIf you enable \"Automatically switch to the second language\" option, you can do : When English is input, it is translated into Japanese, and when Japanese is input, it is translated into English.\n\nYou can also translate from the context menu.\nYou can select \"Translate this page\", \"Translate selected text\", and \"Translate selected link\" from the menu on the page or tab.\n\nUSERS: If you translate it many times in a short time, it may become unusable for a while due to the specification change of the translation API. If it occurs frequently, it is recommended to increase the translation waiting time on option page.\n\nChrome version: https://chrome.google.com/webstore/detail/simple-translate/ibplnjkanclpjokhdolnendpplpjiace\nEdge version: https://microsoftedge.microsoft.com/addons/detail/cllnohpbfenopiakdcjmjcbaeapmkcdl\n\nVer 2.6.0\n\n    Added the ability to import and export settings\n\n\nVer 2.5.0\n\n    Changed to show recently used languages at the top of the drop-down list\n    Added an option to disable translation in the code tag\n    Added an option to disable translation by lang attribute\n    Support for RTL in Arabic and Hebrew\n\n\nVer 2.4.0\n\n    Added an option to select a theme (light/dark)\n    Added an option to translate on modifier key pressed\n    Fixed an issue with page translation not working\n    Fixed an issue where keys were stored in the web page's local storage\n\n\nVer 2.3.0\n\n    Added button to listen to pronunciation\n\n\nVer 2.2.0\n\n    Fixed the issue that code was always inserted into web pages\n    Added the option to disable translation in text field\n    Changed the translation panel on the web page to be draggable\n\n\nVer 2.1.0\n\n    Added button to enable / disable translation on page in toolbar popup\n    Added option to disable translation on the page by specifying URL list\n    Fixed problem that the error message is not displayed due to the translation API update\n    Fixed problem that does not work properly on some pages\n\n\nVer 2.0.0\n\n    Supported Google Chrome\n    Usability improvement\n        Implemented keyboard shortcuts\n        Added copy button to toolbar popup\n        Added link to open Google translate on error\n    Added options\n        Automatically switch to the second language on web page\n        More flexible display position of translation button\n        Display position of translation panel\n        Font color on translation panel\n        Display option page when updating\n        Enable debug mode\n    Fixed minor bugs\n        Fixed problem that displayed as null when opening toolbar popup\n        Fixed problem that could not get selected text in iframe when opening toolbar popup\n        Fixed problem that could not translate some pages\n        Improved accessibility of option page\n",
+            "weeklyDownloads": 6322,
+            "type": "extension",
+            "creator": {
+                "name": "sienori",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/13310420/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/215/215429.png?modified=1622132779",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/215/215429.jpg?modified=1622132779",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/215/215430.png?modified=1622132783",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/215/215430.jpg?modified=1622132783",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/215/215431.png?modified=1622132786",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/215/215431.jpg?modified=1622132786",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/215/215432.png?modified=1622132788",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/215/215432.jpg?modified=1622132788",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/215/215433.png?modified=1622132790",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/215/215433.jpg?modified=1622132790",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/215/215434.png?modified=1622132793",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/215/215434.jpg?modified=1622132793",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                }
+            ],
+            "contributionURL": "https://www.patreon.com/sienori?utm_content=product-page-contribute&utm_medium=referral&utm_source=addons.mozilla.org",
+            "averageRating": 4.76,
+            "reviewCount": 462,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/simple-translate/reviews/",
+            "updateDate": 1630660577000
+        },
+        {
+            "id": "Tab-Session-Manager@sienori",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/859/859942-32.png?modified=67bc175d",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/859/859942-64.png?modified=67bc175d",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/859/859942-128.png?modified=67bc175d"
+            },
+            "name": "Tab Session Manager",
+            "version": "6.11.1",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3853650/tab_session_manager-6.11.1-fx.xpi",
+            "homepageURL": "https://tab-session-manager.sienori.com/",
+            "supportURL": "https://github.com/sienori/Tab-Session-Manager",
+            "description": "Save and restore the state of windows and tabs. It also supports automatic saving and cloud sync.",
+            "fullDescription": "Save and restore the state of windows and tabs. It also supports automatic saving and cloud sync.\n\n    Save and restore windows and tabs\n    Manage sessions with name and tags\n    Auto save when window is closed\n    Auto save at regular intervals\n    Import and export sessions\n    Compatibility with Chrome extension\n    Cloud sync\n    Support tab groups\n    Import Session Buddy\n\n\nChrome version:\nhttps://chrome.google.com/webstore/detail/tab-session-manager/iaiomicjabeggjcfkbimgmglanimpnae\nEdge version:\nhttps://microsoftedge.microsoft.com/addons/detail/jkjjclfiflhpjangefhgfjhgfbhajadk\n\nUSERS:\n\n    Since updating to version 3.0.0, there is a problem that the session list can not be opened. Please see here for solutions. https://github.com/sienori/Tab-Session-Manager/wiki/IndexedDB-Error\n    Vote on Mozilla website for APIs/bug fixes needed by session managers, so they can be better. https://github.com/sienori/Tab-Session-Manager/issues/364\n\n\nVersion 6.11.0\n\n    Supported importing Firefox session store backups files\n    Improved login prompt not to appear during automatic cloud sync\n        A red badge on the extension icon will notify you when manual login is required.\n    Improved the appearance of tags in autosaved and startup sessions\n        Shortened the tag name and changed the tag icon.\n    Adjusted the color of the session list to improve visibility\n    Fixed an issue where importing Session Buddy files failed\n    Fixed an issue where upload of sessions with long names failed in cloud sync\n    Fixed an issue where \"Open in current window\" opens different order tabs when pinned tabs exists\n\n\nVersion 6.10.0\n\n    Added the ability to import and export settings\n    Supported the import of Session Buddy session files\n\n\nVersion 6.9.0\n\n    Added the ability to add the current tab to the session\n        Right-click on the window title or click on the Edit button to display the menu.\n    Visualized incognito windows on the toolbar popup\n    Improved the position of the notification on the toolbar popup\n    Fixed an issue where the incognito window could not be restored in Chrome\n        When loading a incognito window, lazy loading is disabled.\n    Fixed an issue where the window title is not displayed in Chrome\n    Fixed an issue where ignoring URLs in \"Replace with current window\" was not working\n\n\nSee more release notes\nhttps://github.com/sienori/Tab-Session-Manager/releases\n\nI was inspired by the following great add-ons, developed as an add-on for Firefox 57 or later.\nSession Manager by Michael Kraft\nhttp://sessionmanager.mozdev.org/index.html",
+            "weeklyDownloads": 2087,
+            "type": "extension",
+            "creator": {
+                "name": "sienori",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/13310420/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/208/208356.png?modified=1622132779",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/208/208356.jpg?modified=1622132779",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/224/224507.png?modified=1622132782",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/224/224507.jpg?modified=1622132782",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/208/208364.png?modified=1622132784",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/208/208364.jpg?modified=1622132784",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/208/208365.png?modified=1622132786",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/208/208365.jpg?modified=1622132786",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                }
+            ],
+            "contributionURL": "https://www.patreon.com/sienori?utm_content=product-page-contribute&utm_medium=referral&utm_source=addons.mozilla.org",
+            "averageRating": 4.3833,
+            "reviewCount": 306,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/reviews/",
+            "updateDate": 1634284957000
+        },
+        {
+            "id": "momentum@momentumdash.com",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/793/793541-32.png?modified=1630603505",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/793/793541-64.png?modified=1630603505",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/793/793541-128.png?modified=1630603505"
+            },
+            "name": "Momentum",
+            "version": "2.4.28",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3859004/momentum-2.4.28-fx.xpi",
+            "homepageURL": "https://momentumdash.com",
+            "supportURL": "https://momentumdash.com/help",
+            "description": "Replace your new tab page with a personal dashboard featuring to-do, weather, daily inspiration and more!",
+            "fullDescription": "New Tab page that gives you a moment of calm and inspires you to be more productive. Get inspired with a daily photo and quote, set a daily focus, and track your to-dos. Eliminate distractions and beat procrastination with a reminder of your focus for the day on every new tab. Join over 3 million users and get inspired to create the life you want to live.\n\n☆☆☆ Featured in Tim Ferriss’ Tools of Titans, BuzzFeed, TheNextWeb, Lifehacker, Reddit, Product Hunt, Hootsuite, Zapier, and TheDailyMuse! ☆☆☆\n\n• New inspirational photo and quote each day\n• Set a daily goal/focus/intention\n• Keep track of tasks with Todo list\n• See the weather and forecast\n• Links and search\n• Show bookmarks bar on new tab\n• Customize the dashboard by showing/hiding widgets\n• Set your uptime and downtime with Balance mode\n• Feel good and get things done!\n\n\nMOMENTUM PLUS\nUnlock added customization, integrations, widgets and more!\n\n• Customize font and color themes\n• Add your own quotes and background photos\n• Skip to a new photo or quote whenever you like\n• Todo integrations: Asana, Trello, Todoist, GitHub, Wunderlist, Google Tasks\n• More widgets: Notes, Countdown timer, Metrics\n• Autofocus mode: pull your tasks into your focus, combine with integrations\n• Enhanced Weather: extra weather info and more accurate feed\n• Enhanced Todo: multi-todo lists and color labels\n• Priority support from our friendly team\n• Support the development of Momentum (Thank you!)\n• Enjoy next-level focus and productivity\n\n\nHELP & SUGGESTIONS\nHelp Center: https://momentumdash.help\nSuggestions: https://suggestions.momentumdash.help\n\n\nGET IN TOUCH\nEmail us at: help@momentumdash.com\nBlog: https://momentumdash.com/blog\nTwitter: @momentumdash\nFacebook: https://facebook.com/momentumdash\nInstagram: https://instagram.com/momentumdash",
+            "weeklyDownloads": 710,
+            "type": "extension",
+            "creator": {
+                "name": "Momentum Dashboard",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/11149894/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/182/182911.png?modified=1622132688",
+                    "width": 700,
+                    "height": 438,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/182/182911.jpg?modified=1622132688",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 334
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/182/182912.png?modified=1622132688",
+                    "width": 700,
+                    "height": 438,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/182/182912.jpg?modified=1622132688",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 334
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/182/182913.png?modified=1622132688",
+                    "width": 700,
+                    "height": 438,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/182/182913.jpg?modified=1622132688",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 334
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/182/182914.png?modified=1622132688",
+                    "width": 700,
+                    "height": 438,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/182/182914.jpg?modified=1622132688",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 334
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 4.3981,
+            "reviewCount": 241,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/momentumdash/reviews/",
+            "updateDate": 1635250000000
+        },
+        {
+            "id": "KeeperFFStoreExtension@KeeperSecurityInc",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/581/581614-32.png?modified=fd03b2ee",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/581/581614-64.png?modified=fd03b2ee",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/581/581614-128.png?modified=fd03b2ee"
+            },
+            "name": "Keeper® Password Manager & Digital Vault",
+            "version": "16.0.3",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3856471/keeper_password_manager_digital_vault-16.0.3-fx.xpi",
+            "homepageURL": "http://keepersecurity.com/",
+            "supportURL": "http://keepersecurity.com/support.html",
+            "description": "Protect and autofill passwords with the world's most trusted and #1 downloaded secure password manager and digital vault.",
+            "fullDescription": "Remove the pain from having to remember passwords ever again. Protect your passwords and personal information with Keeper® - the leading secure password manager and digital vault. Keeper offers unlimited password storage for everyone - generate, store, and AutoFill strong passwords on all your devices while securely storing private documents.\n\nWhy Use Keeper Password Manager?\n\n• We help you easily generate and store strong passwords. No more sticky notes!\n\n• Our autofill feature makes signing in to your favorite websites a breeze across all of your devices.\n\n• We protect your confidential files, photos, and videos in a secure encrypted vault.\n\n• Keeper lets you securely share individual passwords or files with people you trust.\n\n• Our new Version History feature provides a valuable audit tool allowing you to view the date a record was modified, revert to a previous version, or permanently delete it from your vault.\n\n• Our Emergency Access feature enables you to elect up to 5 trusted individuals to access your account in the event of an emergency.\n\nWhat Makes Our Password Keeper The Best?\n\n• Every user is provided a secure and private vault protected by our unmatched Zero-knowledge security architecture with multiple levels of encryption. Each user's vault is guarded by a master password which only the user knows.\n\n• Keeper generates strong passwords inside the vault. Creating a unique and strong password to each website is critical to limiting the risk of being hacked.\n\n• KeeperFill™ provides a powerful and easy-to-use autofill feature. In addition to autofilling passwords, Keeper saves new passwords to the vault as you type.\n\n• Keeper’s Security Audit feature helps you identify which accounts require a password update and can generate a strong password for you with a single click.\n\n• Keeper protects your confidential files with military-grade encryption. Easily add files, photos, and videos to your vault and organize them with folders.\n\n• You can share passwords or files directly with another Keeper user or with a group of people you trust. Behind the scenes, information is encrypted with the recipient's public key and decrypted with their private key.\n\n• Easily switch between multiple Keeper accounts (like a business and personal vault) when you log in.\n\n• Keeper uses multiple layers of encryption by storing your data in our own secure cloud versus competitors who use partial encryption on their cloud or rely on third parties for password storage. With Keeper your information remains 100% encrypted 100% of the time.\n\nKeeper Password Manager Features & Benefits:\n\n• Protect unlimited passwords in your vault\n• Autofill passwords\n• Generate strong passwords\n• Access and sync your passwords from any of your devices (phone, tablet, computer)\n• Lock files and photos in your secure vault\n• Use Keeper to securely share passwords and files with people you trust\n• Store your credit and debit card information securely\n• Built with Zero-knowledge security architecture\n• Integrates with two-step verification providers (SMS, Google Authenticator, Duo Security, or RSA SecurID)\n• Utilizes AES-256-bit encryption and PBKDF2 technology\n• Enable a custom logout timer\n• Certified TRUSTe and SOC-2 for your peace of mind\n\nRated #1 Best Password Manager of 2021 by US News and World Report!\n\nJoin the millions of people who use Keeper Password Manager’s world-class security to safeguard their personal and professional information from hackers and cybercriminals.\n\nKeeper, Password Keeper and the Keeper logo are registered trademarks of Keeper Security, Inc. U.S. Patent No. 8,656,504, 8,868,932 and 8,738,934. Patents Pending.\n\nPrivacy Policy: https://keepersecurity.com/privacypolicy.html\nTerms of Use: https://keepersecurity.com/termsofuse.html\n\n* If you need help, send us an email to support@keepersecurity.com.",
+            "weeklyDownloads": 602,
+            "type": "extension",
+            "creator": {
+                "name": "Keeper Security Inc.",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/7040666/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/261/261254.png?modified=1631665294",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/261/261254.jpg?modified=1631665294",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "Generate Strong Passwords"
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/261/261255.png?modified=1631665294",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/261/261255.jpg?modified=1631665294",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "Fast and Secure Login"
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/261/261256.png?modified=1631665295",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/261/261256.jpg?modified=1631665295",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "Easily Access Your Passwords While Online"
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/261/261257.png?modified=1631665295",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/261/261257.jpg?modified=1631665295",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "Autofill Payments & Passwords"
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/261/261258.png?modified=1631665295",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/261/261258.jpg?modified=1631665295",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "Autofill Billing & Shipping Info"
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 4.3853,
+            "reviewCount": 282,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/keeper-password-manager-digita/reviews/",
+            "updateDate": 1634766381000
+        },
+        {
+            "id": "support@todoist.com",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/309/309024-32.png?modified=1580830917",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/309/309024-64.png?modified=1580830917",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/309/309024-128.png?modified=1580830917"
+            },
+            "name": "Todoist for Firefox",
+            "version": "10.3",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3797508/todoist_for_firefox-10.3-fx.xpi",
+            "homepageURL": "https://todoist.com/",
+            "supportURL": "https://get.todoist.help",
+            "description": "Organize work and life with Todoist for Firefox",
+            "fullDescription": "Ranked as “the best to-do list right now” by The Verge, Todoist is used by 20 million people to organize, plan and collaborate on projects, both big and small.\n\nUse Todoist for Firefox to:\n• Add websites as tasks: Add a blog post to your reading list. Save an item to your wishlist. Add work tasks to follow up on.\n• Plan your day: Quickly organize your tasks for the day right from the extension.\n• Complete tasks from the browser: Once your tasks are done, check them off without switching context.\n\nDo more with Todoist on desktop and mobile:\n• Capture and organize tasks the moment they pop into your head.\n• Remember deadlines with reminders and due dates.\n• Build lasting habits with recurring due dates like \"every Monday\".\n• Work together on projects by assigning tasks to others.\n• Prioritize your tasks with priorities\n• Track your progress with productivity trends.\n\nWith access to 60+ app integrations like Google Drive, Dropbox, Zapier, Evernote, and Slack, Todoist will quickly become your hub for getting work and life organized. Plus, our Wunderlist importer can help you switch tools and get started in just a few minutes.\n\nHappy organizing!\n\n• • •\n\nQuestions? Feedback? Visit https://get.todoist.help or reach out on Twitter @todoist.",
+            "weeklyDownloads": 326,
+            "type": "extension",
+            "creator": {
+                "name": "Todoist",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/5718622/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/227/227135.png?modified=1622132533",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/227/227135.jpg?modified=1622132533",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "Add websites as tasks"
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/227/227136.png?modified=1622132535",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/227/227136.jpg?modified=1622132535",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "Complete tasks from the browser"
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/227/227137.png?modified=1622132537",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/227/227137.jpg?modified=1622132537",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "Plan your day ahead"
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/227/227138.png?modified=1622132539",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/227/227138.jpg?modified=1622132539",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "Get Todoist for Firefox and join 20 million Todoist users"
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 4.6704,
+            "reviewCount": 318,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/todoist/reviews/",
+            "updateDate": 1623927038000
+        },
+        {
+            "id": "jid0-adyhmvsP91nUO8pRv0Mn2VKeB84@jetpack",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/473/473846-32.png?modified=167461f6",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/473/473846-64.png?modified=167461f6",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/473/473846-128.png?modified=167461f6"
+            },
+            "name": "Raindrop.io",
+            "version": "6.4.9",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3851548/raindropio-6.4.9-fx.xpi",
+            "homepageURL": "https://raindrop.io",
+            "supportURL": "https://help.raindrop.io",
+            "description": "All-in-one bookmark manager",
+            "fullDescription": "Save Anything from the Web\nClip articles, photos, videos, PDFs and pages from the web and apps.\n\nOrganize with Ease\nThematic collections, suggested tags and custom filters.\nSort items by date, title, site or manually by drag'n'drop.\n\nFull-Text Search & Permanent Library\nEntire content of every web-page and PDF that you’ve saved is fully searchable.\nEven if a page you’ve saved is taken down, you’ll still have a copy of it.\n\nFor Teams and Individuals\nEnable access to your collection by team members or entire web.\nPermissions let you control who can access each of your collections.\n\nTake Your Bookmarks Everywhere\nSecurely access the bookmarks you’ve saved in from anywhere — even outside of the browser.\nExtension for all popular browsers. Apps for Android, iOS, macOS and Windows.\nMore than 2,600 integrations and programatic access through API.\n\nPrivate by Default\nYour privacy comes first. We keep your data safe, never sold.\n256-bit encryption protects you while syncing.\nNo tracking or intrusive advertising.\n7 years in a business.",
+            "weeklyDownloads": 433,
+            "type": "extension",
+            "creator": {
+                "name": "Rustem Mussabekov",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/10277683/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/235/235031.png?modified=1622132321",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235031.jpg?modified=1622132321",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/235/235020.png?modified=1622132327",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235020.jpg?modified=1622132327",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/235/235019.png?modified=1622132329",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235019.jpg?modified=1622132329",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/235/235018.png?modified=1622132331",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235018.jpg?modified=1622132331",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/235/235017.png?modified=1622132333",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235017.jpg?modified=1622132333",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 4.2336,
+            "reviewCount": 60,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/raindropio/reviews/",
+            "updateDate": 1633878100000
+        },
+        {
+            "id": "{d0210f13-a970-4f1e-8322-0f76ec80adde}",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/760/760605-32.png?modified=1486408820",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/760/760605-64.png?modified=1486408820",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/760/760605-128.png?modified=1486408820"
+            },
+            "name": "Instapaper",
+            "version": "1.0.6",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3547828/instapaper-1.0.6-fx.xpi",
+            "homepageURL": null,
+            "supportURL": "https://www.instapaper.com/support",
+            "description": "Instapaper is a simple tool for saving web pages to read later on your iPhone, iPad, Android, computer, or Kindle. The Instapaper browser extension may be used to save the current page directly into your Instapaper account.",
+            "fullDescription": null,
+            "weeklyDownloads": 146,
+            "type": "extension",
+            "creator": {
+                "name": "Instapaper",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/12173758/"
+            },
+            "developers": [],
+            "screenshots": [],
+            "contributionURL": "",
+            "averageRating": 4.4271,
+            "reviewCount": 37,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/instapaper-official/reviews/",
+            "updateDate": 1586718312000
+        },
+        {
+            "id": "{f7619bc3-ed22-44a3-83ad-e79a78416737}",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/994/994850-32.png?modified=dc6e67b0",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/994/994850-64.png?modified=dc6e67b0",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/994/994850-128.png?modified=dc6e67b0"
+            },
+            "name": "Readwise",
+            "version": "2.8.0",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3732256/readwise-2.8.0-fx.xpi",
+            "homepageURL": "https://readwise.io",
+            "supportURL": "https://readwise.io/faq",
+            "description": "Don't let your kindle highlights disappear. Sync them with Readwise and then review them daily.",
+            "fullDescription": "Readwise makes it easy to revisit the best parts of what you read 🤓\n\nHere's how it works:\n\n- Sync your highlights from Kindle to Readwise using this Chrome Extension\n- Review the best parts easily through a daily email, web, or mobile\n- Retain more from your ebooks/articles\n\nYou'll actually use your highlights, and get the most out of your reading 🚀\n\nTo get started, sign up at https://readwise.io\n\nAny questions or concerns? Reach out to us at hello@readwise.io -- we'd love to chat!",
+            "weeklyDownloads": 32,
+            "type": "extension",
+            "creator": {
+                "name": "Readwise",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/14248581/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/223/223356.png?modified=1622133472",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/223/223356.jpg?modified=1622133472",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "An overview of all of your books inside of Readwise, after syncing them."
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/223/223357.png?modified=1622133476",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/223/223357.jpg?modified=1622133476",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "What the Readwise extension looks like as it's syncing your highlights."
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/223/223358.png?modified=1622133478",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/223/223358.jpg?modified=1622133478",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "The sync overview page before syncing your highlights."
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/223/223359.png?modified=1622133483",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/223/223359.jpg?modified=1622133483",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333,
+                    "caption": "Reviewing your highlights inside of the Readwise web app."
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 5,
+            "reviewCount": 2,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/readwise/reviews/",
+            "updateDate": 1614150018000
+        },
+        {
+            "id": "{1c5e4c6f-5530-49a3-b216-31ce7d744db0}",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/2641/2641778-32.png?modified=4bd8cbda",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/2641/2641778-64.png?modified=4bd8cbda",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/2641/2641778-128.png?modified=4bd8cbda"
+            },
+            "name": "MarkDownload - Markdown Web Clipper",
+            "version": "3.0.1",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3809141/markdownload_markdown_web_clipper-3.0.1-fx.xpi",
+            "homepageURL": "https://github.com/deathau/markdown-clipper",
+            "supportURL": "https://github.com/deathau/markdown-clipper",
+            "description": "This extension works like a web clipper, but it downloads articles in a markdown format. Turndown and Readability.js are used as core libraries. It is not guaranteed to work with all websites.",
+            "fullDescription": "This is an extension to clip websites and download them into a readable markdown file. Please keep in mind that it is not guaranteed to work on all websites.\n\nTo use this add-on, simply click the add-on icon while you are browsing the page you want to save offline. A popup will show the rendered markdown so you can make minor edits or copy the text, or you can click the download button to download an .md file.\nSelecting text will allow you to download just the selected text\n\nContext Menus\nYou can also right-click on pages, images, links and selections to copy or download snippets of Markdown.\nYou can also download all tabs in a window as Markdown files\n\nExternal Libraries\nIt uses the following libraries:\n\n- Readability.js by Mozilla in version from commit 52ab9b5c8916c306a47b2119270dcdabebf9d203. This library is also used for the Firefox Reader View and it simplifies the page so that only the important parts are clipped. (Licensed under Apache License Version 2.0)\n- Turndown by Dom Christie in version 7.0.1 is used to convert the simplified HTML (from Readability.js) into markdown. (Licensed under MIT License)\n- Moment.js version 2.27.0 used to format dates in template variables\n\nPermissions\n- Data on all sites: used to enable \"Download All Tabs\" functionality - no other data is captured or sent online\n- Access tabs: used to access the website content when the icon in the browser bar is clicked.\n- Manage Downloads: necessary to be able to download the markdown file.\n- Storage: used to save extension options\n- Clipboard: used to copy Markdown to clipboard\n\nPricing\nHuh? This is an open-source extension I made for fun. It's completely free. However, if you absolutely have to send me money because you like it that much, feel free to throw some coins in my hat via the following:\n- https://github.com/sponsors/deathau\n- https://paypal.me/deathau\n\nThe Common Mark icon courtesy of https://github.com/dcurtis/markdown-mark",
+            "weeklyDownloads": 118,
+            "type": "extension",
+            "creator": {
+                "name": " death_au",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/49564/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/252/252292.png?modified=1622136131",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/252/252292.jpg?modified=1622136131",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/252/252286.png?modified=1622136134",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/252/252286.jpg?modified=1622136134",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/252/252287.png?modified=1622136136",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/252/252287.jpg?modified=1622136136",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/252/252288.png?modified=1622136139",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/252/252288.jpg?modified=1622136139",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/252/252289.png?modified=1622136141",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/252/252289.jpg?modified=1622136141",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/252/252290.png?modified=1622136142",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/252/252290.jpg?modified=1622136142",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/252/252291.png?modified=1622136144",
+                    "width": 1280,
+                    "height": 800,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/252/252291.jpg?modified=1622136144",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 333
+                }
+            ],
+            "contributionURL": "https://paypal.me/deathau?utm_content=product-page-contribute&utm_medium=referral&utm_source=addons.mozilla.org",
+            "averageRating": 4.8571,
+            "reviewCount": 7,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/markdownload/reviews/",
+            "updateDate": 1626137745000
+        },
+        {
+            "id": "{a8ffd15d-67d0-427f-80ad-07a7d76431e1}",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/797/797701-32.png?modified=1492147219",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/797/797701-64.png?modified=1492147219",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/797/797701-128.png?modified=1492147219"
+            },
+            "name": "Feedly Subscribe Button",
+            "version": "0.9.0",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/613842/feedly_subscribe_button-0.9.0-an+fx-linux.xpi",
+            "homepageURL": "https://browsernative.com/feedly-subscribe-button-firefox/",
+            "supportURL": "https://browsernative.com/feedly-subscribe-button-firefox/",
+            "description": "Easily Subscribe RSS and Atom Feeds to Feedly.",
+            "fullDescription": null,
+            "weeklyDownloads": 10,
+            "type": "extension",
+            "creator": {
+                "name": "BrowserNative",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/4727762/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/183/183283.png?modified=1622132722",
+                    "width": 545,
+                    "height": 215,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/183/183283.jpg?modified=1622132722",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 210
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 4.1613,
+            "reviewCount": 11,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/feedly-webextension/reviews/",
+            "updateDate": 1492145945000
+        },
+        {
+            "id": "{65a2d764-7358-455b-930d-5afa86fb5ed0}",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/917/917717-32.png?modified=1629639653",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/917/917717-64.png?modified=1629639653",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/917/917717-128.png?modified=1629639653"
+            },
+            "name": "Search Engines Helper",
+            "version": "3.2.2",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3827755/search_engines_helper-3.2.2-an+fx.xpi",
+            "homepageURL": "https://github.com/soufianesakhi/firefox-search-engines-helper",
+            "supportURL": "https://github.com/soufianesakhi/firefox-search-engines-helper/issues",
+            "description": "Add a custom search engine and export/import all the search urls and icon urls for all search engines added to Firefox.",
+            "fullDescription": "This extensions provides multiple utilities for firefox search engines.\nYou can add a new custom search engine by providing the search url and the icon url.\nYou can also export the search url and icon urls of all the search engines added to Firefox and import them later.\n\nFor more details, visit the full documentation here: https://github.com/soufianesakhi/firefox-search-engines-helper/blob/master/README.md",
+            "weeklyDownloads": 10,
+            "type": "extension",
+            "creator": {
+                "name": "Soufiane Sakhi",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/12651909/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/247/247025.png?modified=1622132917",
+                    "width": 881,
+                    "height": 334,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/247/247025.jpg?modified=1622132917",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 202
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/247/247026.png?modified=1622132918",
+                    "width": 1331,
+                    "height": 319,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/247/247026.jpg?modified=1622132918",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 128
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/235/235430.png?modified=1622132919",
+                    "width": 966,
+                    "height": 485,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235430.jpg?modified=1622132919",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 268
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/235/235431.png?modified=1622132920",
+                    "width": 968,
+                    "height": 488,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/235/235431.jpg?modified=1622132920",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 269
+                },
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/239/239441.png?modified=1622132921",
+                    "width": 1226,
+                    "height": 422,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/239/239441.jpg?modified=1622132921",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 183
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 4.3864,
+            "reviewCount": 26,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/search-engines-helper/reviews/",
+            "updateDate": 1629409547000
+        },
+        {
+            "id": "isometric-contributions@jasonlong.me",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/784/784751-32.png?modified=b68ab535",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/784/784751-64.png?modified=b68ab535",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/784/784751-128.png?modified=b68ab535"
+            },
+            "name": "GitHub Isometric Contributions",
+            "version": "1.1.14",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3855688/github_isometric_contributions-1.1.14-fx.xpi",
+            "homepageURL": null,
+            "supportURL": "https://github.com/jasonlong/isometric-contributions/",
+            "description": "Renders an isometric pixel view of GitHub contribution graphs.",
+            "fullDescription": "This extension allows you to toggle between the normal GitHub contribution chart and an isometric pixel art version.",
+            "weeklyDownloads": 5,
+            "type": "extension",
+            "creator": {
+                "name": "jasonlong",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/12822717/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/240/240887.png?modified=1622132673",
+                    "width": 1414,
+                    "height": 1008,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/240/240887.jpg?modified=1622132673",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 380,
+                    "caption": "Showing the 3D isometric version of a GitHub contribution chart."
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 5,
+            "reviewCount": 2,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/github-isometric-contributions/reviews/",
+            "updateDate": 1634653147000
+        },
+        {
+            "id": "{bbda042b-c350-4e85-8d81-bda0d6fbda81}",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/2686/2686686-32.png?modified=ac085925",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/2686/2686686-64.png?modified=ac085925",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/2686/2686686-128.png?modified=ac085925"
+            },
+            "name": "Github Web IDE",
+            "version": "1.0.17",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3852244/github_web_ide-1.0.17-an+fx.xpi",
+            "homepageURL": "https://github.com/zvizvi/Github-Web-IDE",
+            "supportURL": "https://github.com/zvizvi/Github-Web-IDE",
+            "description": "This extension adds to any Github repository a new drop down menu which offers links to a number of online services that allow viewing the source code of the repository in an IDE like interface.",
+            "fullDescription": "This extension adds to any Github repository a new drop down menu which offers links to a number of online services that allow viewing the source code of the repository in an IDE like interface.\n\nServices currently supported:\n* CodeSandbox\n* Gihub1s\n* Repl.it\n* Gotpod\n* Glitch\n* Sourcegraph",
+            "weeklyDownloads": 8,
+            "type": "extension",
+            "creator": {
+                "name": "zvizvi",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/15111739/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/252/252374.png?modified=1622136536",
+                    "width": 1190,
+                    "height": 550,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/252/252374.jpg?modified=1622136536",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 246
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 5,
+            "reviewCount": 1,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/github-web-ide/reviews/",
+            "updateDate": 1633994787000
+        },
+        {
+            "id": "{d0c541b6-fc17-423a-829c-a360236b7c95}",
+            "icons": {
+                "32": "https://addons.mozilla.org/user-media/addon_icons/2697/2697288-32.png?modified=e5036d4e",
+                "64": "https://addons.mozilla.org/user-media/addon_icons/2697/2697288-64.png?modified=e5036d4e",
+                "128": "https://addons.mozilla.org/user-media/addon_icons/2697/2697288-128.png?modified=e5036d4e"
+            },
+            "name": "copy tab info",
+            "version": "1.3.6",
+            "sourceURI": "https://addons.mozilla.org/firefox/downloads/file/3825194/copy_tab_info-1.3.6-an+fx.xpi",
+            "homepageURL": null,
+            "supportURL": "https://github.com/igorlogius/copytabinfo/issues",
+            "description": "copy tab information via a user defined custom format string",
+            "fullDescription": "copy tab information via a user defined custom format string\n\nusage:\n\n    Install the Addon\n    Click the toolbar icon, to open the edit and seleciton menu\n    add/modify the format strings you want\n    select the format string you want to use as active (radio button)\n    click the \"copy activ tab\", \"copy window tabs\" or \"copy selected tabs\" button\n    The info is now in the clipboard an can be pasted via CTRL+V\n\nNotes:\n\n    Permissions:\n        notifications, to show a sucess or failure message\n        tabs, to access the tabs properties (i.e. url, pinned, ...)\n        storage, to save the user format (aka. template) strings\n        clipboard, to place the info into the clipboard\n    This add-on tries to use the minimal number of required permissions to successfully fullfill its intended purpose.\n    If you think this could be improved please let me know by opening an issue (see. below) and i will try to look into it.\n    Cost/Payment:\n    This Add-on is and forever will be subscription and payment free to use for everyone however they like.\n    If you are feeling generous you can send me a tip via my bitcoin address 35WK2GqZHPutywCdbHKa9BQ52GND3Pd6h4\n    Stars/Reviews:\n    If this this add-on was useful for you, please leave some stars or a review so others can find it more easily.\n    Bugs, Suggestions and Requests:\n    If you have any, please open an issue at the \"Support site\".\n",
+            "weeklyDownloads": 1,
+            "type": "extension",
+            "creator": {
+                "name": "igorlogius",
+                "url": "https://addons.mozilla.org/en-US/firefox/user/13634657/"
+            },
+            "developers": [],
+            "screenshots": [
+                {
+                    "url": "https://addons.mozilla.org/user-media/previews/full/255/255940.png?modified=1622136837",
+                    "width": 932,
+                    "height": 640,
+                    "thumbnailURL": "https://addons.mozilla.org/user-media/previews/thumbs/255/255940.jpg?modified=1622136837",
+                    "thumbnailWidth": 533,
+                    "thumbnailHeight": 366,
+                    "caption": "Everything can be configured via"
+                }
+            ],
+            "contributionURL": "",
+            "averageRating": 5,
+            "reviewCount": 0,
+            "reviewURL": "https://addons.mozilla.org/en-US/firefox/addon/copytabinfo/reviews/",
+            "updateDate": 1629050759000
+        }
+    ]
+}
