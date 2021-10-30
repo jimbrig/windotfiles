@@ -1,0 +1,130 @@
+{
+    "version": 2,
+    "url_overrides": {
+        "newTabURL": {
+            "initialValue": "about:newtab",
+            "precedenceList": [
+                {
+                    "id": "momentum@momentumdash.com",
+                    "installDate": 1634950813885,
+                    "value": "moz-extension://696eec68-4440-4ce6-ab8c-d3acd497c71a/dashboard.html",
+                    "enabled": true
+                }
+            ]
+        }
+    },
+    "prefs": {
+        "homepage_override": {
+            "initialValue": {},
+            "precedenceList": [
+                {
+                    "id": "momentum@momentumdash.com",
+                    "installDate": 1634950813885,
+                    "value": "moz-extension://696eec68-4440-4ce6-ab8c-d3acd497c71a/dashboard.html",
+                    "enabled": true
+                }
+            ]
+        }
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "precedenceList": [
+                {
+                    "id": "Tab-Session-Manager@sienori",
+                    "installDate": 1634950810714,
+                    "value": {
+                        "shortcut": "Ctrl+Shift+L"
+                    },
+                    "enabled": true
+                },
+                {
+                    "id": "simple-translate@sienori",
+                    "installDate": 1634950810280,
+                    "value": {
+                        "shortcut": "Ctrl+Shift+Space"
+                    },
+                    "enabled": true
+                }
+            ]
+        },
+        "translateSelectedText": {
+            "precedenceList": [
+                {
+                    "id": "simple-translate@sienori",
+                    "installDate": 1634950810280,
+                    "value": {
+                        "shortcut": "Ctrl+Space"
+                    },
+                    "enabled": true
+                }
+            ]
+        },
+        "translatePage": {
+            "precedenceList": [
+                {
+                    "id": "simple-translate@sienori",
+                    "installDate": 1634950810280,
+                    "value": {},
+                    "enabled": true
+                }
+            ]
+        },
+        "saveAllWindow": {
+            "precedenceList": [
+                {
+                    "id": "Tab-Session-Manager@sienori",
+                    "installDate": 1634950810714,
+                    "value": {},
+                    "enabled": true
+                }
+            ]
+        },
+        "saveCurrentWindow": {
+            "precedenceList": [
+                {
+                    "id": "Tab-Session-Manager@sienori",
+                    "installDate": 1634950810714,
+                    "value": {},
+                    "enabled": true
+                }
+            ]
+        },
+        "exportSessions": {
+            "precedenceList": [
+                {
+                    "id": "Tab-Session-Manager@sienori",
+                    "installDate": 1634950810714,
+                    "value": {},
+                    "enabled": true
+                }
+            ]
+        }
+    },
+    "homepageNotification": {
+        "momentum@momentumdash.com": {
+            "initialValue": false,
+            "precedenceList": [
+                {
+                    "id": "momentum@momentumdash.com",
+                    "installDate": 1634950813885,
+                    "value": true,
+                    "enabled": true
+                }
+            ]
+        }
+    },
+    "newTabNotification": {
+        "momentum@momentumdash.com": {
+            "initialValue": false,
+            "precedenceList": [
+                {
+                    "id": "momentum@momentumdash.com",
+                    "installDate": 1634950813885,
+                    "value": true,
+                    "enabled": true
+                }
+            ]
+        }
+    },
+    "default_search": {}
+}

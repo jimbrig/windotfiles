@@ -1,0 +1,93 @@
+{
+    "doh-rollout@mozilla.org": {
+        "permissions": [
+            "internal:privateBrowsingAllowed",
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "formautofill@mozilla.org": {
+        "permissions": [
+            "internal:privateBrowsingAllowed",
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "pictureinpicture@mozilla.org": {
+        "permissions": [
+            "internal:privateBrowsingAllowed",
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "proxy-failover@mozilla.com": {
+        "permissions": [
+            "internal:privateBrowsingAllowed",
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "screenshots@mozilla.org": {
+        "permissions": [
+            "internal:privateBrowsingAllowed",
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "webcompat-reporter@mozilla.org": {
+        "permissions": [
+            "internal:privateBrowsingAllowed",
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "webcompat@mozilla.org": {
+        "permissions": [
+            "internal:privateBrowsingAllowed",
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "google@search.mozilla.org": {
+        "permissions": [
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "amazondotcom@search.mozilla.org": {
+        "permissions": [
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "wikipedia@search.mozilla.org": {
+        "permissions": [
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "bing@search.mozilla.org": {
+        "permissions": [
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "ddg@search.mozilla.org": {
+        "permissions": [
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "ebay@search.mozilla.org": {
+        "permissions": [
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    },
+    "firefox-compact-dark@mozilla.org": {
+        "permissions": [
+            "internal:svgContextPropertiesAllowed"
+        ],
+        "origins": []
+    }
+}
