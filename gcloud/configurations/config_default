@@ -1,0 +1,8 @@
+[core]
+account = jimmy.briggs@jimbrig.com
+project = defaultproject-321020
+
+[compute]
+zone = us-east1-b
+region = us-east1
+
