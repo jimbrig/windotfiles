@@ -1,0 +1,2 @@
+hosts.yml filter=git-crypt diff=git-crypt
+registry/** filter=git-crypt diff=git-crypt
