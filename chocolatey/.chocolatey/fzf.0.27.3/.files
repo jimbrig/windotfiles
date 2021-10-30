@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\fzf\fzf-0.27.3-windows_amd64_x64.zip.txt" checksum="FC313E1BCAA53F197856F28EE3CDA68A" />
+    <file path="C:\ProgramData\chocolatey\lib\fzf\fzf.nupkg" checksum="E87F1E5697B804379C77DF5A550215E6" />
+    <file path="C:\ProgramData\chocolatey\lib\fzf\fzf.nuspec" checksum="28454A40F5A70157DA6A669156C27078" />
+    <file path="C:\ProgramData\chocolatey\lib\fzf\legal\LICENSE.txt" checksum="D3432CDBF99005F384D6DE5FC8D9A673" />
+    <file path="C:\ProgramData\chocolatey\lib\fzf\legal\VERIFICATION.txt" checksum="CAF15A7A885D97C47C7785749E655533" />
+    <file path="C:\ProgramData\chocolatey\lib\fzf\tools\chocolateyInstall.ps1" checksum="1F89B38EAE34A026369F1A3EEBA52E89" />
+    <file path="C:\ProgramData\chocolatey\lib\fzf\tools\fzf.exe" checksum="F6A76972BF2AF1FD9D321F826FF2E915" />
+  </files>
+</fileSnapshot>

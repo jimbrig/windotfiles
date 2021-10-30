@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<registrySnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <user>S-1-5-21-658990459-1207598912-842708687-1001</user>
+  <keys>
+    <key installerType="Msi" displayName="Pandoc 2.14.2" displayVersion="2.14.2">
+      <RegistryView>Registry64</RegistryView>
+      <KeyPath>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{5BFD6C41-07FD-4115-82D4-12C8C7FDB21B}</KeyPath>
+      <DefaultValue />
+      <InstallLocation><![CDATA[C:\Users\jimmy\AppData\Local\Pandoc\]]></InstallLocation>
+      <UninstallString><![CDATA[MsiExec.exe /X{5BFD6C41-07FD-4115-82D4-12C8C7FDB21B}]]></UninstallString>
+      <HasQuietUninstall>false</HasQuietUninstall>
+      <Publisher><![CDATA[John MacFarlane]]></Publisher>
+      <InstallDate>20211022</InstallDate>
+      <InstallSource><![CDATA[C:\ProgramData\chocolatey\lib\pandoc\tools\]]></InstallSource>
+      <Language>1033</Language>
+      <Version>34471938</Version>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>14</VersionMinor>
+      <SystemComponent>false</SystemComponent>
+      <WindowsInstaller>true</WindowsInstaller>
+      <NoRemove>false</NoRemove>
+      <NoModify>true</NoModify>
+      <NoRepair>true</NoRepair>
+      <ReleaseType />
+      <ParentKeyName />
+      <LocalPackage><![CDATA[C:\WINDOWS\Installer\81009.msi]]></LocalPackage>
+    </key>
+  </keys>
+</registrySnapshot>

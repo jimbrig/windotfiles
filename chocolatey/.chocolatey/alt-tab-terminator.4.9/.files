@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\alt-tab-terminator\alt-tab-terminator.nupkg" checksum="4584DABB54A5A0D798A214286C5E6408" />
+    <file path="C:\ProgramData\chocolatey\lib\alt-tab-terminator\alt-tab-terminator.nuspec" checksum="647F463BEAE1FFE6DD57814699A4911E" />
+    <file path="C:\ProgramData\chocolatey\lib\alt-tab-terminator\tools\chocolateyinstall.ps1" checksum="561D7A997A3D27038CAFAE26667697B2" />
+    <file path="C:\ProgramData\chocolatey\lib\alt-tab-terminator\tools\chocolateyuninstall.ps1" checksum="816CD95CA62FCBAF6D0336DFCB7B76F9" />
+  </files>
+</fileSnapshot>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\choco-package-list-backup\choco-package-list-backup.nupkg" checksum="ED2DAE5123A6CF1B6F54CE24158D7386" />
+    <file path="C:\ProgramData\chocolatey\lib\choco-package-list-backup\choco-package-list-backup.nuspec" checksum="975C8D90601119ED12CA195360171FBB" />
+    <file path="C:\ProgramData\chocolatey\lib\choco-package-list-backup\tools\.SkipAutoUninstaller" checksum="D41D8CD98F00B204E9800998ECF8427E" />
+    <file path="C:\ProgramData\chocolatey\lib\choco-package-list-backup\tools\ChocolateyInstall.ps1" checksum="CEB148A6DC545F8290B060A625A74D0C" />
+    <file path="C:\ProgramData\chocolatey\lib\choco-package-list-backup\tools\ChocolateyUninstall.ps1" checksum="21226A70210F4DC63C3029075E092528" />
+  </files>
+</fileSnapshot>

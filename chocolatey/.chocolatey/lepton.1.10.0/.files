@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\lepton\lepton.nupkg" checksum="7D3F0CA9C574C4C9C628F4BA4D43C023" />
+    <file path="C:\ProgramData\chocolatey\lib\lepton\lepton.nuspec" checksum="5D73A0DDA38D88F2F137506934BBA4BA" />
+    <file path="C:\ProgramData\chocolatey\lib\lepton\tools\chocolateyinstall.ps1" checksum="33B35EF37E5664F832FBE14BB5946F42" />
+  </files>
+</fileSnapshot>

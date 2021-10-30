@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\Bat\bat-v0.18.3-x86_64-pc-windows-msvc.zip.txt" checksum="AEF62098BB50D2F44554776334B20BBB" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\Bat.nupkg" checksum="D28C93DEC0D5B44CD6A6DAC03B79649C" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\Bat.nuspec" checksum="D61382CAB4E35318C48D0539167AA595" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\tools\chocolateyinstall.ps1" checksum="1D6BD5E5D4EC6828900339E77971D5CD" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\tools\bat-v0.18.3-x86_64-pc-windows-msvc\bat.1" checksum="D74DDE86169909C52576D6AF1C297070" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\tools\bat-v0.18.3-x86_64-pc-windows-msvc\bat.exe" checksum="8EDDCE10D7DBF38388668AF4959F76AF" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\tools\bat-v0.18.3-x86_64-pc-windows-msvc\CHANGELOG.md" checksum="C590D695C7A310E67F87CB0411AD8143" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\tools\bat-v0.18.3-x86_64-pc-windows-msvc\LICENSE-APACHE" checksum="D229DA563DA18FE5D58CD95A6467D584" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\tools\bat-v0.18.3-x86_64-pc-windows-msvc\LICENSE-MIT" checksum="6B3F4CC77A5A7AECB496E2163528E802" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\tools\bat-v0.18.3-x86_64-pc-windows-msvc\README.md" checksum="8AB2BB6694D88EF811136A4AE93D4C9D" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\tools\bat-v0.18.3-x86_64-pc-windows-msvc\autocomplete\bat.bash" checksum="CC19D12ED8E7C774125372FCFC36FE64" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\tools\bat-v0.18.3-x86_64-pc-windows-msvc\autocomplete\bat.fish" checksum="0054218F9AA3C88B97465A3C38B458CF" />
+    <file path="C:\ProgramData\chocolatey\lib\Bat\tools\bat-v0.18.3-x86_64-pc-windows-msvc\autocomplete\bat.zsh" checksum="051D76C448ED310E9668DBE1FCDA1E51" />
+  </files>
+</fileSnapshot>

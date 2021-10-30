@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\RapidEE\RapidEE.nupkg" checksum="8917338307CDE3F5981D6FCD6CAD7FAB" />
+    <file path="C:\ProgramData\chocolatey\lib\RapidEE\RapidEE.nuspec" checksum="FD4C0AE702E603FD523D41305AF4B101" />
+    <file path="C:\ProgramData\chocolatey\lib\RapidEE\legal\license.txt" checksum="E9869593F34D3251A047EC8C3320DF70" />
+    <file path="C:\ProgramData\chocolatey\lib\RapidEE\legal\VERIFICATION.txt" checksum="4CA2D20D36B17936BBB280EEB40EC371" />
+    <file path="C:\ProgramData\chocolatey\lib\RapidEE\tools\chocolateyInstall.ps1" checksum="5B5FB9779DA7264EDDB4DF4F5627BED4" />
+    <file path="C:\ProgramData\chocolatey\lib\RapidEE\tools\chocolateyUninstall.ps1" checksum="3079B3C3095FFDA19D9EEA3D354D057E" />
+    <file path="C:\ProgramData\chocolatey\lib\RapidEE\tools\history.rus.txt" checksum="8EABE46BD036922D3E9E88D0E762281F" />
+    <file path="C:\ProgramData\chocolatey\lib\RapidEE\tools\history.txt" checksum="E8727D0A8E486DDC4531DBD34F788E35" />
+    <file path="C:\ProgramData\chocolatey\lib\RapidEE\tools\license.txt" checksum="84BE008769416FBF946CA6E7047E5A62" />
+    <file path="C:\ProgramData\chocolatey\lib\RapidEE\tools\rapidee.exe" checksum="05861BEA609B7D6F6AF7BD5E080F9987" />
+  </files>
+</fileSnapshot>

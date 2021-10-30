@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\R.Project\R.Project.nupkg" checksum="48AA42C788BE13A2924A8E1B08E58AE7" />
+    <file path="C:\ProgramData\chocolatey\lib\R.Project\R.Project.nuspec" checksum="C8F839B1CD9C41679A0E67531F798993" />
+    <file path="C:\ProgramData\chocolatey\lib\R.Project\legal\LICENSE.txt" checksum="EB723B61539FEEF013DE476E68B5C50A" />
+    <file path="C:\ProgramData\chocolatey\lib\R.Project\legal\VERIFICATION.txt" checksum="7C0519E3C13C04A8B878DC8F1CDEF30B" />
+    <file path="C:\ProgramData\chocolatey\lib\R.Project\tools\chocolateyBeforeModify.ps1" checksum="2EEFF23AE6C72B4F9F74C690FBA5224A" />
+    <file path="C:\ProgramData\chocolatey\lib\R.Project\tools\chocolateyInstall.ps1" checksum="4FBD051B80E71CBE534A19B7F08432D6" />
+    <file path="C:\ProgramData\chocolatey\lib\R.Project\tools\R-4.1.1-win.exe" checksum="419BDD6AE29AB26C6BF998D7769B9578" />
+    <file path="C:\ProgramData\chocolatey\lib\R.Project\tools\R-4.1.1-win.exe.ignore" checksum="BEA07E6D2B8DCE396FE21BAA61B34956" />
+    <file path="C:\ProgramData\chocolatey\lib\R.Project\tools\Uninstall-ChocolateyPath.psm1" checksum="94D45277C665091D222FA49A2BF87844" />
+  </files>
+</fileSnapshot>

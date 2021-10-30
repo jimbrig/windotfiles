@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\chocolatey-core.extension.nupkg" checksum="7F066B11D65D07704BDB0A9D8FB4437F" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\chocolatey-core.extension.nuspec" checksum="D71F7B1D873058AA1A6CE4EA7CD21AE8" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\extensions\chocolatey-core.psm1" checksum="8007E67FDE249548DBF78D1DC8AFDCCC" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\extensions\Get-AppInstallLocation.ps1" checksum="D036C97BC50A3731BF69A15417F60E72" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\extensions\Get-AvailableDriveLetter.ps1" checksum="2F386746AFC2ACB9561DFB245239B93F" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\extensions\Get-EffectiveProxy.ps1" checksum="3895F062D2D91D9D32D1FC57A619066C" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\extensions\Get-PackageCacheLocation.ps1" checksum="77A378E5C659E5A53D2D64E276159B62" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\extensions\Get-PackageParameters.ps1" checksum="C08B3AF8CA150B6609DF2B978B693269" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\extensions\Get-UninstallRegistryKey.ps1" checksum="3FAA5C11AAFC4EA35BB98EA797446C97" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\extensions\Get-WebContent.ps1" checksum="57D013E581EFEA3D4D8366183C9A5797" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\extensions\Register-Application.ps1" checksum="D2853E569DAC9A341642BA76EC4FB411" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-core.extension\extensions\Remove-Process.ps1" checksum="CFDFB899BE8491454B264BF7C5EF08BA" />
+  </files>
+</fileSnapshot>

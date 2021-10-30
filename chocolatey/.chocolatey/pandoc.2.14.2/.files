@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\pandoc\pandoc.nupkg" checksum="D4FD82DC78E4DBA4D9463B93C4D6EE11" />
+    <file path="C:\ProgramData\chocolatey\lib\pandoc\pandoc.nuspec" checksum="C8891B93F88A3F5B47A14AF8EE2BBA10" />
+    <file path="C:\ProgramData\chocolatey\lib\pandoc\legal\License.txt" checksum="5F46DEE9482CB20A43E4CC73C9932119" />
+    <file path="C:\ProgramData\chocolatey\lib\pandoc\legal\VERIFICATION.txt" checksum="EAE5AE07A8EDB9C7332B6BEDA7D5D0F4" />
+    <file path="C:\ProgramData\chocolatey\lib\pandoc\tools\chocolateyInstall.ps1" checksum="84FCC8FB4C76DB139DDC7577EBB7F826" />
+    <file path="C:\ProgramData\chocolatey\lib\pandoc\tools\chocolateyUninstall.ps1" checksum="35F5C472419BDB305037860DC3509969" />
+    <file path="C:\ProgramData\chocolatey\lib\pandoc\tools\pandoc-2.14.2-windows-x86_64.msi.ignore" checksum="BEA07E6D2B8DCE396FE21BAA61B34956" />
+  </files>
+</fileSnapshot>

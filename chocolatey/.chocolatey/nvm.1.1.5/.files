@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\nvm\nvm.nupkg" checksum="C69D57599F6BBEA9E52023410AF71935" />
+    <file path="C:\ProgramData\chocolatey\lib\nvm\nvm.nuspec" checksum="BE4C3FA24DE7656F1DF60AF49F2F3D00" />
+  </files>
+</fileSnapshot>

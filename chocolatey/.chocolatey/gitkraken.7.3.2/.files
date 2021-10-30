@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\gitkraken\gitkraken.jpg" checksum="E793F8739ABA3E08912AB38AF3A1D6E0" />
+    <file path="C:\ProgramData\chocolatey\lib\gitkraken\gitkraken.nupkg" checksum="148A52A974D9ED582C64FC62BD25983D" />
+    <file path="C:\ProgramData\chocolatey\lib\gitkraken\gitkraken.nuspec" checksum="6E3E9B69CC790EA1A63ED42DE88604C3" />
+    <file path="C:\ProgramData\chocolatey\lib\gitkraken\tools\chocolateyInstall.ps1" checksum="3960D044FD36EEF01492F01EF4F6CDA2" />
+    <file path="C:\ProgramData\chocolatey\lib\gitkraken\tools\chocolateyUninstall.ps1" checksum="5CEB3CB04BB6DA28F5081C487A38CCBC" />
+  </files>
+</fileSnapshot>
