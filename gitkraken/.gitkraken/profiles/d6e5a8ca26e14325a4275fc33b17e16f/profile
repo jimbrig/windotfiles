@@ -1,0 +1,172 @@
+{
+  "tabInfo": {
+    "permanentTabs": {
+      "PROJECTS": {
+        "selectedProject": null
+      }
+    },
+    "selectedTabId": "9343e44b-6964-4997-9576-b3ea1b46ec59",
+    "tabs": [
+      {
+        "id": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+        "type": "CLI",
+        "cwd": "C:\\Users\\jimmy\\dev\\jimbrig\\jimsdots",
+        "title": "jimsdots",
+        "graphPanelVisibilityMode": "AUTO",
+        "sidePanel": {
+          "height": 510,
+          "width": 706,
+          "originalHeight": 510,
+          "originalWidth": 658
+        }
+      },
+      {
+        "id": "b39a3c30-86c5-4b83-9e9b-b77960f36393",
+        "type": "CLI",
+        "cwd": "C:\\Users\\jimmy",
+        "title": "/jimmy",
+        "graphPanelVisibilityMode": "AUTO",
+        "sidePanel": {
+          "height": 510,
+          "width": 706
+        }
+      },
+      {
+        "id": "d54c70b3-b286-4f02-be71-fbc643081cba",
+        "type": "REPO",
+        "repoName": "PowerShell",
+        "repoPath": "C:/Users/jimmy/OneDrive/Documents/PowerShell/"
+      },
+      {
+        "id": "dec11d1a-96cf-49db-b832-0c4514329301",
+        "type": "REPO",
+        "repoName": "KaaS",
+        "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS/"
+      },
+      {
+        "id": "9dfede82-30c5-42d5-b674-43d74a50f5cc",
+        "type": "REPO",
+        "repoName": "KaaS-2",
+        "repoPath": "C:/Users/jimmy/Dev/jimbrig/KaaS-2/"
+      },
+      {
+        "id": "9343e44b-6964-4997-9576-b3ea1b46ec59",
+        "type": "REPO",
+        "repoName": ".dotfiles",
+        "repoPath": "C:/Users/jimmy/.dotfiles/"
+      }
+    ]
+  },
+  "externalEditor": "Visual Studio Code",
+  "profileIcon": "gravatar",
+  "profileName": "Personal",
+  "userEmail": "jimmy.briggs@jimbrig.com",
+  "userName": "Jimmy Briggs",
+  "gpg": {
+    "gpgProgram": "gpg",
+    "userSigningKey": "FF361E144EE31125E028D670786742B2314D2B34",
+    "commitGpgSign": true,
+    "tagForceSignAnnotated": true
+  },
+  "longpaths": true,
+  "editor": {
+    "fontFamily": "CaskaydiaCove NF"
+  },
+  "cli": {
+    "fontFamily": "CaskaydiaCove NF",
+    "sidePanel": {
+      "height": 510,
+      "width": 706
+    }
+  },
+  "organizationId": "60e5070ff70bfd001257386f",
+  "layout": {
+    "DetailPanel": {
+      "open": true,
+      "width": 353
+    }
+  },
+  "init": {
+    "defaultBranch": "main"
+  },
+  "useCustomTerminalCmd": true,
+  "customTerminalCmd": "wt.exe -p \"PowerShell\"",
+  "services": {
+    "github": {
+      "ssh": {
+        "keyState": "internal",
+        "publicKeyPath": "C:\\Users\\jimmy\\AppData\\Roaming\\.gitkraken\\profiles\\d6e5a8ca26e14325a4275fc33b17e16f\\ssh\\gitkraken_DESKTOP-MSI_github_rsa.pub",
+        "privateKeyPath": "C:\\Users\\jimmy\\AppData\\Roaming\\.gitkraken\\profiles\\d6e5a8ca26e14325a4275fc33b17e16f\\ssh\\gitkraken_DESKTOP-MSI_github_rsa",
+        "appVersion": "8.1.0"
+      }
+    },
+    "azureDevops": {
+      "url": "dev.azure.com/jimbrig",
+      "ssh": {
+        "keyState": "external",
+        "publicKeyPath": "C:\\Users\\jimmy\\.ssh\\gitkraken_DESKTOP-MSI_github_Personal_rsa.pub",
+        "privateKeyPath": "C:\\Users\\jimmy\\.ssh\\gitkraken_DESKTOP-MSI_github_Personal_rsa",
+        "appVersion": "8.1.0"
+      }
+    }
+  },
+  "projectGroupNamesByDirectory": {
+    "C:\\Users\\jimmy\\Dev\\jimbrig": "jimbrig",
+    "C:\\Users\\jimmy\\Dev\\obsidian": "obsidian",
+    "C:\\Users\\jimmy\\Dev\\pwc": "pwc",
+    "C:\\Users\\jimmy\\Dev\\sandbox": "sandbox"
+  },
+  "favoriteRepositories": [
+    "C:\\Users\\jimmy\\dev\\jimbrig\\jimsdots",
+    "C:\\Users\\jimmy\\Dev\\obsidian\\KaaS"
+  ],
+  "ssh": {
+    "privateKey": "C:\\Users\\jimmy\\.ssh\\gitkraken_DESKTOP-MSI_github_Personal_rsa",
+    "appVersion": "8.1.0",
+    "generated": false,
+    "publicKey": "C:\\Users\\jimmy\\.ssh\\gitkraken_DESKTOP-MSI_github_Personal_rsa.pub"
+  },
+  "issues": {
+    "github": {
+      "filtersByRemoteName": {
+        "jimbrig/powershell": [
+          {
+            "id": "8d0e24a6-21c6-47c0-9a8b-112076d30509",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "68fb61cd-60e5-4c06-b853-234077f6152d",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/kaas": [
+          {
+            "id": "48c1dad4-b0a0-4025-b848-f2812e60293b",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "0bc66dc2-0d5f-4c7b-ada0-afa70ebd1a7f",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/dotfiles": [
+          {
+            "id": "650e8262-25a9-482f-b7e2-a02e27469747",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "d83de48c-37e0-47b6-b981-13e9b458c737",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ]
+      }
+    }
+  },
+  "defaultIssueTrackerType": "github"
+}
