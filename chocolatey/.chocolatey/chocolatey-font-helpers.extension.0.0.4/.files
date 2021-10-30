@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-font-helpers.extension\chocolatey-font-helpers.extension.nupkg" checksum="96C6E035153FC57845FFBAC6FC9334DF" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-font-helpers.extension\chocolatey-font-helpers.extension.nuspec" checksum="F6C15C56298EAE916D80EF229ABD53F8" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-font-helpers.extension\extensions\FontHelp.psm1" checksum="279D9FFF779793A2AA13B6359B50210A" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-font-helpers.extension\extensions\Install-ChocolateyFont.ps1" checksum="5984268D54E3F1D34A3AB0C8B6C4462D" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-font-helpers.extension\extensions\New-FontResourceType.ps1" checksum="74D83D4CCF988D86DBE792533C703BA9" />
+    <file path="C:\ProgramData\chocolatey\lib\chocolatey-font-helpers.extension\extensions\Uninstall-ChocolateyFont.ps1" checksum="FCD83D51D3B43A7FC913CD2D9E11CC86" />
+  </files>
+</fileSnapshot>

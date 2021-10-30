@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\GoogleChrome.Dev\GoogleChrome.Dev.nupkg" checksum="AF1CCEAC8AF6594683D3AC17CB3B6F0C" />
+    <file path="C:\ProgramData\chocolatey\lib\GoogleChrome.Dev\GoogleChrome.Dev.nuspec" checksum="7D5CEF8DBB097009615AE522F5D2AA42" />
+    <file path="C:\ProgramData\chocolatey\lib\GoogleChrome.Dev\tools\chocolateyInstall.ps1" checksum="F494FC622513909820BC9B5B18319BC5" />
+    <file path="C:\ProgramData\chocolatey\lib\GoogleChrome.Dev\tools\ChromeHelpers.ps1" checksum="D5B9EFEE4F688706998590DEF6243D23" />
+  </files>
+</fileSnapshot>

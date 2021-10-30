@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\InstChoco\InstChoco.nupkg" checksum="2948E77D6F698C9817651BD2FB228708" />
+    <file path="C:\ProgramData\chocolatey\lib\InstChoco\InstChoco.nuspec" checksum="C45A84CF87888C3CF0A67AB483525D57" />
+    <file path="C:\ProgramData\chocolatey\lib\InstChoco\tools\InstChoco.exe" checksum="661777A44F2D9E86323186E3F86877CF" />
+    <file path="C:\ProgramData\chocolatey\lib\InstChoco\tools\LICENSE.txt" checksum="BF6101D635BFF49BA62C9BFFBCF3747B" />
+    <file path="C:\ProgramData\chocolatey\lib\InstChoco\tools\VERIFICATION.txt" checksum="83CCF3A88732E8D0188417B6D4F453B4" />
+  </files>
+</fileSnapshot>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\file-converter\file-converter.nupkg" checksum="7F075D4FADA8E09717BF324407DE91E7" />
+    <file path="C:\ProgramData\chocolatey\lib\file-converter\file-converter.nuspec" checksum="1983DDC5A1C4B20867B0B07F776ECFA1" />
+    <file path="C:\ProgramData\chocolatey\lib\file-converter\tools\chocolateyinstall.ps1" checksum="20B8E22D5A0E896C01D7C7B79E5D8608" />
+  </files>
+</fileSnapshot>

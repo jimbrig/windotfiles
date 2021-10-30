@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\tinytex\TinyTeX-1-v2021.10.zip.txt" checksum="55674023692B28D8090E5F551DA32958" />
+    <file path="C:\ProgramData\chocolatey\lib\tinytex\tinytex.nupkg" checksum="AD4D40AF970B8D9B627F8A89069BEC79" />
+    <file path="C:\ProgramData\chocolatey\lib\tinytex\tinytex.nuspec" checksum="487EB836CC64272083F4AB7FCB5F7182" />
+    <file path="C:\ProgramData\chocolatey\lib\tinytex\tools\chocolateyinstall.ps1" checksum="2A26B237D76CDA7C7861D7299987D37E" />
+    <file path="C:\ProgramData\chocolatey\lib\tinytex\tools\chocolateyuninstall.ps1" checksum="11DE38AA7E90C8257AE7A8D6514DED3D" />
+  </files>
+</fileSnapshot>

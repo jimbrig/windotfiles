@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<registrySnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <user>S-1-5-21-658990459-1207598912-842708687-1001</user>
+  <keys>
+    <key installerType="Msi" displayName="Microsoft Visual C++ 2019 X64 Additional Runtime - 14.29.30135" displayVersion="14.29.30135">
+      <RegistryView>Registry64</RegistryView>
+      <KeyPath>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{34DB4181-0770-4B5A-B561-68758A077B0F}</KeyPath>
+      <DefaultValue />
+      <InstallLocation><![CDATA[]]></InstallLocation>
+      <UninstallString><![CDATA[MsiExec.exe /I{34DB4181-0770-4B5A-B561-68758A077B0F}]]></UninstallString>
+      <HasQuietUninstall>false</HasQuietUninstall>
+      <Publisher><![CDATA[Microsoft Corporation]]></Publisher>
+      <InstallDate>20211022</InstallDate>
+      <InstallSource><![CDATA[C:\ProgramData\Package Cache\{34DB4181-0770-4B5A-B561-68758A077B0F}v14.29.30135\packages\vcRuntimeAdditional_amd64\]]></InstallSource>
+      <Language>1033</Language>
+      <Version>236811703</Version>
+      <VersionMajor>14</VersionMajor>
+      <VersionMinor>29</VersionMinor>
+      <SystemComponent>true</SystemComponent>
+      <WindowsInstaller>true</WindowsInstaller>
+      <NoRemove>false</NoRemove>
+      <NoModify>false</NoModify>
+      <NoRepair>false</NoRepair>
+      <ReleaseType />
+      <ParentKeyName />
+      <LocalPackage><![CDATA[C:\WINDOWS\Installer\66a7c8.msi]]></LocalPackage>
+    </key>
+    <key installerType="Msi" displayName="Microsoft Visual C++ 2019 X64 Minimum Runtime - 14.29.30135" displayVersion="14.29.30135">
+      <RegistryView>Registry64</RegistryView>
+      <KeyPath>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{40118CD9-A805-400C-864E-041A5B5C01B0}</KeyPath>
+      <DefaultValue />
+      <InstallLocation><![CDATA[]]></InstallLocation>
+      <UninstallString><![CDATA[MsiExec.exe /I{40118CD9-A805-400C-864E-041A5B5C01B0}]]></UninstallString>
+      <HasQuietUninstall>false</HasQuietUninstall>
+      <Publisher><![CDATA[Microsoft Corporation]]></Publisher>
+      <InstallDate>20211022</InstallDate>
+      <InstallSource><![CDATA[C:\ProgramData\Package Cache\{40118CD9-A805-400C-864E-041A5B5C01B0}v14.29.30135\packages\vcRuntimeMinimum_amd64\]]></InstallSource>
+      <Language>1033</Language>
+      <Version>236811703</Version>
+      <VersionMajor>14</VersionMajor>
+      <VersionMinor>29</VersionMinor>
+      <SystemComponent>true</SystemComponent>
+      <WindowsInstaller>true</WindowsInstaller>
+      <NoRemove>false</NoRemove>
+      <NoModify>false</NoModify>
+      <NoRepair>false</NoRepair>
+      <ReleaseType />
+      <ParentKeyName />
+      <LocalPackage><![CDATA[C:\WINDOWS\Installer\66a7b4.msi]]></LocalPackage>
+    </key>
+    <key installerType="Msi" displayName="Microsoft Visual C++ 2019 X86 Minimum Runtime - 14.29.30135" displayVersion="14.29.30135">
+      <RegistryView>Registry32</RegistryView>
+      <KeyPath>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{36A1E79B-581A-4FE5-843D-84C2D3C9431E}</KeyPath>
+      <DefaultValue />
+      <InstallLocation><![CDATA[]]></InstallLocation>
+      <UninstallString><![CDATA[MsiExec.exe /I{36A1E79B-581A-4FE5-843D-84C2D3C9431E}]]></UninstallString>
+      <HasQuietUninstall>false</HasQuietUninstall>
+      <Publisher><![CDATA[Microsoft Corporation]]></Publisher>
+      <InstallDate>20211022</InstallDate>
+      <InstallSource><![CDATA[C:\ProgramData\Package Cache\{36A1E79B-581A-4FE5-843D-84C2D3C9431E}v14.29.30135\packages\vcRuntimeMinimum_x86\]]></InstallSource>
+      <Language>1033</Language>
+      <Version>236811703</Version>
+      <VersionMajor>14</VersionMajor>
+      <VersionMinor>29</VersionMinor>
+      <SystemComponent>true</SystemComponent>
+      <WindowsInstaller>true</WindowsInstaller>
+      <NoRemove>false</NoRemove>
+      <NoModify>false</NoModify>
+      <NoRepair>false</NoRepair>
+      <ReleaseType />
+      <ParentKeyName />
+      <LocalPackage><![CDATA[C:\WINDOWS\Installer\66a789.msi]]></LocalPackage>
+    </key>
+    <key installerType="Msi" displayName="Microsoft Visual C++ 2019 X86 Additional Runtime - 14.29.30135" displayVersion="14.29.30135">
+      <RegistryView>Registry32</RegistryView>
+      <KeyPath>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{77EB1EA9-8E1B-459D-8CDC-1984D0FF15B6}</KeyPath>
+      <DefaultValue />
+      <InstallLocation><![CDATA[]]></InstallLocation>
+      <UninstallString><![CDATA[MsiExec.exe /I{77EB1EA9-8E1B-459D-8CDC-1984D0FF15B6}]]></UninstallString>
+      <HasQuietUninstall>false</HasQuietUninstall>
+      <Publisher><![CDATA[Microsoft Corporation]]></Publisher>
+      <InstallDate>20211022</InstallDate>
+      <InstallSource><![CDATA[C:\ProgramData\Package Cache\{77EB1EA9-8E1B-459D-8CDC-1984D0FF15B6}v14.29.30135\packages\vcRuntimeAdditional_x86\]]></InstallSource>
+      <Language>1033</Language>
+      <Version>236811703</Version>
+      <VersionMajor>14</VersionMajor>
+      <VersionMinor>29</VersionMinor>
+      <SystemComponent>true</SystemComponent>
+      <WindowsInstaller>true</WindowsInstaller>
+      <NoRemove>false</NoRemove>
+      <NoModify>false</NoModify>
+      <NoRepair>false</NoRepair>
+      <ReleaseType />
+      <ParentKeyName />
+      <LocalPackage><![CDATA[C:\WINDOWS\Installer\66a79d.msi]]></LocalPackage>
+    </key>
+    <key installerType="Custom" displayName="Microsoft Visual C++ 2015-2019 Redistributable (x86) - 14.29.30135" displayVersion="14.29.30135.0">
+      <RegistryView>Registry32</RegistryView>
+      <KeyPath>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{b7a2b241-3f54-4d7d-94d1-8ce0146e03c7}</KeyPath>
+      <DefaultValue />
+      <InstallLocation><![CDATA[]]></InstallLocation>
+      <UninstallString><![CDATA["C:\ProgramData\Package Cache\{b7a2b241-3f54-4d7d-94d1-8ce0146e03c7}\VC_redist.x86.exe" /uninstall /quiet]]></UninstallString>
+      <HasQuietUninstall>true</HasQuietUninstall>
+      <Publisher><![CDATA[Microsoft Corporation]]></Publisher>
+      <InstallDate />
+      <InstallSource><![CDATA[]]></InstallSource>
+      <Language />
+      <Version />
+      <VersionMajor />
+      <VersionMinor />
+      <SystemComponent>false</SystemComponent>
+      <WindowsInstaller>false</WindowsInstaller>
+      <NoRemove>false</NoRemove>
+      <NoModify>false</NoModify>
+      <NoRepair>false</NoRepair>
+      <ReleaseType />
+      <ParentKeyName />
+    </key>
+    <key installerType="Custom" displayName="Microsoft Visual C++ 2015-2019 Redistributable (x64) - 14.29.30135" displayVersion="14.29.30135.0">
+      <RegistryView>Registry32</RegistryView>
+      <KeyPath>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{fa7f6d52-f85e-48ef-8f56-a37268aa5772}</KeyPath>
+      <DefaultValue />
+      <InstallLocation><![CDATA[]]></InstallLocation>
+      <UninstallString><![CDATA["C:\ProgramData\Package Cache\{fa7f6d52-f85e-48ef-8f56-a37268aa5772}\VC_redist.x64.exe" /uninstall /quiet]]></UninstallString>
+      <HasQuietUninstall>true</HasQuietUninstall>
+      <Publisher><![CDATA[Microsoft Corporation]]></Publisher>
+      <InstallDate />
+      <InstallSource><![CDATA[]]></InstallSource>
+      <Language />
+      <Version />
+      <VersionMajor />
+      <VersionMinor />
+      <SystemComponent>false</SystemComponent>
+      <WindowsInstaller>false</WindowsInstaller>
+      <NoRemove>false</NoRemove>
+      <NoModify>false</NoModify>
+      <NoRepair>false</NoRepair>
+      <ReleaseType />
+      <ParentKeyName />
+    </key>
+  </keys>
+</registrySnapshot>

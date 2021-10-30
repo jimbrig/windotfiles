@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\cascadia-code-nerd-font\cascadia-code-nerd-font.nupkg" checksum="021254C1D0F2897F0CF40F195119622F" />
+    <file path="C:\ProgramData\chocolatey\lib\cascadia-code-nerd-font\cascadia-code-nerd-font.nuspec" checksum="DB141D4A316701A71BEBD9DED0003A73" />
+    <file path="C:\ProgramData\chocolatey\lib\cascadia-code-nerd-font\CascadiaCode.zip.txt" checksum="EEAAE659F494C2062F71FAD6B5DCF424" />
+    <file path="C:\ProgramData\chocolatey\lib\cascadia-code-nerd-font\FontFilesInstalled.log" checksum="512B18EDFA06702E74C99651C40E5653" />
+    <file path="C:\ProgramData\chocolatey\lib\cascadia-code-nerd-font\tools\Caskaydia Cove Nerd Font Complete Mono Windows Compatible.ttf" checksum="BE2C8F48688681BC904519CD6A1D0843" />
+    <file path="C:\ProgramData\chocolatey\lib\cascadia-code-nerd-font\tools\Caskaydia Cove Nerd Font Complete Mono.ttf" checksum="5DE6030AF75C85B137FD65BE3C335155" />
+    <file path="C:\ProgramData\chocolatey\lib\cascadia-code-nerd-font\tools\Caskaydia Cove Nerd Font Complete Windows Compatible.ttf" checksum="344AF6A64CA2FB2E87AECED6C4250228" />
+    <file path="C:\ProgramData\chocolatey\lib\cascadia-code-nerd-font\tools\Caskaydia Cove Nerd Font Complete.ttf" checksum="01F6D7DE0172F3A05C693D8AD4F43583" />
+    <file path="C:\ProgramData\chocolatey\lib\cascadia-code-nerd-font\tools\chocolateyinstall.ps1" checksum="4E24B9C8C4EFED6755C453621D323F2A" />
+    <file path="C:\ProgramData\chocolatey\lib\cascadia-code-nerd-font\tools\chocolateyuninstall.ps1" checksum="8AF048D80550D01C1F8AE2898AC90D89" />
+  </files>
+</fileSnapshot>

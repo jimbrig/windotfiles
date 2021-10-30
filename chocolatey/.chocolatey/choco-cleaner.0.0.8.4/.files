@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\choco-cleaner\choco-cleaner.nupkg" checksum="AD4B6262EF0F2CE83ED20E8531CCEAAE" />
+    <file path="C:\ProgramData\chocolatey\lib\choco-cleaner\choco-cleaner.nuspec" checksum="8D6D73CB52A5818E46FD8F6817582716" />
+    <file path="C:\ProgramData\chocolatey\lib\choco-cleaner\tools\.SkipAutoUninstaller" checksum="D41D8CD98F00B204E9800998ECF8427E" />
+    <file path="C:\ProgramData\chocolatey\lib\choco-cleaner\tools\choco-cleaner.ico" checksum="84A34A0D98C15170323103FD497C4E8C" />
+    <file path="C:\ProgramData\chocolatey\lib\choco-cleaner\tools\chocolateyinstall.ps1" checksum="1AA3B6793E1A79A95F9BEC2A6BC5A733" />
+    <file path="C:\ProgramData\chocolatey\lib\choco-cleaner\tools\chocolateyuninstall.ps1" checksum="EC0A1F8242348FDCD4E7863DA77A6311" />
+  </files>
+</fileSnapshot>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\lsd\lsd-0.20.1-x86_64-pc-windows-msvc.zip.txt" checksum="960D3216CC6C104910C4CB8A203629DE" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\lsd.nupkg" checksum="968573BED0236AC392124316D2FD9E30" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\lsd.nuspec" checksum="0E80C77B2D3ECBA42E82E60E2ED60EB0" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\legal\LICENSE.txt" checksum="9558EC7BB8EAF28E99B4B6FBF077C3A2" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\legal\VERIFICATION.txt" checksum="A241EEAA70C0A9B0B430BB03AEC3C0AB" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\tools\chocolateyinstall.ps1" checksum="6270285EB0CBA56F3B1B564B8B3B1398" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\tools\lsd-0.20.1-x86_64-pc-windows-msvc\LICENSE" checksum="0275FCE0DBCC904D090F1C897A10B7F5" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\tools\lsd-0.20.1-x86_64-pc-windows-msvc\lsd.1" checksum="BB5E31137FB7D1D0CD3824F1F99D838D" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\tools\lsd-0.20.1-x86_64-pc-windows-msvc\lsd.exe" checksum="86EEE97EA2A04D57A44EE1AE8CB41422" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\tools\lsd-0.20.1-x86_64-pc-windows-msvc\README.md" checksum="9BB99AB1C6074896760EF9F0C99F3FBD" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\tools\lsd-0.20.1-x86_64-pc-windows-msvc\autocomplete\lsd.bash-completion" checksum="4B6812CB4280DCBD273ED21F1A02CA20" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\tools\lsd-0.20.1-x86_64-pc-windows-msvc\autocomplete\lsd.fish" checksum="34D59787A4833071BB6955DE8B70F309" />
+    <file path="C:\ProgramData\chocolatey\lib\lsd\tools\lsd-0.20.1-x86_64-pc-windows-msvc\autocomplete\_lsd" checksum="D1C87FBD9EFD6B35E0CA57F76FDF9725" />
+  </files>
+</fileSnapshot>
