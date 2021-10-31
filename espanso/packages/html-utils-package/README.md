@@ -9,6 +9,8 @@ package_repo: "https://github.com/federico-terzi/espanso-hub-core"
 is_core: true
 featured: true
 ---
+
+<!-- DOCTOC SKIP -->
 # html-utils-package
 
 Make HTML5 easier and less time-consuming with this [Espanso](https://espanso.org/) package!
