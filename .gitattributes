@@ -1,10 +1,6 @@
 git/git-crypt/keys/** filter=git-crypt diff=git-crypt
 git/git-crypt/gpg-users/** filter=git-crypt diff=git-crypt
 
-aws/.aws/config filter=git-crypt diff=git-crypt
-aws/.aws/credentials filter=git-crypt diff=git-crypt
-aws/aws-credentials.csv filter=git-crypt diff=git-crypt
-
 azure-cli/.azure/accessTokens.json filter=git-crypt diff=git-crypt
 azure-cli/.azure/azureProfile.json filter=git-crypt diff=git-crypt
 azure-cli/.azure/clouds.config filter=git-crypt diff=git-crypt
