@@ -10,7 +10,7 @@
     <ExplorerBar_Themes type="1">1</ExplorerBar_Themes>
     <General_UseTC type="1">0</General_UseTC>
     <InitialSortOrder type="1">0</InitialSortOrder>
-    <InitialSortParam type="1">2</InitialSortParam>
+    <InitialSortParam type="1">0</InitialSortParam>
     <Interface_Language type="2">English</Interface_Language>
     <RecentItemsOnToolbar type="1">1</RecentItemsOnToolbar>
     <SecondToolbar_Position type="1">1</SecondToolbar_Position>
@@ -24,7 +24,7 @@
     <TrayIcon_HideOnClose type="1">0</TrayIcon_HideOnClose>
     <TrayIcon_HideOnMinize type="1">0</TrayIcon_HideOnMinize>
     <TrayIcon_Show type="1">0</TrayIcon_Show>
-    <UTAutoRunList_Column_0 type="1">130983</UTAutoRunList_Column_0>
+    <UTAutoRunList_Column_0 type="1">66865</UTAutoRunList_Column_0>
     <UTAutoRunList_Column_1 type="1">65626</UTAutoRunList_Column_1>
     <UTAutoRunList_Column_2 type="1">65643</UTAutoRunList_Column_2>
     <UTAutoRunList_Column_3 type="1">65666</UTAutoRunList_Column_3>
