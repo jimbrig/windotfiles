@@ -5,17 +5,11 @@
         "selectedProject": null
       }
     },
-    "selectedTabId": "11c8571d-42f5-4489-97a8-af17e08c0e7e",
+    "selectedTabId": "5b1ac8db-54d0-4e99-9998-20fb126da73d",
     "tabs": [
       {
         "id": "b7fbefa3-cec3-438d-8e95-153575a8d1e8",
         "type": "RELEASE_NOTES"
-      },
-      {
-        "id": "11c8571d-42f5-4489-97a8-af17e08c0e7e",
-        "type": "REPO",
-        "repoName": ".dotfiles",
-        "repoPath": "C:/Users/jimmy/.dotfiles/"
       },
       {
         "id": "ca3942ca-072f-499e-83fc-774769d9a317",
@@ -46,6 +40,12 @@
         "type": "REPO",
         "repoName": "dotfiles",
         "repoPath": "C:/Users/jimmy/Dev/jimbrig/dotfiles/"
+      },
+      {
+        "id": "5b1ac8db-54d0-4e99-9998-20fb126da73d",
+        "type": "REPO",
+        "repoName": ".dotfiles",
+        "repoPath": "C:/Users/jimmy/.dotfiles/"
       }
     ]
   },
@@ -86,9 +86,9 @@
   "services": {
     "github": {
       "ssh": {
-        "keyState": "internal",
-        "publicKeyPath": "C:\\Users\\jimmy\\AppData\\Roaming\\.gitkraken\\profiles\\d6e5a8ca26e14325a4275fc33b17e16f\\ssh\\gitkraken_DESKTOP-MSI_github_rsa.pub",
-        "privateKeyPath": "C:\\Users\\jimmy\\AppData\\Roaming\\.gitkraken\\profiles\\d6e5a8ca26e14325a4275fc33b17e16f\\ssh\\gitkraken_DESKTOP-MSI_github_rsa",
+        "keyState": "external",
+        "publicKeyPath": "C:\\Users\\jimmy\\.ssh\\gitkraken_rsa.pub",
+        "privateKeyPath": "C:\\Users\\jimmy\\.ssh\\gitkraken_rsa",
         "appVersion": "8.1.0"
       }
     },
@@ -113,10 +113,11 @@
     "C:\\Users\\jimmy\\Dev\\obsidian\\KaaS"
   ],
   "ssh": {
-    "privateKey": "C:\\Users\\jimmy\\.ssh\\gitkraken_DESKTOP-MSI_github_Personal_rsa",
+    "privateKey": "C:\\Users\\jimmy\\.ssh\\gitkraken_rsa",
     "appVersion": "8.1.0",
-    "generated": false,
-    "publicKey": "C:\\Users\\jimmy\\.ssh\\gitkraken_DESKTOP-MSI_github_Personal_rsa.pub"
+    "generated": true,
+    "publicKey": "C:\\Users\\jimmy\\.ssh\\gitkraken_rsa.pub",
+    "useLocalAgent": false
   },
   "issues": {
     "github": {
