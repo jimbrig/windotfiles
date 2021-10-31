@@ -5,7 +5,7 @@
         "selectedProject": null
       }
     },
-    "selectedTabId": "9343e44b-6964-4997-9576-b3ea1b46ec59",
+    "selectedTabId": "2a87babf-b6a0-426b-915e-2e9ce7ce2497",
     "tabs": [
       {
         "id": "9974f240-66d2-4433-a1ae-ac733f4644d3",
@@ -50,7 +50,7 @@
         "repoPath": "C:/Users/jimmy/Dev/jimbrig/KaaS-2/"
       },
       {
-        "id": "9343e44b-6964-4997-9576-b3ea1b46ec59",
+        "id": "2a87babf-b6a0-426b-915e-2e9ce7ce2497",
         "type": "REPO",
         "repoName": ".dotfiles",
         "repoPath": "C:/Users/jimmy/.dotfiles/"
