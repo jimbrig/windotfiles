@@ -16,6 +16,9 @@ See the [CHANGELOG](CHANGELOG.md) for details on progress.
 - [Backing Up](#backing-up)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+*Generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## About
 
