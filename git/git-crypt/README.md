@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Git Crypt](#git-crypt)
+  - [Installation](#installation)
+    - [Scoop](#scoop)
+    - [Experimental Windows Support](#experimental-windows-support)
+  - [Usage](#usage)
+    - [Gitattributes File](#gitattributes-file)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Git Crypt
 
 `git-crypt` enables transparent encryption and decryption of files in a git repository. Files which you choose to protect are encrypted when committed, and decrypted when checked out. 
