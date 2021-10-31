@@ -3,7 +3,7 @@
   "activeOrganizationName": "",
   "analyticsEnabled": true,
   "autoDownloadUpdates": true,
-  "autoStart": false,
+  "autoStart": true,
   "cpus": 6,
   "credentialHelper": "docker-credential-wincred.exe",
   "customWslDistroDir": "",

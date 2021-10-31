@@ -16,6 +16,7 @@
 	forceSignAnnotated = true
 [core]
 	longpaths = true
+	editor = code --wait
 	# excludesfile = ~/.config/git/.gitignore
     	# attributesfile = ~/.config/git/.gitattributes
 [github]
