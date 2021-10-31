@@ -11,31 +11,29 @@ The project is heavily inspired by the super [colorls](https://github.com/athity
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [LSD (LSDeluxe)](#lsd-lsdeluxe)
-  - [Contents](#contents)
-  - [Reference](#reference)
-  - [Related](#related)
-  - [Installation](#installation)
-      - [Prerequisites](#prerequisites)
-    - [From source](#from-source)
-    - [From Binaries](#from-binaries)
-  - [Configuration](#configuration)
-    - [Config Location](#config-location)
-      - [Windows](#windows)
-      - [Non-Windows](#non-windows)
-      - [Custom](#custom)
-    - [Example Configuration File](#example-configuration-file)
-  - [Theme](#theme)
-    - [Theme File Content](#theme-file-content)
-  - [External Configurations](#external-configurations)
-    - [Required](#required)
-    - [Optional](#optional)
-  - [Icons](#icons)
-    - [Colors](#colors)
-    - [First char of folder/file getting trimmed](#first-char-of-folderfile-getting-trimmed)
-    - [UTF-8 Chars](#utf-8-chars)
 
-*Generated with [DocToc](https://github.com/thlorenz/doctoc)*
+- [Reference](#reference)
+- [Related](#related)
+- [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+  - [From source](#from-source)
+  - [From Binaries](#from-binaries)
+- [Configuration](#configuration)
+  - [Config Location](#config-location)
+    - [Windows](#windows)
+    - [Non-Windows](#non-windows)
+    - [Custom](#custom)
+  - [Example Configuration File](#example-configuration-file)
+- [Theme](#theme)
+  - [Theme File Content](#theme-file-content)
+- [External Configurations](#external-configurations)
+  - [Required](#required)
+  - [Optional](#optional)
+- [Icons](#icons)
+  - [Colors](#colors)
+  - [First char of folder/file getting trimmed](#first-char-of-folderfile-getting-trimmed)
+  - [UTF-8 Chars](#utf-8-chars)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Reference

@@ -5,20 +5,20 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 - [Amazon Web Services Command Line Interface (AWS CLI)](#amazon-web-services-command-line-interface-aws-cli)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-    - [Access key ID and secret access key](#access-key-id-and-secret-access-key)
-    - [Region](#region)
-    - [Output format](#output-format)
-    - [Profiles](#profiles)
-    - [Credential File Settings](#credential-file-settings)
-      - [Where are configuration settings stored?](#where-are-configuration-settings-stored)
-      - [Storing credentials in the config file](#storing-credentials-in-the-config-file)
-    - [Set and view configuration settings](#set-and-view-configuration-settings)
-    - [Supported `config` file settings](#supported-config-file-settings)
-  - [Global settings](#global-settings)
 
-*Generated with [DocToc](https://github.com/thlorenz/doctoc)*
+- [Installation](#installation)
+- [Configuration](#configuration)
+  - [Access key ID and secret access key](#access-key-id-and-secret-access-key)
+  - [Region](#region)
+  - [Output format](#output-format)
+  - [Profiles](#profiles)
+  - [Credential File Settings](#credential-file-settings)
+    - [Where are configuration settings stored?](#where-are-configuration-settings-stored)
+    - [Storing credentials in the config file](#storing-credentials-in-the-config-file)
+  - [Set and view configuration settings](#set-and-view-configuration-settings)
+  - [Supported `config` file settings](#supported-config-file-settings)
+- [Global settings](#global-settings)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
