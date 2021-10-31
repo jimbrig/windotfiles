@@ -38,6 +38,9 @@ All notable changes to this project will be documented in this file.
 - Configure encryption for retated aws secrets
 - Update attributes
 - Ignore gitkraken config due to using while changing
+- Enhance and re-generate CHANGELOG
+- Update PowerToys configurations with latest update
+- Update scoop config.json
 
 ### Documentation
 
@@ -55,6 +58,7 @@ All notable changes to this project will be documented in this file.
 - Cleanup unnecessary git-extras man pages 
 - Add individual enhanced READMEs by tool (with TOCs)
 - Add enhance global README
+- Adjust file-converter README
 
 ### Features
 
@@ -106,6 +110,7 @@ All notable changes to this project will be documented in this file.
 - Add vscode extensions
 - Update AWS configs
 - Add lsd aliases ps1 script
+- Initialize WSL directory for WSL specific configs
 
 ### Bug
 
