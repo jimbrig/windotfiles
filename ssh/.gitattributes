@@ -1,1 +1,1 @@
-keys/** filter=git-crypt diff=git-crypt
+keys/private/** filter=git-crypt diff=git-crypt
