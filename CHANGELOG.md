@@ -7,12 +7,6 @@ All notable changes to this project will be documented in this file.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [[Unreleased]](#unreleased)
-  - [Configuration](#configuration)
-  - [Documentation](#documentation)
-  - [Features](#features)
-  - [Bug](#bug)
-
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 *Generated with [DocToc](https://github.com/thlorenz/doctoc)*
 ## [Unreleased]
@@ -41,6 +35,24 @@ All notable changes to this project will be documented in this file.
 - Enhance and re-generate CHANGELOG
 - Update PowerToys configurations with latest update
 - Update scoop config.json
+- Re-encrypt espanso credit cards and passwords
+- Re-encrypt AWS configs
+- Re-encrypt az-cli configs
+- Re-encrypt firefox profile config
+- Re-encrypt GitHub CLI configs
+- Re-encrypt git-crypt-keyfiles
+- Re-encrypt gitkraken keys and profile
+- Re-encrypt keeper commander credentials config.json
+- Re-encrypt lastversion GITHUB PAT
+- Re-encrypt ssh keys
+- Tweak aws excryptions
+- Adjust Az-CLI configs
+- Update docker configs
+- Re-encrypt githubCLI
+- Updated powertoys configs
+- Re-encrypt SSH keys
+- SSH encrypt private keys only
+- Re-encrypt and add SSH private keys
 
 ### Documentation
 
@@ -59,6 +71,9 @@ All notable changes to this project will be documented in this file.
 - Add individual enhanced READMEs by tool (with TOCs)
 - Add enhance global README
 - Adjust file-converter README
+- Doctoc ignore git-extras README
+- Run doctoc
+- Update changelog with git-cliff
 
 ### Features
 
@@ -111,6 +126,13 @@ All notable changes to this project will be documented in this file.
 - Update AWS configs
 - Add lsd aliases ps1 script
 - Initialize WSL directory for WSL specific configs
+- Add new RapidEE exported Environment Variables
+- Add new obsidian espanso's and update encrypted files
+- New FireFox Dev configs
+- Update obsidian vaults
+- Add QTTabBar exported configurations
+- Rstudio crash handler
+- SSH add un-encrypted SSH public keys
 
 ### Bug
 
