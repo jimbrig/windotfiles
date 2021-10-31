@@ -1,10 +1,1 @@
-{
-    "Name": "desktop-linux",
-    "Metadata": {},
-    "Endpoints": {
-        "docker": {
-            "Host": "npipe:////./pipe/dockerDesktopLinuxEngine",
-            "SkipTLSVerify": false
-        }
-    }
-}
+{"Name":"desktop-linux","Metadata":{},"Endpoints":{"docker":{"Host":"npipe:////./pipe/dockerDesktopLinuxEngine","SkipTLSVerify":false}}}
