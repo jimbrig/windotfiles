@@ -22,6 +22,30 @@
         "type": "REPO",
         "repoName": "espanso",
         "repoPath": "C:/Users/jimmy/Dev/jimbrig/espanso/"
+      },
+      {
+        "id": "eed2e192-aef7-4a85-95e9-4d05017ed205",
+        "type": "REPO",
+        "repoName": "KaaS",
+        "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS/"
+      },
+      {
+        "id": "950fb7c5-5de0-4a40-b9e9-3452ab32a1e0",
+        "type": "REPO",
+        "repoName": "KaaS - Copy",
+        "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS - Copy/"
+      },
+      {
+        "id": "d0e0dc28-47fb-485a-abcb-b20a893b058f",
+        "type": "REPO",
+        "repoName": "KaaS-ReDo",
+        "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS-ReDo/"
+      },
+      {
+        "id": "73882047-9fcf-4b6c-90fc-ea2dddb44609",
+        "type": "REPO",
+        "repoName": "dotfiles",
+        "repoPath": "C:/Users/jimmy/Dev/jimbrig/dotfiles/"
       }
     ]
   },
@@ -58,7 +82,7 @@
     "defaultBranch": "main"
   },
   "useCustomTerminalCmd": true,
-  "customTerminalCmd": "wt.exe -p \"PowerShell\"",
+  "customTerminalCmd": "wt.exe -p \"PowerShell\" -d %d",
   "services": {
     "github": {
       "ssh": {
