@@ -1,0 +1,21 @@
+name: obsidian
+parent: default
+
+matches:
+  - trigger: ":frontmatter"
+    replace: "---\nDate: {{date}}\nAuthor: Jimmy Briggs\nTags:\nAlias:\n---"
+    vars:
+      - name: date
+        type: date
+        params:
+          format: "%Y-%M-%d"
+
+  - trigger: ":addtag"
+    form: |
+      "{{tags}}"
+    form_fields:
+      tags:
+        type: list
+        values:
+          - "#Type/Daily"
+          - "#Type/Note"
