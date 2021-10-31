@@ -8,8 +8,20 @@
     "selectedTabId": "11c8571d-42f5-4489-97a8-af17e08c0e7e",
     "tabs": [
       {
+        "id": "b7fbefa3-cec3-438d-8e95-153575a8d1e8",
+        "type": "RELEASE_NOTES"
+      },
+      {
         "id": "11c8571d-42f5-4489-97a8-af17e08c0e7e",
-        "type": "NEW"
+        "type": "REPO",
+        "repoName": ".dotfiles",
+        "repoPath": "C:/Users/jimmy/.dotfiles/"
+      },
+      {
+        "id": "ca3942ca-072f-499e-83fc-774769d9a317",
+        "type": "REPO",
+        "repoName": "espanso",
+        "repoPath": "C:/Users/jimmy/Dev/jimbrig/espanso/"
       }
     ]
   },
@@ -117,6 +129,18 @@
           },
           {
             "id": "d83de48c-37e0-47b6-b981-13e9b458c737",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/espanso": [
+          {
+            "id": "7b03264b-95ab-407c-9998-487b7c88513d",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "4d0dd722-8429-4e80-af39-777b27c85b61",
             "text": "assignee:jimbrig state:open",
             "name": "My Open Issues"
           }
