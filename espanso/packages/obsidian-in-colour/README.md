@@ -7,6 +7,7 @@ package_author: "Karlo Miličić"
 package_repo: "https://github.com/federico-terzi/espanso-obsidian-in-colour"
 ---
 
+<!-- DOCTOC SKIP -->
 # Obsidian in Colour
 
 This package is meant to work in combination with Obsidian - the application for note taking.
