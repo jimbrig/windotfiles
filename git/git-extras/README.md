@@ -1,4 +1,6 @@
+<!-- DOCTOC SKIP -->
 # Git Extras
+
 ## Dependencies
 
 Some commands require extra dependencies which are unavailable in some platforms.
@@ -9,6 +11,7 @@ Those dependencies are listed below:
 * column
 
 ## Installation
+
 ### Windows
 
 First, please install `Git for Windows 2.x` from 'https://github.com/git-for-windows/git/releases'.
