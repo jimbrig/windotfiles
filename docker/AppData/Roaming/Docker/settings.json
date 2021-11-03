@@ -24,6 +24,7 @@
   "exposeDockerAPIOnTCP2375": false,
   "filesharingDirectories": [],
   "integratedWslDistros": [
+    "Ubuntu",
     "Ubuntu-20.04",
     "Ubuntu-CommPrev"
   ],
@@ -46,8 +47,8 @@
   "swapMiB": 1024,
   "swarmFederationExplicitlyLoggedOut": false,
   "synchronizedDirectories": [],
-  "tipLastId": 18,
-  "tipLastViewedTime": 1634951083829,
+  "tipLastId": 19,
+  "tipLastViewedTime": 1635896311200,
   "updateAvailableTime": 0,
   "updatePopupAppearanceTime": 0,
   "updateSkippedBuild": "",

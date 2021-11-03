@@ -1,0 +1,15 @@
+{
+    "registry-mirrors": [],
+    "insecure-registries": [],
+    "debug": false,
+    "experimental": true,
+    "features": {
+      "buildkit": true
+    },
+    "builder": {
+      "gc": {
+        "enabled": true,
+        "defaultKeepStorage": "20GB"
+      }
+    }
+  }
