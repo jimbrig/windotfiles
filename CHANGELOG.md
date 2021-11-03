@@ -74,6 +74,7 @@ All notable changes to this project will be documented in this file.
 - Doctoc ignore git-extras README
 - Run doctoc
 - Update changelog with git-cliff
+- Update CHANGELOG.md
 
 ### Features
 
@@ -133,6 +134,14 @@ All notable changes to this project will be documented in this file.
 - Add QTTabBar exported configurations
 - Rstudio crash handler
 - SSH add un-encrypted SSH public keys
+- Add uninstalltool prefs
+- Add qttabbar exported configurations
+- Update obsidian settings.json
+- Add windows terminal custom settings
+- Update scoop config
+- Docker contexts
+- New gitkraken profile adjustments
+- Add powertoys
 
 ### Bug
 
