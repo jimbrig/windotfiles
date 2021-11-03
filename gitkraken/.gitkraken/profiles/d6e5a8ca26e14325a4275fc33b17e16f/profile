@@ -5,7 +5,7 @@
         "selectedProject": null
       }
     },
-    "selectedTabId": "5b1ac8db-54d0-4e99-9998-20fb126da73d",
+    "selectedTabId": "a1e64d36-9797-40b2-893e-5efdf76f354d",
     "tabs": [
       {
         "id": "b7fbefa3-cec3-438d-8e95-153575a8d1e8",
@@ -16,12 +16,6 @@
         "type": "REPO",
         "repoName": "espanso",
         "repoPath": "C:/Users/jimmy/Dev/jimbrig/espanso/"
-      },
-      {
-        "id": "eed2e192-aef7-4a85-95e9-4d05017ed205",
-        "type": "REPO",
-        "repoName": "KaaS",
-        "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS/"
       },
       {
         "id": "950fb7c5-5de0-4a40-b9e9-3452ab32a1e0",
@@ -46,6 +40,18 @@
         "type": "REPO",
         "repoName": ".dotfiles",
         "repoPath": "C:/Users/jimmy/.dotfiles/"
+      },
+      {
+        "id": "fbf41319-5e29-407a-9676-64f794651b98",
+        "type": "REPO",
+        "repoName": "PowerShell",
+        "repoPath": "C:/Users/jimmy/OneDrive/Documents/PowerShell/"
+      },
+      {
+        "id": "a1e64d36-9797-40b2-893e-5efdf76f354d",
+        "type": "REPO",
+        "repoName": "KaaS",
+        "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS/"
       }
     ]
   },
