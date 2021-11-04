@@ -24,6 +24,10 @@
             "keys": "ctrl+insert"
         },
         {
+            "command": "tabSearch",
+            "keys": "ctrl+t"
+        },
+        {
             "command": "find",
             "keys": "ctrl+shift+f"
         },
@@ -57,6 +61,14 @@
                 "action": "prevTab"
             },
             "keys": "ctrl+pgup"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "cd (git rev-parse --show-toplevel)"
+            },
+            "keys": "alt+g"
         }
     ],
     "copyFormatting": "none",
@@ -73,31 +85,34 @@
             {
                 "face": "CaskaydiaCove NF"
             },
-            "opacity": 48,
+            "opacity": 15,
             "useAcrylic": true
         },
         "list": 
         [
             {
-                "backgroundImage": "desktopWallpaper",
+                "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\PowerShell-Preview-Custom.png",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
+                "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\RemoteDesktopManager-PowerShell.png",
                 "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
+                "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\cmd.jpg",
                 "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
             },
             {
+                "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\ubuntu.jpg",
                 "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
                 "hidden": false,
                 "name": "Ubuntu-CommPrev",
@@ -105,6 +120,7 @@
                 "startingDirectory": "\\\\wsl.localhost\\Ubuntu-CommPrev\\home\\jimbrig"
             },
             {
+                "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\ubuntu.jpg",
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
                 "name": "Ubuntu-20.04",
@@ -112,12 +128,15 @@
                 "startingDirectory": "\\\\wsl.localhost\\Ubuntu-20.04\\home\\jimbrig"
             },
             {
+                "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\linux.jpg",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl.localhost\\Ubuntu\\home\\jimmy"
             },
             {
+                "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\git-bash.jpg",
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
@@ -139,14 +158,6 @@
                 "tabTitle": "Radian"
             },
             {
-                "commandline": "wttop.exe",
-                "guid": "{ece220f8-5d0e-47e4-ae7f-a9a8f3882043}",
-                "hidden": false,
-                "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Icons\\Directories\\system.ico",
-                "name": "WTTOP",
-                "tabTitle": "System Monitor"
-            },
-            {
                 "commandline": "C:\\Program Files (x86)\\Keeper Commander\\keeper-commander.exe",
                 "guid": "{78c5e6ab-2f33-4809-9f92-ceab612dfde7}",
                 "hidden": false,
@@ -154,6 +165,23 @@
                 "name": "Keeper Commander",
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "Keeper Commander"
+            },
+            {
+                "commandline": "C:\\Program Files\\Python39\\python.exe",
+                "guid": "{bdba399e-7142-4ee9-886a-6b5017db57c2}",
+                "hidden": false,
+                "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Icons\\Programs\\python.ico",
+                "name": "Python 3.9",
+                "tabTitle": "Python"
+            },
+            {
+                "commandline": "wttop.exe",
+                "guid": "{ece220f8-5d0e-47e4-ae7f-a9a8f3882043}",
+                "hidden": false,
+                "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Icons\\Directories\\system.ico",
+                "name": "WTTOP",
+                "tabColor": "#5BD579",
+                "tabTitle": "System Monitor"
             }
         ]
     },
@@ -391,6 +419,7 @@
         }
     ],
     "startOnUserLogin": true,
+    "tabSwitcherMode": "mru",
     "theme": "dark",
     "trimBlockSelection": true,
     "useAcrylicInTabRow": true
