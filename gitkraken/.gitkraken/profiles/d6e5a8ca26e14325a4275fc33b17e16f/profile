@@ -5,7 +5,7 @@
         "selectedProject": null
       }
     },
-    "selectedTabId": "a1e64d36-9797-40b2-893e-5efdf76f354d",
+    "selectedTabId": "fbf41319-5e29-407a-9676-64f794651b98",
     "tabs": [
       {
         "id": "b7fbefa3-cec3-438d-8e95-153575a8d1e8",
@@ -46,12 +46,6 @@
         "type": "REPO",
         "repoName": "PowerShell",
         "repoPath": "C:/Users/jimmy/OneDrive/Documents/PowerShell/"
-      },
-      {
-        "id": "a1e64d36-9797-40b2-893e-5efdf76f354d",
-        "type": "REPO",
-        "repoName": "KaaS",
-        "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS/"
       }
     ]
   },
