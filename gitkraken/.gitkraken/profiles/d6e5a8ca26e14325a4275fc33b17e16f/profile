@@ -5,7 +5,7 @@
         "selectedProject": null
       }
     },
-    "selectedTabId": "fbf41319-5e29-407a-9676-64f794651b98",
+    "selectedTabId": "5b1ac8db-54d0-4e99-9998-20fb126da73d",
     "tabs": [
       {
         "id": "b7fbefa3-cec3-438d-8e95-153575a8d1e8",
@@ -46,6 +46,12 @@
         "type": "REPO",
         "repoName": "PowerShell",
         "repoPath": "C:/Users/jimmy/OneDrive/Documents/PowerShell/"
+      },
+      {
+        "id": "c35f282b-6578-45f6-b9e4-7cce6f2047ef",
+        "type": "REPO",
+        "repoName": ".dotfiles",
+        "repoPath": "//wsl.localhost/Ubuntu-CommPrev/home/jimbrig/.dotfiles/"
       }
     ]
   },
@@ -166,6 +172,18 @@
           },
           {
             "id": "4d0dd722-8429-4e80-af39-777b27c85b61",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/dotfiles-wsl": [
+          {
+            "id": "70abc1e8-08a6-40d5-a92d-a73bfe5b8cb7",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "3a9742ff-dda6-48da-8e4d-e5f49866161f",
             "text": "assignee:jimbrig state:open",
             "name": "My Open Issues"
           }
