@@ -75,6 +75,9 @@ All notable changes to this project will be documented in this file.
 - Run doctoc
 - Update changelog with git-cliff
 - Update CHANGELOG.md
+- Update docs
+- Powertoys updated
+- Qttabbar backup configs
 
 ### Features
 
@@ -142,6 +145,15 @@ All notable changes to this project will be documented in this file.
 - Docker contexts
 - New gitkraken profile adjustments
 - Add powertoys
+- Add GNU stow configuration/ignore files to repo
+- Tweak git configs
+- Add lsd-aliases.ps1
+- Add radian
+- Add rainmeter and skins
+- Topgrade configs for stow
+- Enhance Windows Terminal configs
+- Add soonex clock to rainmeter favorites
+- Adjust topgrade config
 
 ### Bug
 
