@@ -4,12 +4,8 @@
     "actions": 
     [
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": true
-            },
-            "keys": "ctrl+shift+c"
+            "command": "unbound",
+            "keys": "ctrl+insert"
         },
         {
             "command": 
@@ -20,8 +16,12 @@
             "keys": "ctrl+c"
         },
         {
-            "command": "unbound",
-            "keys": "ctrl+insert"
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": true
+            },
+            "keys": "ctrl+shift+c"
         },
         {
             "command": "tabSearch",
@@ -32,12 +32,12 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": "duplicateTab",
-            "keys": "ctrl+shift+d"
-        },
-        {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": "duplicateTab",
+            "keys": "ctrl+shift+d"
         },
         {
             "command": 
@@ -79,7 +79,7 @@
         "defaults": 
         {
             "backgroundImage": "desktopWallpaper",
-            "backgroundImageOpacity": 0.20000000000000001,
+            "backgroundImageOpacity": 0.35000000000000003,
             "colorScheme": "Tango Dark",
             "font": 
             {
