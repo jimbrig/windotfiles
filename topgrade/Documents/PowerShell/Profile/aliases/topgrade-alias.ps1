@@ -1,0 +1,2 @@
+${function:Invoke-Topgrade} = { & topgrade.exe --config "$HOME/.config/topgrade/topgrade.toml" --cleanup --disable-predefined-git-repos --no-retry --show-skipped }
+Set-Alias -Name topgrade -Value Invoke-Topgrade
