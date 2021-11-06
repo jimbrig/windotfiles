@@ -1,0 +1,330 @@
+
+# time: 2021-10-23 01:26:38 UTC
+# mode: r
++.libPaths()
+
+# time: 2021-10-26 19:27:34 UTC
+# mode: r
++install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
+
+# time: 2021-10-26 19:28:00 UTC
+# mode: r
++pak::pak(c("usethis", "gitcreds"))
+
+# time: 2021-10-26 19:28:45 UTC
+# mode: r
++
++
++gitcreds::gitcreds_set()
+
+# time: 2021-10-26 19:29:40 UTC
+# mode: r
++
++
++?gitcreds::gitcreds_set
+
+# time: 2021-10-26 19:29:59 UTC
+# mode: r
++library(gitcreds)
+
+# time: 2021-10-26 19:30:00 UTC
+# mode: r
++gitcreds_list_helpers()
+
+# time: 2021-10-26 19:30:09 UTC
+# mode: r
++gitcreds_get()
+
+# time: 2021-11-01 00:21:06 UTC
+# mode: r
++stats::approx(1.1, 1.5)
+
+# time: 2021-11-01 00:22:16 UTC
+# mode: r
++cdfs <- c(2.5, 1.9, 1.7, 1.6, 1.1, 1.005, 1.0005, 1)
+
+# time: 2021-11-01 00:23:07 UTC
+# mode: r
++install.packages("packagefinder")
+
+# time: 2021-11-01 00:23:33 UTC
+# mode: r
++install.packages("remotes")
+
+# time: 2021-11-01 00:23:45 UTC
+# mode: r
++remotes::install_github("r-lib/pak")
+
+# time: 2021-11-01 00:24:37 UTC
+# mode: r
++library(pack)
+
+# time: 2021-11-01 00:24:42 UTC
+# mode: r
++library(packagefinder)
+
+# time: 2021-11-01 00:24:52 UTC
+# mode: r
++findPackage(akima)
+
+# time: 2021-11-01 00:24:57 UTC
+# mode: r
++findPackage("akima")
+
+# time: 2021-11-01 00:25:18 UTC
+# mode: r
++install.packages("akima")
+
+# time: 2021-11-01 00:25:27 UTC
+# mode: r
++install.packages("interp")
+
+# time: 2021-11-01 00:26:01 UTC
+# mode: r
++library(interp)
+
+# time: 2021-11-01 00:26:14 UTC
+# mode: r
++?interp::triangles
+
+# time: 2021-11-01 00:26:52 UTC
+# mode: r
++approx(cdfs)
+
+# time: 2021-11-01 00:27:26 UTC
+# mode: r
++cdfs
+
+# time: 2021-11-01 00:27:46 UTC
+# mode: r
++ages <- c(12, 24, 36, 48, 60, 72, 84, 96)
+
+# time: 2021-11-01 00:27:51 UTC
+# mode: r
++approx(cdfs, ages)
+
+# time: 2021-11-01 00:27:58 UTC
+# mode: r
++approx(ages, cdfs)
+
+# time: 2021-11-01 00:28:13 UTC
+# mode: r
++approx(cdfs, ages)
+
+# time: 2021-11-01 00:28:29 UTC
+# mode: r
++?approx
+
+# time: 2021-11-01 00:29:02 UTC
+# mode: r
++approx(ages, cdfs, xout = 1)
+
+# time: 2021-11-01 00:29:10 UTC
+# mode: r
++ages
+
+# time: 2021-11-01 00:29:51 UTC
+# mode: r
++approx(ages, cdfs, xout = 15)
+
+# time: 2021-11-01 00:30:33 UTC
+# mode: r
++approx(ages, cdfs, xout = c(12:100))
+
+# time: 2021-11-01 00:30:46 UTC
+# mode: r
++approx(ages, cdfs, xout = c(12:100), method = "constant")
+
+# time: 2021-11-01 00:30:53 UTC
+# mode: r
++approx(ages, cdfs, xout = c(12:100), method = "linear")
+
+# time: 2021-11-01 00:31:20 UTC
+# mode: r
++cdfs_interp <- approx(ages, cdfs, xout = c(12:100), method = "linear")
+
+# time: 2021-11-01 00:31:27 UTC
+# mode: r
++cdfs_interp
+
+# time: 2021-11-01 00:31:37 UTC
+# mode: r
++cdfs_interp <- approx(ages, cdfs, xout = c(12:100), method = "linear")[["y"]]
+
+# time: 2021-11-01 00:31:38 UTC
+# mode: r
++cdfs_interp
+
+# time: 2021-11-01 00:31:45 UTC
+# mode: r
++class(cdfs_interp)
+
+# time: 2021-11-01 00:31:52 UTC
+# mode: r
++library(dplyr)
+
+# time: 2021-11-01 00:32:05 UTC
+# mode: r
++library(tidyr)
+
+# time: 2021-11-01 00:32:09 UTC
+# mode: r
++tidyr::repl
+
+# time: 2021-11-01 00:32:22 UTC
+# mode: r
++tidyr::replace_na(cdfs_interp, 1)
+
+# time: 2021-11-01 00:32:30 UTC
+# mode: r
++cdfs_interp <- tidyr::replace_na(cdfs_interp, 1)
+
+# time: 2021-11-01 00:33:17 UTC
+# mode: r
++cdfs_df <- tibble::tibble(age = c(12:100), cdf = cdfs_interp)
+
+# time: 2021-11-01 00:33:20 UTC
+# mode: r
++cdfs_df
+
+# time: 2021-11-01 00:34:18 UTC
+# mode: r
++cdfs_small <- c(1:12) %>% purrr::map(function(x) {
++    (x/12) * 2.5
++})
+
+# time: 2021-11-01 00:34:20 UTC
+# mode: r
++cdfs_small
+
+# time: 2021-11-01 00:34:35 UTC
+# mode: r
++cdfs_small <- c(1:12) %>% purrr::map(function(x) {
++    1 / ((x/12) * 2.5)
++})
+
+# time: 2021-11-01 00:34:36 UTC
+# mode: r
++cdfs_small
+
+# time: 2021-11-01 00:40:03 UTC
+# mode: r
++cdfs
+
+# time: 2021-11-02 00:34:45 UTC
+# mode: r
++devtools::install_github('r-hub/sysreqs')
+
+# time: 2021-11-02 00:35:18 UTC
+# mode: r
++?sysreqs::sysreqs
+
+# time: 2021-11-02 00:36:48 UTC
+# mode: r
++remotes::package_deps("dplyr")
+
+# time: 2021-11-02 00:37:05 UTC
+# mode: r
++get_sysreqs <- function(
++  packages,
++  quiet = TRUE,
++  batch_n = 30
++) {
++  all_deps <- sort(
++    unique(
++      c(
++        packages,
++        unlist(
++          remotes::package_deps(packages)$package
++        )
++      )
++    )
++  )
++
++  sp <- split(
++    all_deps,
++    ceiling(
++      seq_along(all_deps) / batch_n
++    )
++  )
++
++
++  sort(
++    unique(
++      unname(
++        unlist(
++          lapply(
++            sp,
++            function(.x) {
++              get_batch_sysreqs(
++                .x,
++                quiet = quiet
++              )
++            }
++          )
++        )
++      )
++    )
++  )
++}
++
++#' @importFrom fs file_delete  file_temp
++get_batch_sysreqs <- function(
++  all_deps,
++  quiet = TRUE
++) {
++  url <- sprintf(
++    "https://sysreqs.r-hub.io/pkg/%s/linux-x86_64-debian-gcc",
++    paste(all_deps, collapse = ",")
++  )
++  path <- file_temp()
++  utils::download.file(
++    url,
++    path,
++    mode = "wb",
++    quiet = quiet
++  )
++  out <- jsonlite::fromJSON(path)
++  file_delete(path)
++  unique(out[!is.na(out)])
++}
+
+# time: 2021-11-02 00:37:12 UTC
+# mode: r
++get_sysreqs("dplyr")
+
+# time: 2021-11-02 00:37:17 UTC
+# mode: r
++get_sysreqs(c("dplyr"))
+
+# time: 2021-11-02 00:37:58 UTC
+# mode: r
++file_temp <- function() { tempfile("temp") }
+
+# time: 2021-11-02 00:37:59 UTC
+# mode: r
++get_sysreqs(c("dplyr"))
+
+# time: 2021-11-02 00:38:43 UTC
+# mode: r
++file_delete <- function(p) { file.remove(p) } 
+
+# time: 2021-11-02 00:38:46 UTC
+# mode: r
++get_sysreqs(c("dplyr"))
+
+# time: 2021-11-02 00:39:03 UTC
+# mode: r
++get_sysreqs(c("devtools"))
+
+# time: 2021-11-02 00:39:18 UTC
+# mode: r
++sysreqs::sysreq_commands(get_sysreqs(c("devtools")))
+
+# time: 2021-11-02 00:41:25 UTC
+# mode: r
++get_sysreqs(c("sys"))
+
+# time: 2021-11-02 00:46:12 UTC
+# mode: r
++q()
