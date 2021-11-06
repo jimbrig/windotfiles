@@ -1,0 +1,7 @@
+\.git
+.gitignore
+.gitattributes
+README.md
+.stow-local-ignore
+topgrade.toml.bak
+alias.ps1
