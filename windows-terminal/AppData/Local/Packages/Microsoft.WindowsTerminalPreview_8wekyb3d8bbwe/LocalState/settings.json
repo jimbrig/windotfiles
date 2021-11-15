@@ -4,8 +4,12 @@
     "actions": 
     [
         {
-            "command": "unbound",
-            "keys": "ctrl+insert"
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": true
+            },
+            "keys": "ctrl+shift+c"
         },
         {
             "command": 
@@ -16,12 +20,8 @@
             "keys": "ctrl+c"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": true
-            },
-            "keys": "ctrl+shift+c"
+            "command": "unbound",
+            "keys": "ctrl+insert"
         },
         {
             "command": "tabSearch",
@@ -32,12 +32,12 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": "duplicateTab",
             "keys": "ctrl+shift+d"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -113,6 +113,7 @@
             },
             {
                 "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\ubuntu.jpg",
+                "backgroundImageOpacity": 0.59999999999999998,
                 "guid": "{d1569d34-e3dc-506e-b3ef-3ca18387f714}",
                 "hidden": false,
                 "name": "Ubuntu-CommPrev",
