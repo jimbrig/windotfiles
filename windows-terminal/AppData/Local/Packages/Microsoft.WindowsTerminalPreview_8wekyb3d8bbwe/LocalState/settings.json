@@ -150,7 +150,7 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "commandline": "C:\\Users\\jimmy\\AppData\\Roaming\\Python\\Python39\\Scripts\\radian.exe",
+                "commandline": "C:\\Program Files\\Python39\\Scripts\\radian.exe",
                 "guid": "{8cf36040-12fa-4ef0-97a4-03529da57dfa}",
                 "hidden": false,
                 "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Icons\\Programs\\R.ico",
@@ -174,6 +174,16 @@
                 "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Icons\\Programs\\python.ico",
                 "name": "Python 3.9",
                 "tabTitle": "Python"
+            },
+            {
+                "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\PowerShell-Preview-Custom.png",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoProfile",
+                "guid": "{59bcdf6b-1e06-4297-b365-03ba138cd9e0}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell (NoProfile)",
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": "PowerShell (NoProfile)"
             },
             {
                 "commandline": "wttop.exe",
