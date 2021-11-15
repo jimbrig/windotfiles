@@ -53,6 +53,8 @@ All notable changes to this project will be documented in this file.
 - Re-encrypt SSH keys
 - SSH encrypt private keys only
 - Re-encrypt and add SSH private keys
+- Updated Typora
+- GitIgnores
 
 ### Documentation
 
@@ -78,6 +80,10 @@ All notable changes to this project will be documented in this file.
 - Update docs
 - Powertoys updated
 - Qttabbar backup configs
+- CHANGELOG.md
+- Typora misc
+- Update CHANGELOG.md
+- Update Registy directory README.md
 
 ### Features
 
@@ -154,6 +160,19 @@ All notable changes to this project will be documented in this file.
 - Enhance Windows Terminal configs
 - Add soonex clock to rainmeter favorites
 - Adjust topgrade config
+- Initialize new rstudio user preferences
+- Initialize RStudio Desktop settings file
+- Backed up QTTabBar settings
+- Remove/ignore various unnecessary PowerToys settings files
+- Update Obsidian settings file with new Vaults
+- Update Docker Settings
+- Update Everything Search Engine Settings
+- Update GitKraken
+- Update Scoop
+- Tweak Topgrade TOML settings file
+- Update UninstallTool preferences
+- Update Windows Terminal Settings
+- Add registration edits for default file associations
 
 ### Bug
 
