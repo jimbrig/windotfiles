@@ -23,9 +23,12 @@ disable = ["winget", "gcloud", "git_repos"]
 
 # Custom commands
 [commands]
-"Update Gcloud Components" = "gcloud update components" 
-"Update R Packages" = "Rscript -e 'update.packages(ask = FALSE)'"
-
+"Gcloud Components" = "sudo cmd.exe /c 'gcloud components update'" 
+"R Packages" = "& Rscript -e \"update.packages(lib.loc = .libPaths()[[1]], repos = 'https://cloud.r-project.org/', ask = FALSE)\""
+"Choco Package List Backup" = "cmd.exe /c 'cplb'"
+"Choco Cleanup" = "sudo cmd.exe /c 'choco-cleaner'"
+"System Cleanup" = "sudo cmd.exe /c 'cleanmgr'"
+"SFC Scan" = "sudo cmd.exe /c 'sfc /scannow'"
 
 # Run specific steps - same options as the command line flag
 #only = ["system", "emacs"]
