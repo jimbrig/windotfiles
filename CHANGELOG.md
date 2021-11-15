@@ -9,6 +9,21 @@ All notable changes to this project will be documented in this file.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 *Generated with [DocToc](https://github.com/thlorenz/doctoc)*
+## [Unreleased]
+
+### Configuration
+
+- Update docker settings
+
+### Features
+
+- Add new topgrade custom commands: gcloud, r-packages, choco utils, cleanmgr, and sfc /scannow
+- Add new profile to windows terminal for 'PowerShell (NoProfile)'
+
+### Release
+
+- Release v1.0.0 and reflect in Changelog.md
+
 ## [1.0.0] - 2021-11-15
 
 ### Configuration
