@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 *Generated with [DocToc](https://github.com/thlorenz/doctoc)*
-## [Unreleased]
+## [1.0.0] - 2021-11-15
 
 ### Configuration
 
@@ -84,6 +84,7 @@ All notable changes to this project will be documented in this file.
 - Typora misc
 - Update CHANGELOG.md
 - Update Registy directory README.md
+- Update CHANGELOG.md
 
 ### Features
 
