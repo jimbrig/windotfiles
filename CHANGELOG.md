@@ -82,6 +82,8 @@ All notable changes to this project will be documented in this file.
 - Qttabbar backup configs
 - CHANGELOG.md
 - Typora misc
+- Update CHANGELOG.md
+- Update Registy directory README.md
 
 ### Features
 
