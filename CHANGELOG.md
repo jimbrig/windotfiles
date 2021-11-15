@@ -15,10 +15,15 @@ All notable changes to this project will be documented in this file.
 
 - Update docker settings
 
+### Documentation
+
+- Changelog and readme toc's
+
 ### Features
 
 - Add new topgrade custom commands: gcloud, r-packages, choco utils, cleanmgr, and sfc /scannow
 - Add new profile to windows terminal for 'PowerShell (NoProfile)'
+- Add topgrade config example and update README
 
 ### Release
 

@@ -3,11 +3,13 @@
 
 ## Contents
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-*Generated with [DocToc](https://github.com/thlorenz/doctoc)*
+- [Installation](#installation)
+- [Configuration](#configuration)
+	- [Configuration Path](#configuration-path)
+- [From Repo](#from-repo)
+	- [Usage](#usage)
+	- [Customization](#customization)
+	- [Remote Execution](#remote-execution)
 
 ## Installation
 
@@ -27,7 +29,7 @@ page. The compiled binaries contain a self-upgrading feature.
 Topgrade isn't guaranteed to work on Rust versions older than the latest stable release. If you
 intend to install Topgrade using Cargo then you should either install Rust using rustup or use a
 distribution which ships the latest version of Rust, such as Arch Linux.
-  
+
 </p></details>
 
 ## Configuration
@@ -35,7 +37,7 @@ distribution which ships the latest version of Rust, such as Arch Linux.
 See the [topgrade.toml]() configuration file for my personalized config's, or view the code below:
 
 <details><summary>View config file:</summary><p>
-  
+
 ```toml
 # Don't ask for confirmations
 assume_yes = true
@@ -142,7 +144,7 @@ open_remotes_in_new_terminal = true
 #use_sudo = true
 
 ```
-  
+
 </p></details>
 
 ### Configuration path
