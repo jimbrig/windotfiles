@@ -28,12 +28,12 @@
     <UTAutoRunList_Column_1 type="1">65626</UTAutoRunList_Column_1>
     <UTAutoRunList_Column_2 type="1">65643</UTAutoRunList_Column_2>
     <UTAutoRunList_Column_3 type="1">65666</UTAutoRunList_Column_3>
-    <UTMainList_Column_0 type="1">66915</UTMainList_Column_0>
+    <UTMainList_Column_0 type="1">65679</UTMainList_Column_0>
     <UTMainList_Column_1 type="1">65606</UTMainList_Column_1>
     <UTMainList_Column_2 type="1">65646</UTMainList_Column_2>
     <UTMainList_Column_3 type="1">65616</UTMainList_Column_3>
     <Window7_Theme type="1">1</Window7_Theme>
-    <Window_Maximized type="1">1</Window_Maximized>
-    <Window_Rect type="3">CRect(0, 0, 0, 0)</Window_Rect>
+    <Window_Maximized type="1">0</Window_Maximized>
+    <Window_Rect type="3">CRect(58, 206, 558, 906)</Window_Rect>
     <Wizard_Action type="1">1</Wizard_Action>
 </PortableProgramData>
