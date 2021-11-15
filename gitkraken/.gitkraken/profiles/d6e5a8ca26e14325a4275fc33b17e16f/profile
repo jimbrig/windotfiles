@@ -8,10 +8,6 @@
     "selectedTabId": "5b1ac8db-54d0-4e99-9998-20fb126da73d",
     "tabs": [
       {
-        "id": "b7fbefa3-cec3-438d-8e95-153575a8d1e8",
-        "type": "RELEASE_NOTES"
-      },
-      {
         "id": "ca3942ca-072f-499e-83fc-774769d9a317",
         "type": "REPO",
         "repoName": "espanso",
@@ -52,6 +48,24 @@
         "type": "REPO",
         "repoName": ".dotfiles",
         "repoPath": "//wsl.localhost/Ubuntu-CommPrev/home/jimbrig/.dotfiles/"
+      },
+      {
+        "id": "87227507-02fe-4b90-b477-3316a960cfb8",
+        "type": "REPO",
+        "repoName": "Obsidian-Vault-Template",
+        "repoPath": "C:/Users/jimmy/Dev/obsidian/Obsidian-Vault-Template/"
+      },
+      {
+        "id": "f2a2d6eb-bc39-431b-9f70-e1f02faefe97",
+        "type": "REPO",
+        "repoName": "espanso",
+        "repoPath": "C:/Users/jimmy/Dev/espanso/"
+      },
+      {
+        "id": "73a2c14e-b0f7-49e3-a18a-88981412367d",
+        "type": "REPO",
+        "repoName": "KaaS-Personal",
+        "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS-Personal/"
       }
     ]
   },
@@ -116,7 +130,9 @@
   },
   "favoriteRepositories": [
     "C:\\Users\\jimmy\\dev\\jimbrig\\jimsdots",
-    "C:\\Users\\jimmy\\Dev\\obsidian\\KaaS"
+    "C:\\Users\\jimmy\\Dev\\obsidian\\KaaS",
+    "C:\\Users\\jimmy\\Dev\\obsidian\\.obsidian",
+    "C:\\Users\\jimmy\\Dev\\obsidian\\KaaS-Personal"
   ],
   "ssh": {
     "privateKey": "C:\\Users\\jimmy\\.ssh\\gitkraken_rsa",
@@ -187,9 +203,42 @@
             "text": "assignee:jimbrig state:open",
             "name": "My Open Issues"
           }
+        ],
+        "jimbrig/obsidian-vault-template": [
+          {
+            "id": "1c0dcbdd-c785-4b9b-b12a-8f876cd24dcf",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "7a6b1cac-da86-4b12-9399-39b21c526614",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/kaas-personal": [
+          {
+            "id": "c283498d-21ca-492e-8eab-0c994b121bcb",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "125a0553-b969-4333-9f66-a6cb9805216c",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
         ]
       }
     }
   },
-  "defaultIssueTrackerType": "github"
+  "defaultIssueTrackerType": "github",
+  "hostingServiceFrecencyMetadata": {
+    "github": {
+      "id": "github",
+      "timestamps": [
+        1636310687563
+      ],
+      "total": 1
+    }
+  }
 }
