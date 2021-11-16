@@ -14,18 +14,6 @@
         "repoPath": "C:/Users/jimmy/Dev/jimbrig/espanso/"
       },
       {
-        "id": "950fb7c5-5de0-4a40-b9e9-3452ab32a1e0",
-        "type": "REPO",
-        "repoName": "KaaS - Copy",
-        "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS - Copy/"
-      },
-      {
-        "id": "d0e0dc28-47fb-485a-abcb-b20a893b058f",
-        "type": "REPO",
-        "repoName": "KaaS-ReDo",
-        "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS-ReDo/"
-      },
-      {
         "id": "73882047-9fcf-4b6c-90fc-ea2dddb44609",
         "type": "REPO",
         "repoName": "dotfiles",
@@ -42,12 +30,6 @@
         "type": "REPO",
         "repoName": "PowerShell",
         "repoPath": "C:/Users/jimmy/OneDrive/Documents/PowerShell/"
-      },
-      {
-        "id": "c35f282b-6578-45f6-b9e4-7cce6f2047ef",
-        "type": "REPO",
-        "repoName": ".dotfiles",
-        "repoPath": "//wsl.localhost/Ubuntu-CommPrev/home/jimbrig/.dotfiles/"
       },
       {
         "id": "87227507-02fe-4b90-b477-3316a960cfb8",
@@ -131,8 +113,7 @@
   "favoriteRepositories": [
     "C:\\Users\\jimmy\\dev\\jimbrig\\jimsdots",
     "C:\\Users\\jimmy\\Dev\\obsidian\\KaaS",
-    "C:\\Users\\jimmy\\Dev\\obsidian\\.obsidian",
-    "C:\\Users\\jimmy\\Dev\\obsidian\\KaaS-Personal"
+    "C:\\Users\\jimmy\\Dev\\obsidian\\.obsidian"
   ],
   "ssh": {
     "privateKey": "C:\\Users\\jimmy\\.ssh\\gitkraken_rsa",
