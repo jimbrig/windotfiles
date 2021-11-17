@@ -1,3 +1,19 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Topgrade](#topgrade)
+  - [Contents](#contents)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+    - [Configuration path](#configuration-path)
+  - [From Repo](#from-repo)
+    - [Usage](#usage)
+    - [Customization](#customization)
+    - [Remote execution](#remote-execution)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Topgrade
 > Topgrade is an awesome CLI library build with [Rust]() and available from [r-darwish/toprade](https://github.com/r-darwish/topgrade).
 
