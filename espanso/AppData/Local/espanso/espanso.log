@@ -1,0 +1,16 @@
+20:59:26 [ INFO] espanso version 0.7.3
+20:59:26 [ INFO] using config path: C:\Users\jimmy\AppData\Roaming\espanso
+20:59:26 [ INFO] using package path: C:\Users\jimmy\AppData\Local\espanso\packages
+20:59:26 [ INFO] spawning worker process...
+20:59:26 [ INFO] Binding to named pipe: \\.\pipe\espansodaemon
+20:59:26 [ INFO] initializing worker process...
+20:59:26 [ INFO] Initializing Espanso resources in C:\Users\jimmy\AppData\Local\espanso
+20:59:26 [ INFO] Extracted bmp icon to: C:\Users\jimmy\AppData\Local\espanso\espansoicon.bmp
+20:59:26 [ INFO] Extracted 'ico' icon to: C:\Users\jimmy\AppData\Local\espanso\espanso.ico
+20:59:26 [ INFO] Extracted 'red ico' icon to: C:\Users\jimmy\AppData\Local\espanso\espansored.ico
+20:59:26 [ INFO] Binding to named pipe: \\.\pipe\espansoworker
+20:59:26 [ INFO] watching for changes in path: C:\Users\jimmy\AppData\Roaming\espanso
+20:59:26 [ INFO] Using modulo at "C:\\Users\\jimmy\\AppData\\Local\\Programs\\espanso\\modulo"
+20:59:26 [ INFO] worker is running!
+21:01:00 [ INFO] terminating worker process
+21:01:00 [ INFO] terminating espanso.
