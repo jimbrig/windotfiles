@@ -7,6 +7,17 @@ All notable changes to this project will be documented in this file.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [[Unreleased]](#unreleased)
+  - [Configuration](#configuration)
+  - [Documentation](#documentation)
+  - [Features](#features)
+  - [Release](#release)
+- [[1.0.0] - 2021-11-15](#100---2021-11-15)
+  - [Configuration](#configuration-1)
+  - [Documentation](#documentation-1)
+  - [Features](#features-1)
+  - [Bug](#bug)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 *Generated with [DocToc](https://github.com/thlorenz/doctoc)*
 ## [Unreleased]
@@ -14,16 +25,29 @@ All notable changes to this project will be documented in this file.
 ### Configuration
 
 - Update docker settings
+- Obsidian and gitkraken updates
+- QTTabbar
+- Update sccop configs
+- Update uninstalltool configs
+- Backup qttabbar configs
 
 ### Documentation
 
 - Changelog and readme toc's
+- Changelog and README for topgrade
+- Add full machine specifications
 
 ### Features
 
 - Add new topgrade custom commands: gcloud, r-packages, choco utils, cleanmgr, and sfc /scannow
 - Add new profile to windows terminal for 'PowerShell (NoProfile)'
 - Add topgrade config example and update README
+- Fix issues with RStudio configs and update with latest stowed configs
+- Enhance topgrade custom commands and cleanmgr deepclean
+- Enhance windows terminal settings.json with latest tweaks
+- Add R configurations and scripts
+- Add keep configs
+- Add new registry miscellaneous tweaks
 
 ### Release
 
