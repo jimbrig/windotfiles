@@ -1,0 +1,8 @@
+help/library/dplyr/html/lead-lag.html,R: Compute lagged or leading values
+help/library/tibble/html/as_tibble.html,"R: Coerce lists, matrices, and more to data frames"
+help/library/pak/html/pak.html,R: Install the required packages
+help/library/usethis/html/github-token.html,R: Get help with GitHub personal access tokens
+help/doc/html/all.available.html,R: help
+help/library/memoise/html/memoise.html,R: Memoise a function
+help/library/fs/html/file_access.html,R: Query for existence and access permissions
+help/library/qs/html/qread.html,R: qread
