@@ -5,7 +5,7 @@
         "selectedProject": null
       }
     },
-    "selectedTabId": "5b1ac8db-54d0-4e99-9998-20fb126da73d",
+    "selectedTabId": "42db24d6-bffd-45d1-b648-b355ee4606c8",
     "tabs": [
       {
         "id": "ca3942ca-072f-499e-83fc-774769d9a317",
@@ -48,6 +48,18 @@
         "type": "REPO",
         "repoName": "KaaS-Personal",
         "repoPath": "C:/Users/jimmy/Dev/obsidian/KaaS-Personal/"
+      },
+      {
+        "id": "42db24d6-bffd-45d1-b648-b355ee4606c8",
+        "type": "REPO",
+        "repoName": "lossdevt",
+        "repoPath": "C:/Users/jimmy/Dev/jimbrig/lossdevt/"
+      },
+      {
+        "id": "60fda819-964e-41f4-88b6-99730a67b09e",
+        "type": "REPO",
+        "repoName": "loss_development_app",
+        "repoPath": "C:/Users/jimmy/Dev/jimbrig/loss_development_app/"
       }
     ]
   },
@@ -113,7 +125,14 @@
   "favoriteRepositories": [
     "C:\\Users\\jimmy\\dev\\jimbrig\\jimsdots",
     "C:\\Users\\jimmy\\Dev\\obsidian\\KaaS",
-    "C:\\Users\\jimmy\\Dev\\obsidian\\.obsidian"
+    "C:\\Users\\jimmy\\Dev\\obsidian\\.obsidian",
+    "C:\\Users\\jimmy\\Dev\\jimbrig\\buildtools",
+    "C:\\Users\\jimmy\\Dev\\jimbrig\\dotfiles",
+    "C:\\Users\\jimmy\\Dev\\jimbrig\\dotfiles-wsl",
+    "C:\\Users\\jimmy\\Dev\\jimbrig\\espanso",
+    "C:\\Users\\jimmy\\Dev\\jimbrig\\jimsdots",
+    "C:\\Users\\jimmy\\Dev\\jimbrig\\jimstools",
+    "C:\\Users\\jimmy\\Dev\\jimbrig\\lossdevt"
   ],
   "ssh": {
     "privateKey": "C:\\Users\\jimmy\\.ssh\\gitkraken_rsa",
@@ -208,6 +227,30 @@
             "text": "assignee:jimbrig state:open",
             "name": "My Open Issues"
           }
+        ],
+        "jimbrig/lossdevt": [
+          {
+            "id": "ea9ae8c6-ec66-42c0-a00e-d54600e3b057",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "ee98978f-98db-4591-b485-3b876673f562",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
+        ],
+        "jimbrig/loss_development_app": [
+          {
+            "id": "831ff6f5-f756-4be5-a71b-b498d45603df",
+            "text": "state:open",
+            "name": "All Open Issues"
+          },
+          {
+            "id": "21d8f7b8-725e-41ae-befc-5c96859a79fc",
+            "text": "assignee:jimbrig state:open",
+            "name": "My Open Issues"
+          }
         ]
       }
     }
@@ -217,7 +260,20 @@
     "github": {
       "id": "github",
       "timestamps": [
-        1636310687563
+        1636310687563,
+        1637032362531
+      ],
+      "total": 2
+    }
+  },
+  "repoInit": {
+    "lastRepoInitPath": "C:\\Users\\jimmy\\Dev\\jimbrig"
+  },
+  "projectGroupsFrecencyMetadata": {
+    "C:/Users/jimmy/Dev/jimbrig": {
+      "id": "project-group-C:\\Users\\jimmy\\Dev\\jimbrig",
+      "timestamps": [
+        1637032362487
       ],
       "total": 1
     }
