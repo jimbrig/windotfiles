@@ -114,6 +114,12 @@ _git-changelog() {
         '(-l --list)'{-l,--list}'[list commits]' \
 }
 
+_git-clear() {
+    _arguments \
+        '(-f --force)'{-f,--force}'[force clear]' \
+        '(-h --help)'{-h,--help}'[help message]' \
+}
+
 _git-coauthor() {
     _arguments \
         ':co-author[co-author to add]' \
@@ -154,6 +160,11 @@ _git-create-branch() {
 }
 
 _git-delete-branch() {
+    _arguments \
+        ':branch-name:__gitex_branch_names'
+}
+
+_git-delete-squashed-branches() {
     _arguments \
         ':branch-name:__gitex_branch_names'
 }
@@ -317,6 +328,7 @@ _git-standup() {
 _git-summary() {
     _arguments '--line[summarize with lines rather than commits]'
     _arguments '--dedup-by-email[remove duplicate users by the email address]'
+    _arguments '--no-merges[exclude merge commits]'
     __gitex_commits
 }
 
@@ -330,6 +342,7 @@ zstyle -g existing_user_commands ':completion:*:*:git:*' user-commands
 
 zstyle ':completion:*:*:git:*' user-commands $existing_user_commands \
     alias:'define, search and show aliases' \
+    abort:'abort current merge, rebase, or cherry-pick process' \
     archive-file:'export the current head of the git repository to an archive' \
     authors:'generate authors report' \
     browse:'open repo website in browser' \
@@ -347,6 +360,7 @@ zstyle ':completion:*:*:git:*' user-commands $existing_user_commands \
     create-branch:'create branches' \
     delete-branch:'delete branches' \
     delete-merged-branches:'delete merged branches' \
+    delete-squashed-branches:'delete squashed branches' \
     delete-submodule:'delete submodules' \
     delete-tag:'delete tags' \
     delta:'lists changed files' \
@@ -365,6 +379,7 @@ zstyle ':completion:*:*:git:*' user-commands $existing_user_commands \
     local-commits:'list local commits' \
     lock:'lock a file excluded from version control' \
     locked:'ls files that have been locked' \
+    magic:'commits everything with a generated message' \
     merge-into:'merge one branch into another' \
     merge-repo:'merge two repo histories' \
     missing:'show commits missing from another branch' \
