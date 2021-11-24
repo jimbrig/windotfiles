@@ -233,6 +233,15 @@
         "binding": "packagefinderAddIn",
         "ordinal": 26
     },
+    "pkgdown::build_site_external": {
+        "name": "Build pkgdown",
+        "package": "pkgdown",
+        "title": "",
+        "description": "Runs pkgdown on the current package",
+        "interactive": true,
+        "binding": "build_site_external",
+        "ordinal": 27
+    },
     "renv::renv_addins_embed": {
         "name": "Embed a Lockfile",
         "package": "renv",
@@ -240,7 +249,7 @@
         "description": "Embeds a lockfile in the document, via renv::use().",
         "interactive": false,
         "binding": "renv_addins_embed",
-        "ordinal": 27
+        "ordinal": 28
     },
     "styler::set_style_transformers": {
         "name": "Set style",
@@ -249,7 +258,7 @@
         "description": "Prompt for and set the style transformers used by all styler addins",
         "interactive": true,
         "binding": "set_style_transformers",
-        "ordinal": 28
+        "ordinal": 29
     },
     "styler::style_active_file": {
         "name": "Style active file",
@@ -258,7 +267,7 @@
         "description": "Pretty-print active file",
         "interactive": true,
         "binding": "style_active_file",
-        "ordinal": 30
+        "ordinal": 31
     },
     "styler::style_active_pkg": {
         "name": "Style active package",
@@ -267,7 +276,7 @@
         "description": "Pretty-print active package",
         "interactive": true,
         "binding": "style_active_pkg",
-        "ordinal": 31
+        "ordinal": 32
     },
     "styler::style_selection": {
         "name": "Style selection",
@@ -276,6 +285,6 @@
         "description": "Pretty-print selection",
         "interactive": true,
         "binding": "style_selection",
-        "ordinal": 29
+        "ordinal": 30
     }
 }
