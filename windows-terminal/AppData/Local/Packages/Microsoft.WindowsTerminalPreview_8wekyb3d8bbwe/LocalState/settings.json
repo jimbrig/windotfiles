@@ -4,6 +4,14 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": true
+            },
+            "keys": "ctrl+shift+c"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+insert"
         },
@@ -16,28 +24,20 @@
             "keys": "ctrl+c"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": true
-            },
-            "keys": "ctrl+shift+c"
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": "tabSearch",
             "keys": "ctrl+t"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": "duplicateTab",
+            "keys": "ctrl+shift+d"
         },
         {
             "command": "paste",
             "keys": "ctrl+v"
-        },
-        {
-            "command": "duplicateTab",
-            "keys": "ctrl+shift+d"
         },
         {
             "command": 
@@ -79,7 +79,7 @@
         "defaults": 
         {
             "backgroundImage": "desktopWallpaper",
-            "backgroundImageOpacity": 0.23999999999999999,
+            "backgroundImageOpacity": 0.089999999999999997,
             "colorScheme": "Tango Dark",
             "font": 
             {
@@ -92,6 +92,7 @@
         [
             {
                 "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\PowerShell-Preview-Custom.png",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
@@ -137,6 +138,12 @@
                 "startingDirectory": "\\\\wsl.localhost\\Ubuntu\\home\\jimmy"
             },
             {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
                 "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\git-bash.jpg",
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
@@ -174,6 +181,19 @@
                 "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Icons\\Programs\\python.ico",
                 "name": "Python 3.9",
                 "tabTitle": "Python"
+            },
+            {
+                "commandline": "C:/Users/jimmy/AppData/Local/MEGAcmd/MEGAcmdShell.exe",
+                "guid": "{688ddb5a-9526-4c02-8cc6-3c1446f9248a}",
+                "hidden": false,
+                "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Icons\\Programs\\megacloud-icon.png",
+                "name": "MEGA"
+            },
+            {
+                "guid": "{2595cd9c-8f05-55ff-a1d4-93f3041ca67f}",
+                "hidden": false,
+                "name": "PowerShell Preview (msix)",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\PowerShell-Preview-Custom.png",
