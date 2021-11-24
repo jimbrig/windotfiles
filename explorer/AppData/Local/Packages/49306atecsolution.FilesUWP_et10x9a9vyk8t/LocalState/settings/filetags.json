@@ -1,0 +1,79 @@
+{
+  "FileTagList": [
+    {
+      "Color": {
+        "Color": {
+          "A": 255,
+          "R": 0,
+          "G": 114,
+          "B": 189
+        },
+        "Opacity": 1.0,
+        "Dispatcher": {
+          "HasThreadAccess": true,
+          "CurrentPriority": 0
+        }
+      }
+    },
+    {
+      "Color": {
+        "Color": {
+          "A": 255,
+          "R": 217,
+          "G": 83,
+          "B": 25
+        },
+        "Opacity": 1.0,
+        "Dispatcher": {
+          "HasThreadAccess": true,
+          "CurrentPriority": 0
+        }
+      }
+    },
+    {
+      "Color": {
+        "Color": {
+          "A": 255,
+          "R": 237,
+          "G": 177,
+          "B": 32
+        },
+        "Opacity": 1.0,
+        "Dispatcher": {
+          "HasThreadAccess": true,
+          "CurrentPriority": 0
+        }
+      }
+    },
+    {
+      "Color": {
+        "Color": {
+          "A": 255,
+          "R": 119,
+          "G": 172,
+          "B": 48
+        },
+        "Opacity": 1.0,
+        "Dispatcher": {
+          "HasThreadAccess": true,
+          "CurrentPriority": 0
+        }
+      }
+    },
+    {
+      "Color": {
+        "Color": {
+          "A": 255,
+          "R": 77,
+          "G": 190,
+          "B": 238
+        },
+        "Opacity": 1.0,
+        "Dispatcher": {
+          "HasThreadAccess": true,
+          "CurrentPriority": 0
+        }
+      }
+    }
+  ]
+}
