@@ -30,12 +30,18 @@ All notable changes to this project will be documented in this file.
 - Update sccop configs
 - Update uninstalltool configs
 - Backup qttabbar configs
+- Encryption of rstudio configs
+- Update Docker configs
+- Update gitignores
+- Update obsidian.json
+- Backup QTTabBar
 
 ### Documentation
 
 - Changelog and readme toc's
 - Changelog and README for topgrade
 - Add full machine specifications
+- Update CHANGELOG.md and run doctoc
 
 ### Features
 
@@ -48,6 +54,14 @@ All notable changes to this project will be documented in this file.
 - Add R configurations and scripts
 - Add keep configs
 - Add new registry miscellaneous tweaks
+- Re-configure espanso for use with GNU stow
+- Add new experimental devdash configs
+- Update and add new espanso triggers/matches
+- Add UWP explorer configs
+- Add gcalcli configs
+- Add git-extras and git configs
+- Update RStudio configs
+- Update wt settings.json
 
 ### Release
 
