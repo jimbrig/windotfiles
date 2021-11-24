@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "DefaultTerminalName": "Windows Terminal",
+  "terminals": [
+    {
+      "name": "CMD",
+      "path": "cmd.exe",
+      "arguments": "",
+      "icon": ""
+    },
+    {
+      "name": "PowerShell",
+      "path": "powershell.exe",
+      "arguments": "-noexit -command \"cd '{0}'\"",
+      "icon": ""
+    },
+    {
+      "name": "Windows Terminal",
+      "path": "wt.exe",
+      "arguments": "-d .",
+      "icon": ""
+    }
+  ]
+}

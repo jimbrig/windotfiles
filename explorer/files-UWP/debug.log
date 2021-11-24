@@ -1,0 +1,74 @@
+
+2021-11-21 19:12:16.3546|INFO|OnLaunched|App launched. Prelaunch: False
+2021-11-21 19:12:17.3316|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2021-11-21 19:12:18.2866|INFO|EnumerateDrivesAsync|Adding cloud provider "MEGA (MEGA)" mapped to C:\Users\jimmy\OneDrive\MEGA
+2021-11-21 19:12:18.3966|INFO|EnumerateDrivesAsync|Adding cloud provider "OneDrive" mapped to C:\Users\jimmy\OneDrive
+2021-11-21 19:14:16.5438|INFO|DeviceAdded|Drive added: D:\, Removable
+2021-11-21 19:16:05.8658|INFO|IsRunningOnArm|Running on ARM: False
+2021-11-21 20:17:38.4605|INFO|OnLaunched|App launched. Prelaunch: False
+2021-11-21 20:17:39.0205|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2021-11-21 20:17:39.0617|INFO|GetDrivesAsync|Drive added: D:\, Removable
+2021-11-21 20:17:39.6999|INFO|EnumerateDrivesAsync|Adding cloud provider "MEGA (MEGA)" mapped to C:\Users\jimmy\OneDrive\MEGA
+2021-11-21 20:17:39.8724|INFO|EnumerateDrivesAsync|Adding cloud provider "OneDrive" mapped to C:\Users\jimmy\OneDrive
+2021-11-21 20:17:51.1904|INFO|IsRunningOnArm|Running on ARM: False
+2021-11-21 20:18:03.0216|INFO|HandleWin32DriveEvent|Drive added from fulltrust process: E:\, CDRom
+2021-11-22 01:27:02.6126|INFO|OnFileActivated|App activated by file
+2021-11-22 01:27:02.9896|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2021-11-22 01:27:03.0276|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2021-11-22 01:27:03.0996|INFO|GetDrivesAsync|Drive added: E:\, Fixed
+2021-11-22 01:27:03.1596|INFO|GetDrivesAsync|Drive added: F:\, Fixed
+2021-11-22 01:27:03.2046|INFO|GetDrivesAsync|Drive added: G:\, Fixed
+2021-11-22 01:27:03.8696|INFO|EnumerateDrivesAsync|Adding cloud provider "MEGA (MEGA)" mapped to C:\Users\jimmy\OneDrive\MEGA
+2021-11-22 01:27:03.9346|INFO|EnumerateDrivesAsync|Adding cloud provider "OneDrive" mapped to C:\Users\jimmy\OneDrive
+2021-11-22 01:27:10.1824|INFO|OnFileActivated|App activated by file
+2021-11-22 01:33:13.4489|INFO|OnLaunched|App launched. Prelaunch: False
+2021-11-22 01:33:14.2018|INFO|GetDrivesAsync|Drive added: C:\, Fixed
+2021-11-22 01:33:14.2960|INFO|GetDrivesAsync|Drive added: D:\, Fixed
+2021-11-22 01:33:14.3901|INFO|GetDrivesAsync|Drive added: E:\, Fixed
+2021-11-22 01:33:14.4530|INFO|GetDrivesAsync|Drive added: F:\, Fixed
+2021-11-22 01:33:14.5472|INFO|GetDrivesAsync|Drive added: G:\, Fixed
+2021-11-22 01:33:29.0024|WARN|BuildConnection|Could not initialize FTP connection!
+	System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task) + 0xad
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task) + 0x38
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task) + 0x17
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult() + 0xb
+   at Files.Helpers.NamedPipeAsAppServiceConnection.<Connect>d__11.MoveNext() + 0x16a
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task) + 0x89
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task) + 0x38
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task) + 0x17
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult() + 0xf
+   at Files.Helpers.AppServiceConnectionHelper.<BuildConnection>d__8.MoveNext() + 0x11b
+
+2021-11-22 01:33:34.8443|INFO|IsRunningOnArm|Running on ARM: False
+2021-11-22 01:33:44.0983|WARN|BuildConnection|Could not initialize FTP connection!
+	System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task) + 0xad
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task) + 0x38
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task) + 0x17
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult() + 0xb
+   at Files.Helpers.NamedPipeAsAppServiceConnection.<Connect>d__11.MoveNext() + 0x16a
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task) + 0x89
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task) + 0x38
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task) + 0x17
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult() + 0xf
+   at Files.Helpers.AppServiceConnectionHelper.<BuildConnection>d__8.MoveNext() + 0x11b
+
+2021-11-22 01:34:10.3031|WARN|BuildConnection|Could not initialize FTP connection!
+	System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task) + 0xad
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task) + 0x38
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task) + 0x17
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult() + 0xb
+   at Files.Helpers.NamedPipeAsAppServiceConnection.<Connect>d__11.MoveNext() + 0x16a
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x21
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task) + 0x89
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task) + 0x38
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task) + 0x17
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult() + 0xf
+   at Files.Helpers.AppServiceConnectionHelper.<BuildConnection>d__8.MoveNext() + 0x11b
