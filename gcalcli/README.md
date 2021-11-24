@@ -1,3 +1,37 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Google Calendar Command Line Interface - `gcalcli`](#google-calendar-command-line-interface---gcalcli)
+  - [Setup](#setup)
+    - [Add to PowerShell $PROFILE](#add-to-powershell-profile)
+  - [Repository](#repository)
+  - [About](#about)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+    - [Windows](#windows)
+    - [Debian/Ubuntu](#debianubuntu)
+    - [Install using Nix](#install-using-nix)
+    - [Install using Homebrew (MacOS)](#install-using-homebrew-macos)
+    - [Install from PyPI](#install-from-pypi)
+    - [Install from source](#install-from-source)
+    - [Install optional package](#install-optional-package)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+  - [HowTo](#howto)
+      - [Usage](#usage)
+      - [Login Information](#login-information)
+      - [HTTP Proxy Support](#http-proxy-support)
+      - [Flag File](#flag-file)
+      - [Configuration Folders](#configuration-folders)
+      - [Importing VCS/VCAL/ICS Files from Exchange (or other)](#importing-vcsvcalics-files-from-exchange-or-other)
+      - [Event Popup Reminders](#event-popup-reminders)
+      - [Agenda On Your Root Desktop](#agenda-on-your-root-desktop)
+      - [Agenda Integration With tmux](#agenda-integration-with-tmux)
+      - [Agenda Integration With screen](#agenda-integration-with-screen)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Google Calendar Command Line Interface - `gcalcli`
 
 ## Setup
