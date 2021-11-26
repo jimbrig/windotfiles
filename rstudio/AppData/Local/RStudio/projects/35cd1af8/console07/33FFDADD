@@ -1,0 +1,593 @@
+[0m[0KPowerShell 7.2.0[0K[?25l
+Copyright (c) Microsoft Corporation.[0K
+[0K
+https://aka.ms/powershell[0K
+Type 'help' to get help.[0K
+[0K
+[0K[?25h[?25l
+[0;32;92m[ZLocation] knows about 150 locations.[0m[0K
+[0K
+[0K[?25hLoading personal and system profiles took 4136ms.[0K[?25l
+[0K[?25h[0;36m ~\Dev\jimbrig\Rdotfiles [0;33;93m:: [0;34;94mgit([0;33;93mmain[0;34;94m)[0m                                                                                                [0;32;92m 17:19:00 [0m[0K[?25l
+[0;32;92m➜ [0m[0K[?25h[0;33;93mgi[0m[0K[?25l
+[0;33m>[0m [0;36;96mgi[0mt status                                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt-crypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt push                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt merge --ff-only main                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt checkout develop                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt pull                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt checkout main                                                                        [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt-cliff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt commit -m "feat: add git-extras and git configs"                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt add git/**                                                                           [[0;33mHistory[0m][0K[10A[5G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m[0K
+[0;33m>[0m [0;36;96mgit-cliff[0m -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m touch install [0;36;96mgit-cliff[0m.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m cd [0;36;96mgit-cliff[0m                                                                             [[0;33mHistory[0m][0K
+[0;33m>[0m mkdir [0;36;96mgit-cliff[0m                                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m s -p github [0;36;96mgit-cliff[0m                                                                    [[0;33mHistory[0m][0K
+[0;33m>[0m pip search [0;36;96mgit-cliff[0m                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m npm search [0;36;96mgit-cliff[0m                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m scoop search [0;36;96mgit-cliff[0m                                                                   [[0;33mHistory[0m][0K
+[0K
+[0K[10A[12G[?25h[?25l
+[0;33m>[0m [0;36;96mgit-cliff [0m-o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[13G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m -[0K
+[0;33m>[0m [0;36;96mgit-cliff -[0mo CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[14G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m--[0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[15G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m--h[0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[16G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m--he[0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[17G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m--hel[0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[18G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m--help[0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[19G[?25h[?25l
+[?25hgit-cliff 0.4.2[0K[?25l
+git-cliff contributors <git-cliff@protonmail.com>[0K
+A highly customizable changelog generator ⛰️[0K
+[0K
+USAGE:[0K
+    git-cliff.exe [FLAGS] [OPTIONS] [RANGE][0K
+[0K
+FLAGS:[0K
+    -v, --verbose       Increases the logging verbosity[0K
+    -i, --init          Writes the default configuration file to cliff.toml[0K
+    -l, --latest        Processes the commits starting from the latest tag[0K
+    -u, --unreleased    Processes the commits that do not belong to a tag[0K
+    -h, --help          Prints help information[0K
+    -V, --version       Prints version information[0K
+[0K
+OPTIONS:[0K
+    -c, --config <PATH>         Sets the configuration file [env: CONFIG=]  [default: cliff.toml][0K
+    -w, --workdir <PATH>        Sets the working directory [env: WORKDIR=][0K
+    -r, --repository <PATH>     Sets the git repository [env: REPOSITORY=][0K
+        --commit-path <PATH>    Sets the directory to parse commits from [env: COMMIT_PATH=][0K
+    -p, --prepend <PATH>        Prepends entries to the given changelog file [env: PREPEND=][0K
+    -o, --output <PATH>         Writes output to the given file [env: OUTPUT=][0K
+    -t, --tag <TAG>             Sets the tag for the latest version [env: TAG=][0K
+    -b, --body <TEMPLATE>       Sets the template for the changelog body [env: TEMPLATE=][0K
+    -s, --strip <PART>          Strips the given parts from the changelog [possible values: header, footer, all][0K
+        --sort <sort>           Sets sorting of the commits inside sections [default: oldest]  [possible values: oldest, newest][0K
+[0K
+ARGS:[0K
+    <RANGE>    Sets the commit range to process[0K
+[0K[?25h[0;36m ~\Dev\jimbrig\Rdotfiles [0;33;93m:: [0;34;94mgit([0;33;93mmain[0;34;94m)[0m                                                                                                [0;32;92m 17:19:05 [0m[0K[?25l
+[0;32;92m➜ [0m[0K[?25h[0;33;93mgit-cliff[0m [0;37;90m--help[0m[0K[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m--hel[0m[0K
+[0;33m>[0m [0;36;96mgit-cliff --hel[0mp                                                                         [[0;33mHistory[0m][0K[1A[18G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m--he[0m[0K
+[0;33m>[0m [0;36;96mgit-cliff --he[0mlp                                                                         [[0;33mHistory[0m][0K[1A[17G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m--h[0m[0K
+[0;33m>[0m [0;36;96mgit-cliff --h[0melp                                                                         [[0;33mHistory[0m][0K[1A[16G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m--[0m[0K
+[0;33m>[0m [0;36;96mgit-cliff --[0mhelp                                                                         [[0;33mHistory[0m][0K[1A[15G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m -[0K
+[0;33m>[0m [0;36;96mgit-cliff -[0m-help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cliff -[0mo CHANGELOG.md                                                                [[0;33mHistory[0m][0K[2A[14G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m-i[0m[0K
+[0K
+[0K[2A[15G[?25h[16G[15G[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m -[0K
+[0;33m>[0m [0;36;96mgit-cliff -[0m-help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cliff -[0mo CHANGELOG.md                                                                [[0;33mHistory[0m][0K[2A[14G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m[0K
+[0;33m>[0m [0;36;96mgit-cliff [0m--help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cliff [0m-o CHANGELOG.md                                                                [[0;33mHistory[0m][0K[2A[13G[?25h[?25l
+[0;33m>[0m [0;36;96mgit-cliff[0m --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cliff[0m -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m touch install [0;36;96mgit-cliff[0m.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m cd [0;36;96mgit-cliff[0m                                                                             [[0;33mHistory[0m][0K
+[0;33m>[0m mkdir [0;36;96mgit-cliff[0m                                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m s -p github [0;36;96mgit-cliff[0m                                                                    [[0;33mHistory[0m][0K
+[0;33m>[0m pip search [0;36;96mgit-cliff[0m                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m npm search [0;36;96mgit-cliff[0m                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m scoop search [0;36;96mgit-cliff[0m                                                                   [[0;33mHistory[0m][0K[9A[12G[?25h[?25l[0;32;92m➜ [0;33;93mgit-clif[0m[0K
+[0;33m>[0m [0;36;96mgit-clif[0mf --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-clif[0mf -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m touch install [0;36;96mgit-clif[0mf.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m cd [0;36;96mgit-clif[0mf                                                                             [[0;33mHistory[0m][0K
+[0;33m>[0m mkdir [0;36;96mgit-clif[0mf                                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m s -p github [0;36;96mgit-clif[0mf                                                                    [[0;33mHistory[0m][0K
+[0;33m>[0m pip search [0;36;96mgit-clif[0mf                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m npm search [0;36;96mgit-clif[0mf                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m scoop search [0;36;96mgit-clif[0mf                                                                   [[0;33mHistory[0m][0K[9A[11G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cli[0m[0K
+[0;33m>[0m [0;36;96mgit-cli[0mff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cli[0mff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m touch install [0;36;96mgit-cli[0mff.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m cd [0;36;96mgit-cli[0mff                                                                             [[0;33mHistory[0m][0K
+[0;33m>[0m mkdir [0;36;96mgit-cli[0mff                                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m s -p github [0;36;96mgit-cli[0mff                                                                    [[0;33mHistory[0m][0K
+[0;33m>[0m pip search [0;36;96mgit-cli[0mff                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m npm search [0;36;96mgit-cli[0mff                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m scoop search [0;36;96mgit-cli[0mff                                                                   [[0;33mHistory[0m][0K[9A[10G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cl[0m[0K
+[0;33m>[0m [0;36;96mgit-cl[0miff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cl[0miff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m touch install [0;36;96mgit-cl[0miff.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m cd [0;36;96mgit-cl[0miff                                                                             [[0;33mHistory[0m][0K
+[0;33m>[0m mkdir [0;36;96mgit-cl[0miff                                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m s -p github [0;36;96mgit-cl[0miff                                                                    [[0;33mHistory[0m][0K
+[0;33m>[0m pip search [0;36;96mgit-cl[0miff                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m npm search [0;36;96mgit-cl[0miff                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m scoop search [0;36;96mgit-cl[0miff                                                                   [[0;33mHistory[0m][0K[9A[9G[?25h[?25l[0;32;92m➜ [0;33;93mgit-c[0m[0K
+[0;33m>[0m [0;36;96mgit-c[0mliff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mliff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt status -f                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt lock                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt unlock                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt add-gpg-user 7B6A462F595FA24EC24B40E663FCA87061A4E0D6                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt add-gpg-user B8BA217A94B30E9D25FE01F601163DF4AE4BA708                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt add-gpg-user FF361E144EE31125E028D670786742B2314D2B34                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt init                                                                           [[0;33mHistory[0m][0K[10A[8G[?25h[?25l[0;32;92m➜ [0;33;93mgit-[0m[0K
+[0;33m>[0m [0;36;96mgit-[0mcliff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcliff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt status -f                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt lock                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt unlock                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt add-gpg-user 7B6A462F595FA24EC24B40E663FCA87061A4E0D6                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt add-gpg-user B8BA217A94B30E9D25FE01F601163DF4AE4BA708                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt add-gpg-user FF361E144EE31125E028D670786742B2314D2B34                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt init                                                                           [[0;33mHistory[0m][0K[10A[7G[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m[0K
+[0;33m>[0m [0;36;96mgit[0m-cliff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m status                                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m-crypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m push                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m merge --ff-only main                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m checkout develop                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m pull                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m checkout main                                                                        [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m-cliff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m commit -m "feat: add git-extras and git configs"                                     [[0;33mHistory[0m][0K[10A[6G[?25h[?25l[0;32;92m➜ [0;33;93mgi[0m[0K
+[0;33m>[0m [0;36;96mgi[0mt-cliff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt status                                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt-crypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt push                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt merge --ff-only main                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt checkout develop                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt pull                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt checkout main                                                                        [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt-cliff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt commit -m "feat: add git-extras and git configs"                                     [[0;33mHistory[0m][0K[10A[5G[?25h[?25l[0;32;92m➜ [0;33;93mg[0m[0K
+[0;33m>[0m [0;36;96mg[0mit-cliff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mh repo clone jimbrig/SQL-Server-R-Services-Samples                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mh repo clone Invoke-Automation/IAPlasterProjectTemplate ModuleTemplate                  [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mh repo clone Invoke-Automation/PlasterTemplate                                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit status                                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit-crypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit push                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit merge --ff-only main                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit checkout develop                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit pull                                                                                 [[0;33mHistory[0m][0K[10A[4G[?25h[?25l[0;32;92m➜ [0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[3G[?25h[?25l[0;32;92m➜ [0;33;93mt[0m[0K
+[0;33m>[0m [0;36;96mt[0mouch myModule.psm1                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mt[0mouch .gitattributes                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mt[0mouch Reset-Network.ps1                                                                  [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mt[0mouch Repair-Network.ps1                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mt[0mopgrade                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mt[0mopgrade --only custom_commands                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mt[0mopgrade --edit-config                                                                   [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mt[0mouch install-backblaze.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mt[0mopgrade --only wsl                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mt[0mouch topgrade.config.example.toml                                                       [[0;33mHistory[0m][0K[10A[4G[?25h[?25l[0;32;92m➜ [0;33;93mto[0m[0K
+[0;33m>[0m [0;36;96mto[0much myModule.psm1                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mto[0much .gitattributes                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mto[0much Reset-Network.ps1                                                                  [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mto[0much Repair-Network.ps1                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mto[0mpgrade                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mto[0mpgrade --only custom_commands                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mto[0mpgrade --edit-config                                                                   [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mto[0much install-backblaze.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mto[0mpgrade --only wsl                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mto[0much topgrade.config.example.toml                                                       [[0;33mHistory[0m][0K[10A[5G[?25h[?25l[0;32;92m➜ [0;33;93mtou[0m[0K
+[0;33m>[0m [0;36;96mtou[0mch myModule.psm1                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtou[0mch .gitattributes                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtou[0mch Reset-Network.ps1                                                                  [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtou[0mch Repair-Network.ps1                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtou[0mch install-backblaze.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtou[0mch topgrade.config.example.toml                                                       [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtou[0mch .gitignore                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtou[0mch pakk.ps1                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtou[0mch update-Rpackages.ps1                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtou[0mch update-Rpackages                                                                   [[0;33mHistory[0m][0K[10A[6G[?25h[?25l[0;32;92m➜ [0;33;93mtouc[0m[0K
+[0;33m>[0m [0;36;96mtouc[0mh myModule.psm1                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouc[0mh .gitattributes                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouc[0mh Reset-Network.ps1                                                                  [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouc[0mh Repair-Network.ps1                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouc[0mh install-backblaze.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouc[0mh topgrade.config.example.toml                                                       [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouc[0mh .gitignore                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouc[0mh pakk.ps1                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouc[0mh update-Rpackages.ps1                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouc[0mh update-Rpackages                                                                   [[0;33mHistory[0m][0K[10A[7G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m[0K
+[0;33m>[0m [0;36;96mtouch[0m myModule.psm1                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch[0m .gitattributes                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch[0m Reset-Network.ps1                                                                  [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch[0m Repair-Network.ps1                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch[0m install-backblaze.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch[0m topgrade.config.example.toml                                                       [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch[0m .gitignore                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch[0m pakk.ps1                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch[0m update-Rpackages.ps1                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch[0m update-Rpackages                                                                   [[0;33mHistory[0m][0K[10A[8G[?25h[?25l
+[0;33m>[0m [0;36;96mtouch [0mmyModule.psm1                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch [0m.gitattributes                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch [0mReset-Network.ps1                                                                  [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch [0mRepair-Network.ps1                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch [0minstall-backblaze.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch [0mtopgrade.config.example.toml                                                       [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch [0m.gitignore                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch [0mpakk.ps1                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch [0mupdate-Rpackages.ps1                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch [0mupdate-Rpackages                                                                   [[0;33mHistory[0m][0K[10A[9G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m c[0K
+[0;33m>[0m [0;36;96mtouch c[0monfig.yaml                                                                        [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch c[0monvert-wikilinks-to-mdlinks.ps1                                                   [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mtouch c[0monvert-wikilinks-to-mdlinks.sh                                                    [[0;33mHistory[0m][0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[10G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m cl[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[11G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m cloi[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[13G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m clo[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[12G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m cl[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[11G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m cli[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[12G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m clif[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[13G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m cliff[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[14G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m cliff.[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[15G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m cliff.t[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[16G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m cliff.to[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[17G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m cliff.tom[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[18G[?25h[?25l[0;32;92m➜ [0;33;93mtouch[0m cliff.toml[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[19G[?25h[?25l
+[?25h[0;36m ~\Dev\jimbrig\Rdotfiles [0;33;93m:: [0;34;94mgit([0;33;93mmain[0;34;94m)[0m                                                                                                [0;32;92m 17:19:20 [0m[0K[?25l
+[0;32;92m➜ [0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[8A[3G[?25h[?25l[0;32;92m➜ [0;33;93mg[0m[0K
+[0;33m>[0m [0;36;96mg[0mit-cliff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mh repo clone jimbrig/SQL-Server-R-Services-Samples                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mh repo clone Invoke-Automation/IAPlasterProjectTemplate ModuleTemplate                  [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mh repo clone Invoke-Automation/PlasterTemplate                                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit status                                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit-crypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit push                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit merge --ff-only main                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit checkout develop                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mg[0mit pull                                                                                 [[0;33mHistory[0m][0K[10A[4G[?25h[?25l[0;32;92m➜ [0;33;93mgi[0m[0K
+[0;33m>[0m [0;36;96mgi[0mt-cliff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt status                                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt-crypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt push                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt merge --ff-only main                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt checkout develop                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt pull                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt checkout main                                                                        [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt-cliff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgi[0mt commit -m "feat: add git-extras and git configs"                                     [[0;33mHistory[0m][0K[10A[5G[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m[0K
+[0;33m>[0m [0;36;96mgit[0m-cliff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m status                                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m-crypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m push                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m merge --ff-only main                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m checkout develop                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m pull                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m checkout main                                                                        [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m-cliff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit[0m commit -m "feat: add git-extras and git configs"                                     [[0;33mHistory[0m][0K[10A[6G[?25h[?25l[0;32;92m➜ [0;33;93mgit-[0m[0K
+[0;33m>[0m [0;36;96mgit-[0mcliff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcliff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt status -f                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt lock                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt unlock                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt add-gpg-user 7B6A462F595FA24EC24B40E663FCA87061A4E0D6                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt add-gpg-user B8BA217A94B30E9D25FE01F601163DF4AE4BA708                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt add-gpg-user FF361E144EE31125E028D670786742B2314D2B34                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-[0mcrypt init                                                                           [[0;33mHistory[0m][0K[10A[7G[?25h[?25l[0;32;92m➜ [0;33;93mgit-c[0m[0K
+[0;33m>[0m [0;36;96mgit-c[0mliff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt status -e                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mliff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt status -f                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt lock                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt unlock                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt add-gpg-user 7B6A462F595FA24EC24B40E663FCA87061A4E0D6                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt add-gpg-user B8BA217A94B30E9D25FE01F601163DF4AE4BA708                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt add-gpg-user FF361E144EE31125E028D670786742B2314D2B34                          [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-c[0mrypt init                                                                           [[0;33mHistory[0m][0K[10A[8G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cl[0m[0K
+[0;33m>[0m [0;36;96mgit-cl[0miff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cl[0miff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m touch install [0;36;96mgit-cl[0miff.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m cd [0;36;96mgit-cl[0miff                                                                             [[0;33mHistory[0m][0K
+[0;33m>[0m mkdir [0;36;96mgit-cl[0miff                                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m s -p github [0;36;96mgit-cl[0miff                                                                    [[0;33mHistory[0m][0K
+[0;33m>[0m pip search [0;36;96mgit-cl[0miff                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m npm search [0;36;96mgit-cl[0miff                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m scoop search [0;36;96mgit-cl[0miff                                                                   [[0;33mHistory[0m][0K
+[0K[10A[9G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cli[0m[0K
+[0;33m>[0m [0;36;96mgit-cli[0mff --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cli[0mff -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m touch install [0;36;96mgit-cli[0mff.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m cd [0;36;96mgit-cli[0mff                                                                             [[0;33mHistory[0m][0K
+[0;33m>[0m mkdir [0;36;96mgit-cli[0mff                                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m s -p github [0;36;96mgit-cli[0mff                                                                    [[0;33mHistory[0m][0K
+[0;33m>[0m pip search [0;36;96mgit-cli[0mff                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m npm search [0;36;96mgit-cli[0mff                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m scoop search [0;36;96mgit-cli[0mff                                                                   [[0;33mHistory[0m][0K
+[0K[10A[10G[?25h[?25l[0;32;92m➜ [0;33;93mgit-clif[0m[0K
+[0;33m>[0m [0;36;96mgit-clif[0mf --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-clif[0mf -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m touch install [0;36;96mgit-clif[0mf.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m cd [0;36;96mgit-clif[0mf                                                                             [[0;33mHistory[0m][0K
+[0;33m>[0m mkdir [0;36;96mgit-clif[0mf                                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m s -p github [0;36;96mgit-clif[0mf                                                                    [[0;33mHistory[0m][0K
+[0;33m>[0m pip search [0;36;96mgit-clif[0mf                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m npm search [0;36;96mgit-clif[0mf                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m scoop search [0;36;96mgit-clif[0mf                                                                   [[0;33mHistory[0m][0K
+[0K[10A[11G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m[0K
+[0;33m>[0m [0;36;96mgit-cliff[0m --help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cliff[0m -o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0;33m>[0m touch install [0;36;96mgit-cliff[0m.ps1                                                              [[0;33mHistory[0m][0K
+[0;33m>[0m cd [0;36;96mgit-cliff[0m                                                                             [[0;33mHistory[0m][0K
+[0;33m>[0m mkdir [0;36;96mgit-cliff[0m                                                                          [[0;33mHistory[0m][0K
+[0;33m>[0m s -p github [0;36;96mgit-cliff[0m                                                                    [[0;33mHistory[0m][0K
+[0;33m>[0m pip search [0;36;96mgit-cliff[0m                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m npm search [0;36;96mgit-cliff[0m                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m scoop search [0;36;96mgit-cliff[0m                                                                   [[0;33mHistory[0m][0K
+[0K[10A[12G[?25h[?25l
+[0;33m>[0m [0;36;96mgit-cliff [0m--help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cliff [0m-o CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[13G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m -[0K
+[0;33m>[0m [0;36;96mgit-cliff -[0m-help                                                                         [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mgit-cliff -[0mo CHANGELOG.md                                                                [[0;33mHistory[0m][0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[14G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m-i[0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[10A[15G[?25h[?25l
+[?25h [0;32mINFO [0m [0;1mgit_cliff[0m > Saving the configuration file to "cliff.toml"[0K[?25l
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[8A[?25h[0;36m ~\Dev\jimbrig\Rdotfiles [0;33;93m:: [0;34;94mgit([0;33;93mmain[0;34;94m)[0m                                                                                                [0;32;92m 17:19:24 [0m[0K[?25l
+[0;32;92m➜ [0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[7A[3G[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m-o[0m inst/CHANGELOG.md[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[7A[33G[?25h[?25l
+[?25h[0;36m ~\Dev\jimbrig\Rdotfiles [0;33;93m:: [0;34;94mgit([0;33;93mmain[0;34;94m)[0m                                                                                                [0;32;92m 17:22:23 [0m[0K[?25l
+[0;32;92m➜ [0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K[5A[3G[?25h

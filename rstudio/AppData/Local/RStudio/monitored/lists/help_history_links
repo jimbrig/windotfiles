@@ -1,8 +1,15 @@
-help/library/dplyr/html/lead-lag.html,R: Compute lagged or leading values
+help/library/base/html/integer.html,R: Integer Vectors
+help/library/NULL/help/inherits,inherits
+help/library/base/html/class.html,R: Object Classes
+help/library/tibble/html/new_tibble.html,R: Tibble constructor and validator
+help/preview?file=C%3A%2FUsers%2Fjimmy%2FDev%2Fjimbrig%2Flossrx%2Fman%2Fnew_tri.Rd,new_tri.Rd
+help/library/ChainLadder/html/Triangles.html,R: Generic functions for triangles
+help/library/base/html/sort.html,R: Sorting or Ordering Vectors
+help/library/base/html/expand.grid.html,R: Create a Data Frame from All Combinations of Factor Variables
 help/library/tibble/html/as_tibble.html,"R: Coerce lists, matrices, and more to data frames"
-help/library/pak/html/pak.html,R: Install the required packages
-help/library/usethis/html/github-token.html,R: Get help with GitHub personal access tokens
-help/doc/html/all.available.html,R: help
-help/library/memoise/html/memoise.html,R: Memoise a function
-help/library/fs/html/file_access.html,R: Query for existence and access permissions
-help/library/qs/html/qread.html,R: qread
+help/library/tidyr/html/pivot_wider.html,R: Pivot data from long to wide
+help/library/rstudioapi/html/rstudio-documents.html,R: Interact with Documents open in RStudio
+help/library/usethis/html/use_github_file.html,R: Copy a file from any GitHub repo into the current project
+help/library/usethis/html/github_actions.html,R: GitHub Actions setup
+help/library/base/html/system2.html,R: Invoke a System Command
+help/library/base/html/system.html,R: Invoke a System Command
