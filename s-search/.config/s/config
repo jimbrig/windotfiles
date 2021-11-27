@@ -195,6 +195,14 @@
         "dev",
         "design"
       ]
+    },
+    {
+      "name": "pypi",
+      "url": "https://pypi.org/search/?q=%s",
+      "tags": [
+        "dev",
+        "python"
+      ]
     }
   ]
 }
