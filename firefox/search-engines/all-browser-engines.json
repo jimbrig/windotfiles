@@ -108,5 +108,10 @@
         "searchURL": "https://www.reddit.com/search/?q=%s",
         "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAgFJREFUOI2V08tvTWEUBfDfd+65txolUQOXSNRz0JLQDjxSEW9i0D8AJUYmZiJhwkjiMfOIRAyaeCRmSDQRKqQDKhEMPBIpMeBq4hFRqqf3HoNzbxU1sGfft7L2Xntl7WBMpZvVGbZasAPtKFah9+hV0aVOT+j2o8YJo+RVivIOYJtgivEq9QnnJQ6HO0qjDarkM4KOv0i5PFLKZXIx5YTUFYnd4Y5SnDYryDswPjlm066syeRGps/h7D4+DXTIe5M22xspWivYOo5cGqaQn8Ddy7zrJ01/4cFWRWtjkU40gsoYcoTibAY/82GAGxfouZStEoFGkc646jZRjpnzMvbcJSzdwuxFVCo0L6fvOv2PCTnevyatQHtI10mkYi3L2H+RfB2FeuKY+kmZoqFBkh98+8JIwpFOnt4jGIl+23vCRKbO4OpJju3MiN+/cnQH3eeY1sSkxqx5tSKURHjex4Pu7Hd+G63riQvEeVpWMHNBhj3q4dn9mg+lCL2gXOHhLZJhFq9h4cpM8tAgbRtp20B5hIc3SZKagN7coSbfRDaj3tuXmYmzFvKxxKsnlF5lKuobuHaaq6cYGSb4qOJgSJsVzHBcsEdaDc/81mzitKYsqwNvsskvHmQmBqROeGvv+FGu5aFm8Z/vMVH+85j2Y/t/H9Mo/u9zLqFXqkvB7bHn/BNZq7P4ZRYUNAAAAABJRU5ErkJggg==",
         "keyword": "@reddit"
+    },
+    "pypi.org": {
+        "searchURL": "https://pypi.org/search/?q=%s",
+        "iconURL": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAABHNCSVQICAgIfAhkiAAAAUlJREFUKJHNkr1OHDEUhY/tGXvIAtG+TV6GjkdAoqeliqh4CB6DIkVEEylCFBElEj/RAJPZHft+FMmyQZndbMlX+t5zfO61pRHABBxDuYTyAzgFG2tdUgoCO4Ry0XVPDENP3z/T98/M57+YzTqgXIEdm/Gqc8C+xF4p+ZNZiWYmYPQS55xCCMq5qGnSVymcubZ9aHPOKcY0hBAmzi3G4B/x76RFzvknM1JKW31V15VZyTHP+2ihegQFH4KLsd5amqCcS+d9UNNM8N5v/yl0lZAEQpJZ3pGkYT4Iyy24uo5RdZ1KStW2Rqjebn8Z18x2gVnTTNNirDH8qsIi/v+eb6XBprwDAzOLbt2W1hP9h8nkYPfj9Iskq6qgDc2ypHNJ+68nBoJyhOXvPx9ueWzvuL+7mZkZf/ENOFr11ZdmhjA7oeRr4Ar4vEr0AtUn5v2LHtPsAAAAAElFTkSuQmCC",
+        "keyword": "@pypi"
     }
 }

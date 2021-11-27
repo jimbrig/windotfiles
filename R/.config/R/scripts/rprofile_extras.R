@@ -1,19 +1,19 @@
 # open_repo <- jimstools::open_gh_repo
 
 editrprof <- function() {
-  file.edit("~/.config/R/.Rprofile")
+  file.edit(r_config_dir(".Rprofile"))
 }
 
 editrenv <- function() {
-  file.edit("~/.config/R/.Renviron")
+  file.edit(r_config_dir(".Renviron"))
 }
 
 editextras <- function() {
-  file.edit("~/.config/R/scripts/rprofile_extras.R")
+  file.edit(r_config_dir("scripts/rprofile_extras.R"))
 }
 
 editsecrets <- function() {
-  file.edit("~/.config/R/secrets/secrets.Renviron")
+  file.edit(r_config_dir("secrets/secrets.Renviron"))
 }
 
 editshortcuts <- function() {

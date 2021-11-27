@@ -555,3 +555,376 @@
 1637288110318:dplyr::filter(pkgs_df, is.na(repository)) %>% dplyr::pull(remotePkgref)
 1637288116148:dplyr::filter(pkgs_df, is.na(repository)) %>% dplyr::pull(remotepkgref
 1637288117791:)
+1637718941581:usethis::use_r("interpolate")
+1637718978248:??devtri
+1637718998951:devtri::dev_tri
+1637719094334:devtri:::ata_tri
+1637719298177:devtri:::cdf
+1637719314291:library(devtri)
+1637719317593:?cdf
+1637719759940:attachment::att_amend_desc()
+1637719821594:usethis::use_description_defaults()
+1637719844339:usethis::use_description()
+1637719858066:attachment::att_amend_desc()
+1637719893668:attachment::create_dependencies_file(to = "inst/scripts/dependencies.R")
+1637720258962:usethis::use_r("triangles")
+1637720278517:usethis::use_test("triangle")
+1637720340219:pak::pak("burglr")
+1637720375772:pak::pak("moodymudskipper/burglr")
+1637720393150:burglr::burgle(devtri::dev_tri)
+1637720586223:#'   the start of a period (i.e. Accident Year)
+1637720586225:#' @param age Numeric - Age of Development in Months
+1637720586226:#' @param value Numeric - Value representing Paid Dollars,
+1637720586227:#'   Incurred/Reported Dollars, or Claim Counts
+1637720586228:#'
+1637720586229:#' @return a [tibble::tibble()] structure with class "tri"
+1637720586230:#' @export
+1637720586231:#'
+1637720586232:#' @examples
+1637720586233:#' tri(2020, 12, 50000)
+1637720586235:tri <- function(origin, age, value) {
+1637720587562:#'   the start of a period (i.e. Accident Year)
+1637720587563:#' @param age Numeric - Age of Development in Months
+1637720587564:#' @param value Numeric - Value representing Paid Dollars,
+1637720587566:#'   Incurred/Reported Dollars, or Claim Counts
+1637720587567:#'
+1637720587569:#' @return a [tibble::tibble()] structure with class "tri"
+1637720587570:#' @export
+1637720587571:#'
+1637720587573:#' @examples
+1637720587574:#' tri(2020, 12, 50000)
+1637720587575:tri <- function(origin, age, value) {
+1637720592317:}
+1637720595135:tri <- function(origin, age, value) {
+1637720595137:tib <- tibble::tibble(origin = origin, age = age, value = value)
+1637720595138:structure(tib, class = c("tri", class(tib)))
+1637720595139:}
+1637720600037:tri(2020, 12, 50000)
+1637721008769:attachment::att_amend_desc()
+1637721024657:attachment::create_dependencies_file(to = "inst/scripts/dependencies.R")
+1637721146593:pkgdown::build_site()
+1637721166498:devtools::install()
+1637721179698:pkgdown::build_site()
+1637737665684:typeof(tri)
+1637737671509:tri(2020, 12, 50000)
+1637737676116:x <- tri(2020, 12, 50000)
+1637737680326:typeof(x)
+1637737690452:attributes(x)
+1637737730893:pak::pak("sloop")
+1637737745030:sloop::ftype(tri)
+1637737752212:?sloop::ftype
+1637737778292:library(sloop)
+1637737783644:s3_type(tri)
+1637737795334:s3_class(tri)
+1637737884973:as.tri <- function(df) { out <- tri(df); class(out) <- c("tri", class(out)); out }
+1637737906221:as.tri.default <- function(df) { tri(df) }
+1637737911373:s3_class(as.tri)
+1637737923493:s3_class(NULL)
+1637737927885:s3_class(logical())
+1637737937341:s3_class(x)
+1637737947606:x <- tri(2020, 12, 50000)
+1637737958188:ftype(print)
+1637737966265:ftype(as.tri)
+1637737971245:ftype(tri)
+1637738250128:tibble::tibble
+1637738422790:tibble::new_tibble
+1637738609479:tri_dat <- x
+1637738614425:tri_dat_new <- tibble::new_tibble(tri_dat, class = "tri")
+1637738616664:View(tri_dat_new)
+1637738700872:val_type <- "paid"
+1637738708704:val_type <- ifelse(is.null(val_type), "rept", val_type)
+1637738756511:class(tri_dat_new$value) <- c(val_type, class(tri_dat_new$value))
+1637738842370:origin_label = "AY"
+1637738849097:origin_label = "AYE"
+1637738859089:val_type = "rept"
+1637738868481:age_unit <- "month"
+1637738925417:class(tri_dat_new$origin) <- c(origin_label, class(tri_dat_new$origin))
+1637738926595:class(tri_dat_new$age) <- c(age_unit, class(tri_dat_new$age))
+1637738926969:class(tri_dat_new$value) <- c(val_type, class(tri_dat_new$value))
+1637738969064:ChainLadder::as.triangle(tri_dat_new)
+1637739002065:ChainLadder::as.triangle(tri_dat)
+1637739015185:ChainLadder::as.triangle(x)
+1637739051952:library(ChainLadder)
+1637739058049:GenIns
+1637739064217:plot(GenIns)
+1637739073433:plot(GenIns, lattice=TRUE)
+1637739090444:head(GenInsLong)
+1637739096913:class(GenInsLong)
+1637739103536:typeof(GenInsLong)
+1637739145597:as.triangle
+1637739214449:triangle
+1637739447322:origin = integer(); age = integer(); value = numeric()
+1637739450076:stopifnot(is.integer(origin), is.integer(age), is.numeric(value))
+1637739452187:out <- tibble::new_tibble(list(origin = origin, age = age, value = value), class = "tri")
+1637739454417:View(out)
+1637739465083:class(out)
+1637739501549:inherits(out, "tri")
+1637739503379:stopifnot(inherits(out, "tri"))
+1637739526366:new_tri <- function(origin = integer(), age = integer(), value = numeric()) {
+1637739526368:stopifnot(is.integer(origin), is.integer(age), is.numeric(value))
+1637739526369:out <- tibble::new_tibble(list(origin = origin, age = age, value = value), class = "tri")
+1637739526370:stopifnot(inherits(out, "tri"))
+1637739526371:out
+1637739526373:}
+1637739544012:new_tri(2020, 12, 10000)
+1637739556444:class(2020)
+1637739563660:class(1)
+1637739567786:is.integer(1)
+1637739571515:as.integer(1)
+1637739578627:is.integer(as.integer(1))
+1637739616221:new_tri <- function(origin = numeric(), age = numeric(), value = numeric()) {
+1637739616223:stopifnot(is.numeric(origin), is.numeric(age), is.numeric(value))
+1637739616224:out <- tibble::new_tibble(list(origin = origin, age = age, value = value), class = "tri")
+1637739616226:stopifnot(inherits(out, "tri"))
+1637739616227:out
+1637739616229:}
+1637739617315:new_tri(2020, 12, 10000)
+1637739664916:new_tri(c(2020:2021), c(12,24), c(10000, 11000))
+1637739685486:?new_tibble
+1637739817052:y <- new_tri(c(2020:2021), c(12,24), c(10000, 11000))
+1637739820227:class(y)
+1637740722510:#' @description
+1637740722511:#' `validate_tri()` checks a `tri()` object for internal consistency.
+1637740722512:#'
+1637740722513:#' @param tri `tri()` object
+1637740722514:#'
+1637740722515:#' @export
+1637740722516:validate_tri <- function(tri) {
+1637740722517:stopifnot(nrow(tri) > 0, ncol(tri) >= 3)
+1637740722518:tri
+1637740722519:}
+1637740813460:devtools::load_all(".")
+1637740826192:?new_tri
+1637741004705:mytri2 <- new_tri(c(2020:2021), c(12,24), c(10000, 11000))
+1637741021641:ChainLadder::triangle(mytri2)
+1637741053937:ChainLadder::triangle(list("AYE" = c(2020:2021), "Age" = c(12,24), "Paid" = c(10000, 11000))
+1637741056720:)
+1637741069488:ChainLadder::as.triangle(mytri2)
+1637741078603:View(mytri2)
+1637741113681:class(GenIns)
+1637741131729:class(GenInsLong)
+1637741138708:class(mytri2)
+1637741186746:as.triangle(mytri2, origin = "origin", dev = "age", "paid")
+1637741202924:as.triangle(as.data.frame(mytri2), origin = "origin", dev = "age", "paid")
+1637741245315:triangle(c(100, 150, 175, 110, 168, 115))
+1637741320995:triangle("2020" = c(10000, 11000), "2019" = c(1320))
+1637741464124:expand.grid(c(2021:2021), c(12, 24))
+1637741477964:expand.grid(c(2020:2021), c(12, 24))
+1637741571254:expand.grid(c(2020:2021), c(12, 24), stringsAsFactors = FALSE) |>
+1637741571256:sort(1)
+1637741589510:expand.grid(c(2020:2021), c(12, 24), stringsAsFactors = FALSE) |>
+1637741589511:sort("Var1")
+1637741665293:hold <- expand.grid(c(2020:2021), c(12, 24), stringsAsFactors = FALSE) |>
+1637741665294:as.data.frame() |>
+1637741665295:dplyr::arrange(.data[1])
+1637741674422:hold <- expand.grid(c(2020:2021), c(12, 24), stringsAsFactors = FALSE) |>
+1637741674423:as.data.frame() |>
+1637741674424:dplyr::arrange(1)
+1637741677233:View(hold)
+1637741685188:hold <- expand.grid(c(2020:2021), c(12, 24), stringsAsFactors = FALSE) |>
+1637741685190:as.data.frame() |>
+1637741685191:dplyr::arrange(2)
+1637741687497:View(hold)
+1637741701109:hold <- expand.grid(c(2020:2021), c(12, 24), stringsAsFactors = FALSE) |>
+1637741701110:as.data.frame() |>
+1637741701111:dplyr::arrange(`Var1`)
+1637741703199:View(hold)
+1637741798685:out <- tibble::new_tibble(hold, class = "tri")
+1637741888200:hold <- expand.grid(c(2020:2021), c(12, 24), stringsAsFactors = FALSE) |>
+1637741888201:tibble::as_tibble() |>
+1637741888202:dplyr::arrange(`Var1`)
+1637741921677:hold <- expand.grid(c(2020:2021), c(12, 24), KEEP.OUT.ATTRS = FALSE, stringsAsFactors = FALSE) |>
+1637741921679:tibble::as_tibble() |>
+1637741921680:dplyr::arrange(`Var1`)
+1637741958343:out <- tibble::new_tibble(list(origin = origin, age = age, value = value), class = "tri")
+1637741986253:hold <- expand.grid(c(2020:2021), c(12, 24), KEEP.OUT.ATTRS = FALSE, stringsAsFactors = FALSE) |>
+1637741986254:tibble::as_tibble() |>
+1637741986255:setNames(c("origin", "age")) |>
+1637741986256:dplyr::arrange(`Var1`)
+1637742002697:hold <- expand.grid(c(2020:2021), c(12, 24), KEEP.OUT.ATTRS = FALSE, stringsAsFactors = FALSE) |>
+1637742002698:tibble::as_tibble() |>
+1637742002699:setNames(c("origin", "age")) |>
+1637742002700:dplyr::arrange(origin, age)
+1637742037399:out <- tibble::new_tibble(list(origin = origin, age = age, value = value), class = "tri")
+1637742058055:out <- tibble::new_tibble(list(origin = origin, age = age, value = value), class = "tri") |>
+1637742058056:dplyr::right_join(hold)
+1637742060567:View(out)
+1637742113453:origin = c(2020:2021); age = c(12, 24); value = c(10000, 11000)
+1637742116498:stopifnot(is.numeric(origin), is.numeric(age), is.numeric(value))
+1637742117688:hold <- expand.grid(c(2020:2021), c(12, 24), KEEP.OUT.ATTRS = FALSE, stringsAsFactors = FALSE) |>
+1637742117689:tibble::as_tibble() |>
+1637742117690:setNames(c("origin", "age")) |>
+1637742117691:dplyr::arrange(origin, age)
+1637742119042:out <- tibble::new_tibble(list(origin = origin, age = age, value = value), class = "tri") |>
+1637742119043:dplyr::right_join(hold)
+1637742121450:View(out)
+1637742150191:out <- tibble::new_tibble(list(origin = origin, age = age, value = value), class = "tri") |>
+1637742150192:dplyr::right_join(hold) |>
+1637742150193:tidyr::pivot_wider(age)
+1637742170823:out <- tibble::new_tibble(list(origin = origin, age = age, value = value), class = "tri") |>
+1637742170824:dplyr::right_join(hold) |>
+1637742170825:tidyr::pivot_wider(names_from = age, values_from = value)
+1637742176145:View(out)
+1637878104724:setwd("Dev/jimbrig")
+1637878118972:usethis::create_package("Rdotfiles")
+1637878195558:usethis::use_git()
+1637878369119:# skaffold ----------------------------------------------------------------
+1637878369119:c(
+1637878369120:"inst/config",
+1637878369121:"inst/templates",
+1637878369121:"inst/examples",
+1637878369122:"inst/scripts"
+1637878369123:) |>
+1637878369123:purrr::walk(fs::dir_create)
+1637878420453:usethis::use_description()
+1637878426291:usethis::use_roxygen_md()
+1637878536441:usethis::use_github_actions()
+1637878543498:usethis::use_github()
+1637878566978:usethis::use_github_actions()
+1637878580362:usethis::use_readme_rmd()
+1637878633873:usethis::use_github_actions()
+1637878649608:knitr::knit("README.Rmd")
+1637878801775:file.edit("cliff.toml")
+1637878891943:system2("git-cliff -o inst/CHANGELOG.md")
+1637878959079:shell.exec("git-cliff -o inst/CHANGELOG.md")
+1637878966503:system("git-cliff -o inst/CHANGELOG.md")
+1637878991864:usethis::use_build_ignore("cliff.toml")
+1637879015952:usethis::use_github_action("pkgdown")
+1637879216080:system("git-cliff -o inst/CHANGELOG.md")
+1637879277592:fs::file_create("inst/ROADMAP.md")
+1637908573614:js <- jsonlite::read_json("R/jimbrig2011_shiny_client_secret.json")
+1637908583870:editrenv()
+1637908622854:editrprof()
+1637908700939:Sys.getenv("test", unset = "test")
+1637908708445:Sys.getenv("test")
+1637908774245:names(s <- Sys.getenv())
+1637908782141:head(s)
+1637908787653:head(s, 12)
+1637908801564:s[grep("^L(C|ANG)", names(s))]
+1637908846253:Sys.getenv("R_LIBS")
+1637908914892:??usethis
+1637909136630:# Specify R_CONFIG_DIR access helper function:
+1637909136631:r_config_dir <- function(append) {
+1637909136631:file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), append)
+1637909136632:}
+1637909145766:r_config_dir("secrets")
+1637909795219:append = NULL; prompt = TRUE; ls = FALSE
+1637909801162:# Specify R_CONFIG_DIR access helper function:
+1637909801163:.rconfigdir <- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R")
+1637909809940:.rconfigdir
+1637909889842:exists(".rconfigdir")
+1637909899009:environment(.rconfigdir)
+1637909901666:environment(".rconfigdir")
+1637909917243:get(.rconfigdir)
+1637909922058:get(".rconfigdir")
+1637910078586:search()
+1637910093034:# Specify R_CONFIG_DIR access helper function:
+1637910093034:.rconfigdir <- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R")
+1637910098336:if (!exists(".rconfigdir")) { .rconfigdir <<- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R") }
+1637910105674:if (is.null(append) && is.null(dir)) { dir(.rconfigdir) }
+1637910110050:if (is.null(append)) file.path(.rconfigdir, append)
+1637910125739:if (is.null(append) && is.null(prompt)) { dir(.rconfigdir) }
+1637910479167:jimstools::get_rstudio_projects
+1637910493655:jimstools::get_rstudio_projects()
+1637910500920:jimstools::get_rstudio_projects
+1637910535112:jimstools:::msg_info("a")
+1637910597031:jimstools:::open_project
+1637910687111:path <- file.path(.rconfigdir, append)
+1637910693440:if (prompt) { ask <- utils::menu(dir(path), TRUE, title = "Select a Project to Open") }
+1637910699350:path
+1637910704526:.rconfigdir
+1637910710320:.rconfigdir[1]
+1637910721543:get(".rconfigdir")
+1637910726367:append
+1637910729624:file.path(.rconfigdir, append)
+1637910753327:path <- file.path(.rconfigdir, ifelse(is.null(append, "", append)))
+1637910761639:path <- file.path(.rconfigdir, ifelse(is.null(append), "", append))
+1637910765301:path
+1637910784774:if (prompt) { ask <- utils::menu(dir(path), TRUE, title = "Select a an object:") }
+1637910800854:response <- if (prompt) { ask <- utils::menu(dir(path), TRUE, title = "Select a an object:") }
+1637910809319:is.dir
+1637910862534:file.info(path)
+1637910872126:file.info(path)["isdir"]
+1637910879221:file.info(path)[["isdir"]]
+1637911074064:if (prompt) {
+1637911074066:response <- utils::menu(dir(path), TRUE, title = "Select a an object:")
+1637911074067:if (file.info(response)[["isdir"]]) {
+1637911074068:if (ls) { return(dir(response)) } else { response <<- utils::menu(dir(response), TRUE) }
+1637911074068:}
+1637911086692:response
+1637911115214:response <- utils::menu(dir(path), TRUE, title = "Select a an object:")
+1637911121509:response
+1637911126862:utils::menu(dir(path), TRUE, title = "Select a an object:")
+1637911177470:path <- dir(path)[[response]]
+1637911180704:path
+1637911316069:if (prompt) {
+1637911316071:response <- utils::menu(dir(path), title = "Select a an object:")
+1637911316071:if (response != 0) { path <- dir(path)[[response]] }
+1637911316072:if (file.info(path)[["isdir"]]) {
+1637911316073:if (ls) { return(dir(path)) } else { path <- dir(path)[[utils::menu(dir(path))]] }
+1637911316074:}
+1637911332244:if (!exists(".rconfigdir")) { .rconfigdir <<- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R") }
+1637911332717:path <- file.path(.rconfigdir, ifelse(is.null(append), "", append))
+1637911333614:if (prompt) {
+1637911333614:response <- utils::menu(dir(path), title = "Select a an object:")
+1637911333615:if (response != 0) { path <- dir(path)[[response]] }
+1637911333616:if (file.info(path)[["isdir"]]) {
+1637911333617:if (ls) { return(dir(path)) } else { path <- dir(path)[[utils::menu(dir(path))]] }
+1637911333617:}
+1637911372285:file.info(path)
+1637911467525:if (!exists(".rconfigdir")) { .rconfigdir <<- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R") }
+1637911467893:path <- file.path(.rconfigdir, ifelse(is.null(append), "", append))
+1637911480615:response <- utils::menu(dir(path), title = "Select a an object:")
+1637911511918:if (response != 0) { path <- file.path(.rconfigdir, dir(path)[[response]]) }
+1637911518021:if (file.info(path)[["isdir"]]) {
+1637911518022:if (ls) { return(dir(path)) } else { path <- dir(path)[[utils::menu(dir(path))]] }
+1637911518022:}
+1637911623557:#' @param ls logical - `TRUE` to return file listing (i.e. `ls`);
+1637911623558:#'   `FALSE` returns path string object (default)
+1637911623558:#'
+1637911623559:#' @return either a single character string representing the `R_CONFIG_DIR` path
+1637911623560:#'   or a vector of specified directory's files and folders (see `ls` argument).
+1637911623560:#' @export
+1637911623561:#'
+1637911623561:#' @examples
+1637911623562:#' .rconfigdir <- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R")
+1637911623563:#' r_config_dir("secrets/)
+1637911623564:r_config_dir <- function(append = NULL, prompt = TRUE, ls = FALSE) {
+1637911623564:if (!exists(".rconfigdir")) { .rconfigdir <<- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R") }
+1637911623565:path <- file.path(.rconfigdir, ifelse(is.null(append), "", append))
+1637911623567:if (prompt) {
+1637911623568:response <- utils::menu(dir(path), title = "Select a an object:")
+1637911623568:if (response != 0) { path <- file.path(.rconfigdir, dir(path)[[response]]) }
+1637911623569:if (file.info(path)[["isdir"]]) {
+1637911623570:if (ls) { return(dir(path)) } else { path <- dir(path)[[utils::menu(dir(path))]] }
+1637911623571:}
+1637911623572:if (is.null(append) && ls) { dir(path) }
+1637911623572:file.path(path, append)
+1637911623573:}
+1637911629812:r_config_dir()
+1637911746764:r_config_dir <- function(x) {
+1637911746765:file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), x)
+1637911746766:}
+1637911753805:r_config_dir("config")
+1637911781180:r_config_dir <- function(...) {
+1637911781181:file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), c(...))
+1637911781182:}
+1637911798923:r_config_dir("config")
+1637911806101:dir(r_config_dir("config"))
+1637911819675:r_config_dir("config", "addinit_options.R")
+1637911844435:r_config_dir <- function(...) {
+1637911844436:file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), ...)
+1637911844437:}
+1637911846699:r_config_dir("config", "addinit_options.R")
+1637911861227:r_config_dir("secrets")
+1637912065386:editextras()
+1637912146329:r_config_dir("secrets")
+1637912253114:r_config_dir
+1637912306794:rm("r_config_dir")
+1637912315314:rm(r_config_dir)
+1637912319546:r_config_dir <- function(...) {
+1637912319547:file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), ...)
+1637912319548:}
+1637912326195:detach("r_config_dir")
+1637912342386:rm("r_config_dir")
+1637912491280:r_config_dir("secrets")

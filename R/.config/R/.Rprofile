@@ -7,8 +7,12 @@
 #
 #  ------------------------------------------------------------------------
 
+r_config_dir <- function(...) {
+  file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), ...)
+}
+
 # Ensure Library is set:
-#.libPaths("~/.config/R/lib/4.1")
+.libPaths(Sys.getenv("R_LIBS", unset = r_config_dir("lib/4.1")))
 
 # Set Default Options:
 options(
@@ -31,7 +35,7 @@ options(
   usethis.protocol = "ssh",
   usethis.description = list(
     `Authors@R` = 'person("Jimmy", "Briggs",
-                         email = "jimmy.briggs@jimbrig.com.com",
+                         email = "jimmy.briggs@jimbrig.com",
                          role = c("aut", "cre"),
                          comment = c(ORCID = "0000-0002-7489-8787"))',
     License = "MIT + file LICENSE",
@@ -41,20 +45,20 @@ options(
   blogdown.author = "Jimmy Briggs", # blogdown - https://bookdown.org/yihui/blogdown/global-options.html
   blogdown.ext = ".Rmd",
   blogdown.insertimage.usebaseurl = TRUE,
-  shrtcts.path = path.expand("~/.config/R/config/.shrtcts.yml"),
+  shrtcts.path = r_config_dir("config/.shrtcts.yml"),
   gargle_oauth_email = "jimmy.briggs@jimbrig.com",
-  gargle_oauth_cache = path.expand("~/.config/R/secrets/gargle/gargle-oauth")
+  gargle_oauth_cache = r_config_dir("secrets/gargle/gargle-oauth")
 )
 
 # turn on completion of installed package names
 utils::rc.settings(ipck = TRUE)
 
 # addinit options
-source(path.expand("~/.config/R/scripts/addinit_options.R"))
+source(r_config_dir("scripts/addinit_options.R"))
 
 # history
-Sys.setenv("R_HISTFILE" = path.expand("~/.config/R/.Rhistory"))
-.Last <- function() if (interactive()) try(savehistory(path.expand("~/.config/R/.Rhistory")))
+Sys.setenv("R_HISTFILE" = r_config_dir(".Rhistory"))
+.Last <- function() if (interactive()) try(savehistory(r_config_dir(".Rhistory")))
 
 # error tracing
 if ('rlang' %in% loadedNamespaces()) options(error = rlang::entrace)
@@ -79,6 +83,27 @@ if (interactive() && curl::has_internet()) invisible(installr::check.for.updates
 # r-cli
 if (nzchar(Sys.getenv("R_CMD")) && require("rcli", quietly = TRUE)) rcli::r_cmd_call()
 
+readRenviron(r_config_dir("secrets/secrets.Renviron"))
+
+# attach extra helper functions
+.rprofile <- new.env()
+sys.source(r_config_dir("scripts/rprofile_extras.R"), .rprofile)
+attach(.rprofile)
+
+# detach
+detach_all_attached()
+
+# clear env
+rm(list = setdiff(ls(), "r_config_dir"))
+
+# autoload magrittr PIPE
+autoload("%>%", "magrittr")
+
+# unload
+
+
+
+# deprecated --------------------------------------------------------------
 # shortcuts
 # if (interactive() && requireNamespace("shrtcts", quietly = TRUE)) {
 #   shrtcts::add_rstudio_shortcuts(
@@ -101,29 +126,6 @@ if (nzchar(Sys.getenv("R_CMD")) && require("rcli", quietly = TRUE)) rcli::r_cmd_
 #     }
 #   }
 # })
-
-readRenviron(fs::path_home(".config/R/secrets/secrets.Renviron"))
-
-# attach extra helper functions
-.rprofile <- new.env()
-sys.source(path.expand("~/.config/R/scripts/rprofile_extras.R"), .rprofile)
-attach(.rprofile)
-
-# detach
-detach_all_attached()
-
-# clear env
-rm(list = ls())
-
-# autoload magrittr PIPE
-autoload("%>%", "magrittr")
-
-# unload
-
-
-
-
-# deprecated --------------------------------------------------------------
 
 # if (requireNamespace("jetpack", quietly = TRUE)) {
 #   jetpack::load()
@@ -173,3 +175,35 @@ autoload("%>%", "magrittr")
 #     )
 #   )
 # )
+
+# Specify R_CONFIG_DIR access helper function:
+# .rconfigdir <-
+
+#' r_config_dir
+#'
+#' Enables quick access to user specified `R_CONFIG_DIR`.
+#'
+#' @param append character - string to append to `R_CONFIG_DIR`'s path
+#' @param ls logical - `TRUE` to return file listing (i.e. `ls`);
+#'   `FALSE` returns path string object (default)
+#'
+#' @return either a single character string representing the `R_CONFIG_DIR` path
+#'   or a vector of specified directory's files and folders (see `ls` argument).
+#' @export
+#'
+#' @examples
+#' .rconfigdir <- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R")
+#' r_config_dir("secrets/)
+# r_config_dir <- function(append = NULL, prompt = TRUE, ls = FALSE) {
+#   if (!exists(".rconfigdir")) { .rconfigdir <<- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R") }
+#   path <- file.path(.rconfigdir, ifelse(is.null(append), "", append))
+#   if (prompt) {
+#     response <- utils::menu(dir(path), title = "Select a an object:")
+#     if (response != 0) { path <- file.path(.rconfigdir, dir(path)[[response]]) }
+#     if (file.info(path)[["isdir"]]) {
+#       if (ls) { return(dir(path)) } else { path <- dir(path)[[utils::menu(dir(path))]] }
+#     }
+#   }
+#   if (is.null(append) && ls) { dir(path) }
+#   path <- file.path(path, append)
+# }

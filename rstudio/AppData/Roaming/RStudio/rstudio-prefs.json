@@ -42,14 +42,11 @@
     "visual_markdown_editing_show_margin": true,
     "visual_markdown_editing_list_spacing": "tight",
     "visual_markdown_editing_wrap": "column",
-    "python_type": "system",
-    "python_version": "3.9.2",
-    "python_path": "C:\\Python39\\python.exe",
     "document_author": "Jimmy Briggs",
     "show_hidden_files": true,
     "shiny_viewer_type": "browser",
     "tab_completion": false,
     "code_completion_other": "manual",
     "show_focus_rectangles": false,
-    "custom_shell_command": "wt.exe -p 'PowerShell'"
+    "custom_shell_command": "C:/Program Files/PowerShell/7/pwsh.exe"
 }
