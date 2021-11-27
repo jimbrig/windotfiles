@@ -1,4 +1,6 @@
 
+R_CONFIG_DIR="~/.config/R"
+
 R_LIBS="~/.config/R/lib/4.1"
 R_LIBS_USER="~/.config/R/lib/4.1"
 R_ENVIRON_USER="~/.config/R/.Renviron"
