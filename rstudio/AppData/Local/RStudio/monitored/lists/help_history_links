@@ -1,15 +1,15 @@
-help/library/base/html/integer.html,R: Integer Vectors
-help/library/NULL/help/inherits,inherits
-help/library/base/html/class.html,R: Object Classes
-help/library/tibble/html/new_tibble.html,R: Tibble constructor and validator
-help/preview?file=C%3A%2FUsers%2Fjimmy%2FDev%2Fjimbrig%2Flossrx%2Fman%2Fnew_tri.Rd,new_tri.Rd
-help/library/ChainLadder/html/Triangles.html,R: Generic functions for triangles
-help/library/base/html/sort.html,R: Sorting or Ordering Vectors
-help/library/base/html/expand.grid.html,R: Create a Data Frame from All Combinations of Factor Variables
-help/library/tibble/html/as_tibble.html,"R: Coerce lists, matrices, and more to data frames"
-help/library/tidyr/html/pivot_wider.html,R: Pivot data from long to wide
-help/library/rstudioapi/html/rstudio-documents.html,R: Interact with Documents open in RStudio
-help/library/usethis/html/use_github_file.html,R: Copy a file from any GitHub repo into the current project
-help/library/usethis/html/github_actions.html,R: GitHub Actions setup
-help/library/base/html/system2.html,R: Invoke a System Command
-help/library/base/html/system.html,R: Invoke a System Command
+help/library/base/html/Sys.setenv.html,R: Set or Unset Environment Variables
+help/library/base/html/Sys.getenv.html,R: Get Environment Variables
+help/doc/html/Search?objects=1&port=12166,R: Search Results
+help/library/usethis/html/usethis.html,R: usethis: Automate Package and Project Setup
+help/library/usethis/html/00Index.html,R: Automate Package and Project Setup
+help/library/usethis/html/use_description.html,R: Create or modify a DESCRIPTION file
+help/library/base/html/environment.html,R: Environment Access
+help/library/base/html/browser.html,R: Environment Browser
+help/library/base/html/EnvVar.html,R: Environment Variables
+help/library/utils/html/askYesNo.html,R: Ask a Yes/No Question
+help/library/utils/html/00Index.html,R: The R Utils Package
+help/library/utils/html/winMenus.html,R: User Menus under MS Windows (Rgui)
+help/library/base/html/base-package.html,R: The R Base Package
+help/library/base/html/00Index.html,R: The R Base Package
+help/library/utils/html/menu.html,R: Menu Interaction Function

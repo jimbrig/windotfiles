@@ -1,3 +1,9 @@
+~/.config/R/scripts/rprofile_extras.R
+~/.config/R/.Rprofile
+~/.config/R/.Renviron
+~/.dotfiles/aws/.aws/credentials
+~/.dotfiles/aws/.aws/config
+~/.aws/cli/alias
 ~/.dotfiles/R/.config/R/.Rprofile
 ~/.dotfiles/R/.config/R/.Renviron
 ~/Dev/jimbrig/Rdotfiles/inst/ROADMAP.md
@@ -7,9 +13,3 @@
 ~/Dev/jimbrig/Rdotfiles/inst/scripts/pkgdevt.R
 ~/Dev/jimbrig/lossrx/R/triangles.R
 ~/Dev/jimbrig/lossrx/.github/workflows/git-cliff.yml
-~/Dev/jimbrig/lossrx/.github/workflows/pkgdown.yaml
-~/Dev/jimbrig/lossrx/R/burgled.R
-~/Dev/jimbrig/lossdevt/R/triangles.R
-~/Dev/jimbrig/lossrx/tests/testthat/test-triangle.R
-~/Dev/jimbrig/lossrx/inst/scripts/pkgdevt.R
-~/Dev/jimbrig/lossdevt/inst/CHANGELOG.md

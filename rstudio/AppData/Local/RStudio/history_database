@@ -792,3 +792,139 @@
 1637879015952:usethis::use_github_action("pkgdown")
 1637879216080:system("git-cliff -o inst/CHANGELOG.md")
 1637879277592:fs::file_create("inst/ROADMAP.md")
+1637908573614:js <- jsonlite::read_json("R/jimbrig2011_shiny_client_secret.json")
+1637908583870:editrenv()
+1637908622854:editrprof()
+1637908700939:Sys.getenv("test", unset = "test")
+1637908708445:Sys.getenv("test")
+1637908774245:names(s <- Sys.getenv())
+1637908782141:head(s)
+1637908787653:head(s, 12)
+1637908801564:s[grep("^L(C|ANG)", names(s))]
+1637908846253:Sys.getenv("R_LIBS")
+1637908914892:??usethis
+1637909136630:# Specify R_CONFIG_DIR access helper function:
+1637909136631:r_config_dir <- function(append) {
+1637909136631:file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), append)
+1637909136632:}
+1637909145766:r_config_dir("secrets")
+1637909795219:append = NULL; prompt = TRUE; ls = FALSE
+1637909801162:# Specify R_CONFIG_DIR access helper function:
+1637909801163:.rconfigdir <- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R")
+1637909809940:.rconfigdir
+1637909889842:exists(".rconfigdir")
+1637909899009:environment(.rconfigdir)
+1637909901666:environment(".rconfigdir")
+1637909917243:get(.rconfigdir)
+1637909922058:get(".rconfigdir")
+1637910078586:search()
+1637910093034:# Specify R_CONFIG_DIR access helper function:
+1637910093034:.rconfigdir <- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R")
+1637910098336:if (!exists(".rconfigdir")) { .rconfigdir <<- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R") }
+1637910105674:if (is.null(append) && is.null(dir)) { dir(.rconfigdir) }
+1637910110050:if (is.null(append)) file.path(.rconfigdir, append)
+1637910125739:if (is.null(append) && is.null(prompt)) { dir(.rconfigdir) }
+1637910479167:jimstools::get_rstudio_projects
+1637910493655:jimstools::get_rstudio_projects()
+1637910500920:jimstools::get_rstudio_projects
+1637910535112:jimstools:::msg_info("a")
+1637910597031:jimstools:::open_project
+1637910687111:path <- file.path(.rconfigdir, append)
+1637910693440:if (prompt) { ask <- utils::menu(dir(path), TRUE, title = "Select a Project to Open") }
+1637910699350:path
+1637910704526:.rconfigdir
+1637910710320:.rconfigdir[1]
+1637910721543:get(".rconfigdir")
+1637910726367:append
+1637910729624:file.path(.rconfigdir, append)
+1637910753327:path <- file.path(.rconfigdir, ifelse(is.null(append, "", append)))
+1637910761639:path <- file.path(.rconfigdir, ifelse(is.null(append), "", append))
+1637910765301:path
+1637910784774:if (prompt) { ask <- utils::menu(dir(path), TRUE, title = "Select a an object:") }
+1637910800854:response <- if (prompt) { ask <- utils::menu(dir(path), TRUE, title = "Select a an object:") }
+1637910809319:is.dir
+1637910862534:file.info(path)
+1637910872126:file.info(path)["isdir"]
+1637910879221:file.info(path)[["isdir"]]
+1637911074064:if (prompt) {
+1637911074066:response <- utils::menu(dir(path), TRUE, title = "Select a an object:")
+1637911074067:if (file.info(response)[["isdir"]]) {
+1637911074068:if (ls) { return(dir(response)) } else { response <<- utils::menu(dir(response), TRUE) }
+1637911074068:}
+1637911086692:response
+1637911115214:response <- utils::menu(dir(path), TRUE, title = "Select a an object:")
+1637911121509:response
+1637911126862:utils::menu(dir(path), TRUE, title = "Select a an object:")
+1637911177470:path <- dir(path)[[response]]
+1637911180704:path
+1637911316069:if (prompt) {
+1637911316071:response <- utils::menu(dir(path), title = "Select a an object:")
+1637911316071:if (response != 0) { path <- dir(path)[[response]] }
+1637911316072:if (file.info(path)[["isdir"]]) {
+1637911316073:if (ls) { return(dir(path)) } else { path <- dir(path)[[utils::menu(dir(path))]] }
+1637911316074:}
+1637911332244:if (!exists(".rconfigdir")) { .rconfigdir <<- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R") }
+1637911332717:path <- file.path(.rconfigdir, ifelse(is.null(append), "", append))
+1637911333614:if (prompt) {
+1637911333614:response <- utils::menu(dir(path), title = "Select a an object:")
+1637911333615:if (response != 0) { path <- dir(path)[[response]] }
+1637911333616:if (file.info(path)[["isdir"]]) {
+1637911333617:if (ls) { return(dir(path)) } else { path <- dir(path)[[utils::menu(dir(path))]] }
+1637911333617:}
+1637911372285:file.info(path)
+1637911467525:if (!exists(".rconfigdir")) { .rconfigdir <<- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R") }
+1637911467893:path <- file.path(.rconfigdir, ifelse(is.null(append), "", append))
+1637911480615:response <- utils::menu(dir(path), title = "Select a an object:")
+1637911511918:if (response != 0) { path <- file.path(.rconfigdir, dir(path)[[response]]) }
+1637911518021:if (file.info(path)[["isdir"]]) {
+1637911518022:if (ls) { return(dir(path)) } else { path <- dir(path)[[utils::menu(dir(path))]] }
+1637911518022:}
+1637911623557:#' @param ls logical - `TRUE` to return file listing (i.e. `ls`);
+1637911623558:#'   `FALSE` returns path string object (default)
+1637911623558:#'
+1637911623559:#' @return either a single character string representing the `R_CONFIG_DIR` path
+1637911623560:#'   or a vector of specified directory's files and folders (see `ls` argument).
+1637911623560:#' @export
+1637911623561:#'
+1637911623561:#' @examples
+1637911623562:#' .rconfigdir <- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R")
+1637911623563:#' r_config_dir("secrets/)
+1637911623564:r_config_dir <- function(append = NULL, prompt = TRUE, ls = FALSE) {
+1637911623564:if (!exists(".rconfigdir")) { .rconfigdir <<- Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R") }
+1637911623565:path <- file.path(.rconfigdir, ifelse(is.null(append), "", append))
+1637911623567:if (prompt) {
+1637911623568:response <- utils::menu(dir(path), title = "Select a an object:")
+1637911623568:if (response != 0) { path <- file.path(.rconfigdir, dir(path)[[response]]) }
+1637911623569:if (file.info(path)[["isdir"]]) {
+1637911623570:if (ls) { return(dir(path)) } else { path <- dir(path)[[utils::menu(dir(path))]] }
+1637911623571:}
+1637911623572:if (is.null(append) && ls) { dir(path) }
+1637911623572:file.path(path, append)
+1637911623573:}
+1637911629812:r_config_dir()
+1637911746764:r_config_dir <- function(x) {
+1637911746765:file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), x)
+1637911746766:}
+1637911753805:r_config_dir("config")
+1637911781180:r_config_dir <- function(...) {
+1637911781181:file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), c(...))
+1637911781182:}
+1637911798923:r_config_dir("config")
+1637911806101:dir(r_config_dir("config"))
+1637911819675:r_config_dir("config", "addinit_options.R")
+1637911844435:r_config_dir <- function(...) {
+1637911844436:file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), ...)
+1637911844437:}
+1637911846699:r_config_dir("config", "addinit_options.R")
+1637911861227:r_config_dir("secrets")
+1637912065386:editextras()
+1637912146329:r_config_dir("secrets")
+1637912253114:r_config_dir
+1637912306794:rm("r_config_dir")
+1637912315314:rm(r_config_dir)
+1637912319546:r_config_dir <- function(...) {
+1637912319547:file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), ...)
+1637912319548:}
+1637912326195:detach("r_config_dir")
+1637912342386:rm("r_config_dir")
+1637912491280:r_config_dir("secrets")
