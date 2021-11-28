@@ -7,6 +7,18 @@ All notable changes to this project will be documented in this file.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
+- [[1.1.0] - 2021-11-28](#110---2021-11-28)
+  - [Configuration](#configuration)
+  - [Documentation](#documentation)
+  - [Features](#features)
+  - [Release](#release)
+- [[1.0.0] - 2021-11-15](#100---2021-11-15)
+  - [Configuration](#configuration-1)
+  - [Documentation](#documentation-1)
+  - [Features](#features-1)
+  - [Bug](#bug)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 *Generated with [DocToc](https://github.com/thlorenz/doctoc)*
 ## [1.1.0] - 2021-11-28
