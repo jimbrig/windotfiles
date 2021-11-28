@@ -7,20 +7,9 @@ All notable changes to this project will be documented in this file.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [[Unreleased]](#unreleased)
-  - [Configuration](#configuration)
-  - [Documentation](#documentation)
-  - [Features](#features)
-  - [Release](#release)
-- [[1.0.0] - 2021-11-15](#100---2021-11-15)
-  - [Configuration](#configuration-1)
-  - [Documentation](#documentation-1)
-  - [Features](#features-1)
-  - [Bug](#bug)
-
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 *Generated with [DocToc](https://github.com/thlorenz/doctoc)*
-## [Unreleased]
+## [1.1.0] - 2021-11-28
 
 ### Configuration
 
@@ -35,6 +24,9 @@ All notable changes to this project will be documented in this file.
 - Update gitignores
 - Update obsidian.json
 - Backup QTTabBar
+- Gitignore
+- Updates
+- RStudio various configuration updates
 
 ### Documentation
 
@@ -42,6 +34,8 @@ All notable changes to this project will be documented in this file.
 - Changelog and README for topgrade
 - Add full machine specifications
 - Update CHANGELOG.md and run doctoc
+- Run doctoc
+- Update CHANGELOG
 
 ### Features
 
@@ -62,6 +56,15 @@ All notable changes to this project will be documented in this file.
 - Add git-extras and git configs
 - Update RStudio configs
 - Update wt settings.json
+- Add new PyPi search engine to firefox search-engines
+- Enhance R dotfiles by making r_config_dir flexible
+- Add PyPi to s-search configuration JSON file
+- Add todoist-cli dotfiles
+- Update GitHub Hosts
+- Updated Typora configs due to production release
+- Updated obsidian
+- Updated RStudio
+- New Windows Terminal Settings
 
 ### Release
 
