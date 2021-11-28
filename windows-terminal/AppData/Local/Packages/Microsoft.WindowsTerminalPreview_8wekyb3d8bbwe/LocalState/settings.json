@@ -7,9 +7,9 @@
             "command": 
             {
                 "action": "copy",
-                "singleLine": true
+                "singleLine": false
             },
-            "keys": "ctrl+shift+c"
+            "keys": "ctrl+c"
         },
         {
             "command": "unbound",
@@ -19,9 +19,9 @@
             "command": 
             {
                 "action": "copy",
-                "singleLine": false
+                "singleLine": true
             },
-            "keys": "ctrl+c"
+            "keys": "ctrl+shift+c"
         },
         {
             "command": "find",
@@ -32,12 +32,12 @@
             "keys": "ctrl+t"
         },
         {
-            "command": "duplicateTab",
-            "keys": "ctrl+shift+d"
-        },
-        {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": "duplicateTab",
+            "keys": "ctrl+shift+d"
         },
         {
             "command": 
@@ -188,12 +188,6 @@
                 "hidden": false,
                 "icon": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Icons\\Programs\\megacloud-icon.png",
                 "name": "MEGA"
-            },
-            {
-                "guid": "{2595cd9c-8f05-55ff-a1d4-93f3041ca67f}",
-                "hidden": false,
-                "name": "PowerShell Preview (msix)",
-                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "backgroundImage": "C:\\Users\\jimmy\\OneDrive\\Pictures\\Terminal\\Backgrounds\\PowerShell-Preview-Custom.png",
