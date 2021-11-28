@@ -1,6 +1,3 @@
-help/library/base/html/Sys.setenv.html,R: Set or Unset Environment Variables
-help/library/base/html/Sys.getenv.html,R: Get Environment Variables
-help/doc/html/Search?objects=1&port=12166,R: Search Results
 help/library/usethis/html/usethis.html,R: usethis: Automate Package and Project Setup
 help/library/usethis/html/00Index.html,R: Automate Package and Project Setup
 help/library/usethis/html/use_description.html,R: Create or modify a DESCRIPTION file
@@ -13,3 +10,6 @@ help/library/utils/html/winMenus.html,R: User Menus under MS Windows (Rgui)
 help/library/base/html/base-package.html,R: The R Base Package
 help/library/base/html/00Index.html,R: The R Base Package
 help/library/utils/html/menu.html,R: Menu Interaction Function
+help/library/rstudioapi/html/rstudio-editors.html,R: Retrieve Information about an RStudio Editor
+help/library/dep/html/get_deps.html,R: Get packages required to run all R code in a file
+help/library/simulationmachine/html/simulation_machine.html,R: Create a Simulation Machine Specification

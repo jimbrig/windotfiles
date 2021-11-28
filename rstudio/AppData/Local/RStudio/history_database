@@ -928,3 +928,180 @@
 1637912326195:detach("r_config_dir")
 1637912342386:rm("r_config_dir")
 1637912491280:r_config_dir("secrets")
+1637984519953:jimstools:::open_project()
+1637984871216:fs::file_create("cliff.toml")
+1637985124059:pak::pak("dep")
+1637985144641:search_ghr(""dep)
+1637985147905:search_ghr("dep")
+1637985235998:# install.packages("devtools")
+1637985235999:devtools::install_github("hadley/requirements")
+1637985251499:devtools::install_github("r-hub/sysreqs")
+1637985254203:remotes::install_github("mdneuzerling/getsysreqs")
+1637985343739:remotes::install_github('cole-brokamp/dep')
+1637985395603:dep::get_deps(rstudioapi::getActiveDocumentContext()["path"])
+1637985432030:dep::get_deps(rstudioapi::getActiveDocumentContext()["contents"])
+1637985438269:dep::get_deps()
+1637985462700:rstudioapi::getActiveDocumentContext()
+1637985467765:rstudioapi::getActiveDocumentContext("path")
+1637985473661:rstudioapi::getActiveDocumentContext()[["path"]]
+1637985483740:dep::get_deps(rstudioapi::getActiveDocumentContext()[["path"]])
+1637985499100:pak::pak(dep::get_deps(rstudioapi::getActiveDocumentContext()[["path"]]))
+1637985624126:# ensure have all necessary dependencies:
+1637985624127:dep::get_deps(rstudioapi::getActiveDocumentContext()$path) |> setdiff(c("dep", "pak")) |> pak::pak()
+1637985913006:# simulate transactions on insurance claims
+1637985913007:# transactions will include claim closures, payments and changes in case reserves
+1637985913008:# this is all completely made up and does not accurately resemble actual claims
+1637985913009:library(lubridate)
+1637985913350:library(dplyr)
+1637985919338:::
+1637985926735:# simulate transactions on insurance claims
+1637985926736:# transactions will include claim closures, payments and changes in case reserves
+1637985926737:# this is all completely made up and does not accurately resemble actual claims
+1637985926737:library(lubridate)
+1637985928950:library(dplyr)
+1637985929453:library(tibble)
+1637985929894:library(randomNames)
+1637985933503:library(tidyr)
+1637985935327:source("R/utils.R")
+1637985937685:# number of claims
+1637985937686:n_claims <- 10000
+1637985943209:# start/end dates & accident range
+1637985943210:beg_date <- as.Date("2015-01-01")
+1637985944710:end_date <- as.Date(end_of_month(beg_of_month(Sys.Date()) - 1))
+1637985946941:accident_range <- as.numeric(end_date - beg_date)
+1637985947757:set.seed(1234)
+1637985949598:accident_date <- sample(0:accident_range, size = n_claims, replace = TRUE)
+1637985950646:payment_fun <- function(n) rlnorm(n, 7.5, 1.5)
+1637985959765:claims <- tibble::tibble(
+1637985959765:claim_num = 1:n_claims,
+1637985959766:claim_id = paste0("claim-", 1:n_claims),
+1637985959767:accident_date = beg_date + lubridate::days(accident_date),
+1637985959768:state = sample(c("TX", "CA", "GA", "FL"), size = n_claims, replace = TRUE),
+1637985959768:claimant = randomNames::randomNames(n_claims),
+1637985959769:report_date = rnbinom(n_claims, 5, .25),
+1637985959770:# 0 if claim closed when reported
+1637985959771:status = rbinom(n_claims, 1, 0.96),
+1637985959772:# initial payment amount
+1637985959772:payment =  payment_fun(n_claims)) %>%
+1637985959773:dplyr::mutate(report_date = accident_date + report_date,
+1637985959774:# set payment to zero if closed when reported
+1637985959775:payment = ifelse(status == 0, 0, payment),
+1637985959776:case = payment * runif(n_claims, 0.25, 8.0),
+1637985959777:transaction_date = report_date) %>%
+1637985959778:dplyr::arrange(accident_date)
+1637985961919:## simulate transaction dates
+1637985961920:# simulate number of transactions for each claim
+1637985961921:n_trans <- rnbinom(n_claims, 3, 0.25)
+1637985962789:# simulate lag to each transaction
+1637985962790:trans_lag <- lapply(n_trans, function(x) rnbinom(x, 7, 0.1))
+1637985962957:trans_lag <- lapply(trans_lag, function(x) {
+1637985962958:if (length(x) == 0) 0 else x
+1637985962959:})
+1637985963806:for (i in seq_len(n_claims)) {
+1637985963807:trans_lag[[i]] <- data_frame(
+1637985963808:"trans_lag" = trans_lag[[i]],
+1637985963809:"claim_id" = paste0("claim-", i),
+1637985963810:"claim_num" = i
+1637985963810:)
+1637985963811:}
+1637985996901:trans_tbl <- bind_rows(trans_lag) %>%
+1637985996902:group_by(claim_id, claim_num) %>%
+1637985996903:# switch from incremental to cumulative lag
+1637985996903:mutate(trans_lag = cumsum(trans_lag)) %>%
+1637985996904:ungroup()
+1637985997060:# separate all zero claims from the claims that have payments
+1637985997060:zero_claims <- dplyr::filter(claims, status == 0)
+1637985997063:first_trans <- dplyr::filter(claims, status == 1)
+1637985997066:subsequent_trans <- left_join(trans_tbl, first_trans, by = c("claim_num", "claim_id")) %>%
+1637985997067:filter(!is.na(accident_date))
+1637985997085:n_trans <- nrow(subsequent_trans)
+1637985997086:# simulate subsequent transaction payments
+1637985997087:subsequent_trans <- subsequent_trans %>%
+1637985997088:mutate(payment = payment_fun(n_trans),
+1637985997088:case = pmax(case * rnorm(n_trans, 1.5, 0.1) - payment, 500),
+1637985997089:transaction_date = report_date + trans_lag) %>%
+1637985997090:select(-trans_lag)
+1637985997114:trans <- bind_rows(zero_claims, first_trans, subsequent_trans) %>%
+1637985997115:arrange(transaction_date)
+1637985997141:# add in a transaction number
+1637985997142:trans$trans_num <- 1:nrow(trans)
+1637985997144:# set final trans status to closed and case to 0
+1637985997144:trans <- trans %>%
+1637985997145:arrange(trans_num) %>%
+1637985997146:group_by(claim_num, claim_id) %>%
+1637985997146:mutate(final_trans = ifelse(trans_num == max(trans_num), TRUE, FALSE),
+1637985997147:status = ifelse(final_trans, 0, 1),
+1637985997148:case = ifelse(final_trans, 0, case),
+1637985997148:status = ifelse(status == 0, "Closed", "Open"),
+1637985997149:paid = round(cumsum(payment), 0),
+1637985997150:case = round(case, 0),
+1637985997151:payment = round(payment, 0)) %>%
+1637985997152:select(-final_trans) %>%
+1637985997154:arrange(accident_date) %>%
+1637985997155:ungroup() %>%
+1637985997156:# filter out any transactions past latest eval
+1637985997157:filter(.data$transaction_date <= end_date)
+1637987853367:pak::pak("mondate")
+1637987864799:pak::pak("FinCal")
+1637987943832:paid.devel.df <- data.frame(origin = c(1995, 1996, 1997, 1998, 1999,
+1637987943833:2000, 2001, 2002, 2003, 2004, 2005,
+1637987943834:2006, 1995, 1996, 1997, 1998, 1999,
+1637987943835:2000, 2001, 2002, 2003, 2004, 2005,
+1637987943836:1995, 1996, 1997, 1998, 1999, 2000,
+1637987943837:2001, 2002, 2003, 2004, 1995, 1996,
+1637987943838:1997, 1998, 1999, 2000, 2001, 2002,
+1637987943839:2003, 1995, 1996, 1997, 1998, 1999,
+1637987943839:2000, 2001, 2002, 1995, 1996, 1997,
+1637987943840:1998, 1999, 2000, 2001, 1995, 1996,
+1637987943841:1997, 1998, 1999, 2000, 1995, 1996,
+1637987943842:1997, 1998, 1999, 1995, 1996, 1997,
+1637987943842:1998, 1995, 1996, 1997, 1995, 1996,
+1637987943843:1995),
+1637987943844:dev = c(3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+1637987943845:3, 15, 15, 15, 15, 15, 15, 15, 15, 15,
+1637987943846:15, 15, 27, 27, 27, 27, 27, 27, 27, 27,
+1637987943847:27, 27, 39, 39, 39, 39, 39, 39, 39, 39,
+1637987943848:39, 51, 51, 51, 51, 51, 51, 51, 51, 63,
+1637987943849:63, 63, 63, 63, 63, 63, 75, 75, 75, 75,
+1637987943850:75, 75, 87, 87, 87, 87, 87, 99, 99, 99,
+1637987943851:99, 111, 111, 111, 123, 123, 135),
+1637987943852:value = c(3, 1, 1, 1, 1, 1, 1, 1, 1, 4, 1,
+1637987943852:1, 503, 465, 534, 329, 399, 328, 443,
+1637987943853:401, 326, 524, 323, 2474, 2621, 2541,
+1637987943854:2204, 2496, 1849, 2566, 3078, 2372,
+1637987943854:2784, 3719, 4122, 3807, 3673, 4304,
+1637987943855:3124, 4208, 5459, 4132, 4094, 4618,
+1637987943856:4192, 4242, 5197, 3693, 5074, 6748,
+1637987943857:4194, 4882, 4374, 4616, 5674, 3966,
+1637987943858:5474, 4303, 4997, 4544, 4827, 6031,
+1637987943858:4164, 4350, 5041, 4679, 5051, 6244,
+1637987943859:4382, 5111, 4761, 5145, 4394, 5172,
+1637987943860:4787, 4394, 5191, 4398))
+1637988135487:pak::pak("simulationmachine")
+1637988148913:remotes::install_github("kasaai/simulationmachine")
+1637988193636:charm <- simulationmachine::simulation_machine(
+1637988193637:num_claims = 50000,
+1637988193638:lob_distribution = c(0.25, 0.25, 0.30, 0.20),
+1637988193639:inflation = c(0.01, 0.01, 0.01, 0.01),
+1637988193640:sd_claim = 0.85,
+1637988193640:sd_recovery = 0.75
+1637988193641:)
+1637988200095:claim_history <- simulationmachine::conjure(charm, seed = 1234)
+1637988227541:View(claim_history)
+1637988327411:pak::pak("piggyback")
+1637988347786:piggyback::pb_download("Autoseg2012B.zip",
+1637988347788:repo = "kasaai/pc-pricing-tutorial",
+1637988347791:dest = "data-raw",
+1637988347793:overwrite = FALSE)
+1637988391589:if (!dir.exists("data-raw/Autoseg2012B")) {
+1637988391592:unzip(
+1637988391594:file.path(download_dir, "Autoseg2012B.zip"),
+1637988391597:exdir = file.path(download_dir, "Autoseg2012B")
+1637988391600:)
+1637988391603:}
+1637988405918:if (!dir.exists("data-raw/Autoseg2012B")) {
+1637988405920:unzip(
+1637988405922:file.path("data-raw", "Autoseg2012B.zip"),
+1637988405924:exdir = file.path("data-raw", "Autoseg2012B")
+1637988405926:)
+1637988405930:}
