@@ -1,0 +1,1 @@
+winget import -i "$env:DOTDIR\winget\config\winget-export.json" --accept-package-agreements --accept-source-agreements --ignore-unavailable

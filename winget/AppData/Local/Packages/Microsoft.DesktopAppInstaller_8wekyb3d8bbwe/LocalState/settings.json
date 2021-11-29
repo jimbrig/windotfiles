@@ -1,0 +1,28 @@
+// For documentation on these settings, see: https://aka.ms/winget-settings
+{
+    "$schema": "https://aka.ms/winget-settings.schema.json",
+    "source": {
+        "autoUpdateIntervalInMinutes": 3
+    },
+    "visual": {
+        "progressBar": "rainbow"
+    },
+    "installBehavior": {
+        "preferences": {
+            "scope": "machine",
+            "locale": ["en-US"]
+        }
+    },
+    "telemetry": {
+        "disable": true
+    },
+    "network": {
+        "downloader": "default"
+    },
+    "experimentalFeatures": {
+        "dependencies": true,
+        "directMSI": true,
+        "experimentalARG": true,
+        "experimentalCMD": true
+    }
+}
