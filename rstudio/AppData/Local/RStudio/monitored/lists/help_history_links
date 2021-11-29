@@ -1,15 +1,15 @@
-help/library/usethis/html/usethis.html,R: usethis: Automate Package and Project Setup
-help/library/usethis/html/00Index.html,R: Automate Package and Project Setup
-help/library/usethis/html/use_description.html,R: Create or modify a DESCRIPTION file
-help/library/base/html/environment.html,R: Environment Access
-help/library/base/html/browser.html,R: Environment Browser
-help/library/base/html/EnvVar.html,R: Environment Variables
-help/library/utils/html/askYesNo.html,R: Ask a Yes/No Question
-help/library/utils/html/00Index.html,R: The R Utils Package
-help/library/utils/html/winMenus.html,R: User Menus under MS Windows (Rgui)
-help/library/base/html/base-package.html,R: The R Base Package
-help/library/base/html/00Index.html,R: The R Base Package
-help/library/utils/html/menu.html,R: Menu Interaction Function
-help/library/rstudioapi/html/rstudio-editors.html,R: Retrieve Information about an RStudio Editor
-help/library/dep/html/get_deps.html,R: Get packages required to run all R code in a file
-help/library/simulationmachine/html/simulation_machine.html,R: Create a Simulation Machine Specification
+help/library/testthat/html/00Index.html,R: Unit Testing for R
+help/library/testthat/html/auto_test.html,"R: Watches code and tests for changes, rerunning tests as..."
+help/library/lubridate/html/as_date.html,R: Convert an object to a date or date-time
+help/library/lubridate/html/00Index.html,R: Make Dealing with Dates a Little Easier
+help/library/lubridate/doc/index.html,R: Vignettes and other documentation
+help/library/lubridate/doc/lubridate.html,Do more with dates and times in R
+help/library/usethis/html/use_package.html,R: Depend on another package
+help/library/NULL/help/unique,unique
+help/library/base/html/sort.html,R: Sorting or Ordering Vectors
+help/preview?file=C%3A%2FUsers%2Fjimmy%2FDev%2Fsandbox%2Flossdevt%2Fman%2Fdata-utils.Rd,data-utils.Rd
+help/library/usethis/html/use_pkgdown.html,R: Use pkgdown
+help/library/usethis/html/use_github_labels.html,R: Manage GitHub issue labels
+help/library/covr/html/codecov.html,R: Run covr on a package and upload the result to codecov.io
+help/library/usethis/html/use_coverage.html,R: Test coverage
+help/library/pkgdown/html/build_news.html,R: Build news section

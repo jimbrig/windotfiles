@@ -1105,3 +1105,315 @@
 1637988405924:exdir = file.path("data-raw", "Autoseg2012B")
 1637988405926:)
 1637988405930:}
+1638064363417:shiny::runApp()
+1638066967477:cls
+1638066969220:cls()
+1638066971100:clear()
+1638066975923:reload_rstudio()
+1638067006357:Sys.getenv("R_HISTFILE")
+1638067073115:reload_rstudio()
+1638067077204:reload_r()
+1638067122219:loadhistory("~/.config/R/.Rhistory")
+1638067172388:jimstools::open_project()
+1638067232840:require(attachment)
+1638067232971:require(chameleon)
+1638067349709:c(
+1638067349710:"dplyr",
+1638067349711:"magrittr",
+1638067349711:"rlang",
+1638067349712:"tibble",
+1638067349713:"lubridate",
+1638067349713:"purrr",
+1638067349714:"actuar",
+1638067349715:"ChainLadder",
+1638067349715:"stringr"
+1638067349716:) |>
+1638067349717:purrr::walk(usethis::use_package)
+1638067601067:fs::file_create("inst/scripts/dev_dependencies.R")
+1638067708626:dev_deps <- c(
+1638067708627:"devtools",
+1638067708628:"usethis",
+1638067708629:"testthat",
+1638067708629:"roxygen2",
+1638067708630:"knitr",
+1638067708631:"rmarkdown",
+1638067708631:"dplyr",
+1638067708632:"tidyr",
+1638067708633:"shiny",
+1638067708633:"shinydashboard",
+1638067708634:"shinyWidgets",
+1638067708635:"lubridate",
+1638067708635:"stringr",
+1638067708636:"purrr",
+1638067708638:"attachment",
+1638067708638:"chameleon",
+1638067708639:"addinit",
+1638067708639:"assertive",
+1638067708640:"assertthat",
+1638067708641:"validate"
+1638067708642:)
+1638067753809:getwd(0)
+1638067755369:getwd()
+1638067763194:setwd("Dev/sandbox")
+1638067785449:jimstools:::create_project("lossdevt")
+1638067799625:jimstools:::create_rstudio_project("lossdevt", "lossdevt")
+1638067822737:usethis::create_package("lossdevt")
+1638067880119:c(
+1638067880120:"devtools",
+1638067880120:"usethis",
+1638067880121:"pkgbuild",
+1638067880122:"knitr",
+1638067880122:"desc",
+1638067880123:"attachment",
+1638067880123:"pkgdown"
+1638067880124:) |>
+1638067880125:purrr::walk(library)
+1638068289398:datasets <- c("ppauto", "wkcomp", "comauto", "medmal"
+1638068289399:, "prodliab", "othliab")''
+1638068291551:datasets <- c("ppauto", "wkcomp", "comauto", "medmal"
+1638068291551:, "prodliab", "othliab")''
+1638068301207:datasets <- c("ppauto", "wkcomp", "comauto", "medmal", "prodliab", "othliab")
+1638068311375:URL.stem = "http://www.casact.org/research/reserve_data/"
+1638068323023:stub <- datasets[[1]]
+1638068328080:URL <- paste0(URL.stem, stub, "_pos.csv")
+1638068334646:df <- readr::read_csv(URL, col_types = "iciiiddddddid")
+1638068510390:usethis::use_rmarkdown_template(
+1638068510392:"reserve_analysis",
+1638068510392:"actuarial_templates",
+1638068510393:"An RMarkdown Template for a Typical Actuarial Reserving Analysis",
+1638068510394:TRUE
+1638068510395:)
+1638068557366:usethis::use_rmarkdown_template(
+1638068557367:"Actuarial Reserve Analysis",
+1638068557368:"actuarial_templates",
+1638068557369:"An R-Markdown Template for a Typical Actuarial Reserving Analysis",
+1638068557369:TRUE
+1638068557370:)
+1638068796645:lubridate::today()
+1638068819388:??user
+1638068831133:whoami::whoami()
+1638068837341:whoami::username()
+1638068847300:whoami::whoami("fullname")
+1638068852829:whoami::whoami()["fullname"]
+1638068858685:whoami::whoami()[["fullname"]]
+1638069089541:usethis::use_r("utils-feedback")
+1638069098879:devtools::load_all(".")
+1638069132836:?feedback
+1638069224515:usethis::use_r("utils-dates")
+1638069503082:devtools::load_all(".")
+1638069517651:?dates
+1638069659692:devtools::load_all(".")
+1638069662545:?dates
+1638069690162:devtools::load_all(".")
+1638069691442:?dates
+1638069866659:devtools::load_all(".")
+1638069867778:?dates
+1638069908514:devtools::load_all(".")
+1638069909646:?dates
+1638070054536:usethis::use_testthat()
+1638070069752:usethis::use_test("date-utils")
+1638070129161:devtools::load_all(".")
+1638070135041:attachment::att_amend_desc()
+1638070138650:devtools::load_all(".")
+1638070221806:?testthat::`testthat-package`
+1638070297419:devtools::load_all(".")
+1638070305238:end_of_month(as.Date("2019-02-05")
+1638070308878:)
+1638070316951:expect_equal(end_of_month(as.Date("2019-02-05")), as.Date("2019-02-28"))
+1638070318872:test_that("end of month is correct (i.e. 30 versus 31 and 28 for February)", {
+1638070318873:expect_equal(end_of_month(as.Date("2019-02-05")), as.Date("2019-02-28"))
+1638070318874:})
+1638070320527:test_that("start of month is correct", {
+1638070320528:expect_equal(start_of_month(as.Date("2015-07-04")), as.Date("2015-07-01"))
+1638070320529:})
+1638070326230:expect_equal(end_of_month("2019-02-05"), as.Date("2019-02-28"))
+1638070327215:expect_equal(start_of_month("2015-07-04"), as.Date("2015-07-01"))
+1638070327774:expect_equal(end_of_month("2019/02/05"), as.Date("2019-02-28"))
+1638070328743:expect_equal(start_of_month("2015/07/04"), as.Date("2015-07-01"))
+1638070329590:expect_equal(end_of_month("February 5, 2019"), as.Date("2019-02-28"))
+1638070366438:install.packages("flipTime")
+1638070376190:search_ghr("flipTime")
+1638070385975:pak::pak("Displayr/flipTime")
+1638070439679:burglr::burgle(flipTime::AsDate)
+1638070460527:devtools::load_all(".")
+1638070622199:end_of_month("February 5, 2019")
+1638070643569:devtools::load_all(".")
+1638070646565:end_of_month("February 5, 2019")
+1638070685325:flipTime:::fast_strptime
+1638070693005:flipTime::AsDate()
+1638070694414:flipTime::AsDate
+1638070710444:flipTime::AsDate("February 20, 2018")
+1638070810341:attachment::att_amend_desc()
+1638070816644:end_of_month("February 5, 2019")
+1638070818575:devtools::load_all(".")
+1638070858765:start_of_month("July 7, 1999")
+1638071018709:lubridate::as_date("February 16, 2020")
+1638071666161:usethis::use_dev_package("Displayr/flipTime")
+1638071673473:usethis::use_dev_package("flipTime")
+1638071707985:usethis::use_dev_package("flipTime", remote = "Displayr/flipTime")
+1638071720297:usethis::use_dev_package(remote = "Displayr/flipTime")
+1638071726874:usethis::use_dev_package(remote = "github::Displayr/flipTime")
+1638071738025:usethis::use_dev_package("flipTime", remote = "github::Displayr/flipTime")
+1638071748347:devtools::load_all(".")
+1638071781059:usethis::use_mit_license("Jimmy Briggs | 2021")
+1638071841521:usethis::use_r("data_validation")
+1638072130976:fs::dir_create("inst/extdata")
+1638072139064:fs::dir_create("inst/testdat")
+1638072237481:usethis::use_r("utils-data")
+1638072390562:devtools::load_all(".")
+1638072407430:attachment::att_amend_desc()
+1638072417575:file.remove("NAMESPACE")
+1638072419039:attachment::att_amend_desc()
+1638072539296:devtools::load_all(".")
+1638072546149:?data-utils
+1638072550966:?`data-utils`
+1638072636221:df <- data.frame(let = rep(letters, 2), num = rep(c(1:26), 2))
+1638072639622:#' Pull Unique Values from a dataframe
+1638072639623:#'
+1638072639624:#' @param df a provided [data.frame()]
+1638072639625:#' @param var character - quoted named of a variable from `df`
+1638072639625:#'
+1638072639626:#' @rdname data-utils
+1638072639626:#' @export
+1638072639627:pull_unique <- function(df, var){
+1638072642814:df[[var]] %>%
+1638072642815:unique() %>%
+1638072642816:sort()
+1638072642817:}
+1638072647231:pull_unique <- function(df, var){
+1638072647232:df[[var]] %>%
+1638072647233:unique() %>%
+1638072647233:sort()
+1638072647235:}
+1638072656149:pull_unique(df, 1)
+1638072719478:pull_unique(df, "num")
+1638072740949:usethis::use_test("data-utils")
+1638072785069:test_that("pull_unique works", {
+1638072785070:df <- data.frame(let = rep(letters, 2), num = rep(c(1:26), 2))
+1638072785071:expect_equal(pull_unique(df, 1), letters)
+1638072785072:})
+1638072804763:usethis::use_readme_rmd()
+1638072848941:usethis::use_coverage()
+1638072918220:devtools::document()
+1638073066557:c(
+1638073066558:"zzz",
+1638073066559:"utils-data",
+1638073066559:"utils-dates",
+1638073066560:"utils-feedback",
+1638073066561:"triangles",
+1638073066561:"validation",
+1638073066562:"loss_run"
+1638073066562:) |>
+1638073066563:purrr::walk(usethis::use_r)
+1638073111828:attachment::att_amend_desc()
+1638073140772:c(
+1638073140773:"zzz",
+1638073140774:"utils-data",
+1638073140775:"utils-dates",
+1638073140775:"utils-feedback",
+1638073140776:"actuary-triangles",
+1638073140776:"actuary-validation",
+1638073140777:"actuary-loss_run"
+1638073140778:) |>
+1638073140779:purrr::walk(usethis::use_r)
+1638073266700:c(
+1638073266701:"date-utils",
+1638073266701:"data-utils",
+1638073266702:"actuary-triangle",
+1638073266703:"actuary-validation",
+1638073266703:"actuary-loss_run"
+1638073266704:) |>
+1638073266705:purrr::walk(usethis::use_test)
+1638073370315:usethis::use_dev_package("flipTime", remote = "Displayr/flipTime")
+1638073665098:usethis::use_news_md()
+1638073830898:attachment::find_remotes()
+1638073834906:attachment::find_remotes(".")
+1638073867393:attachment::create_dependencies_file(to = "inst/scripts/dependencies.R")
+1638073881362:attachment::att_amend_desc(
+1638073881363:extra.suggests = c("roxygen2", "devtools", "usethis", "desc", "attachment", "testthat", "pkgdown")
+1638073881364:)
+1638073883952:attachment::create_dependencies_file(to = "inst/scripts/dependencies.R")
+1638073897418:usethis::use_pkgdown("pkgdown/_pkgdown.yml", destdir = "inst/docs")
+1638073902443:pkgdown::clean_site()
+1638073903289:pkgdown::build_site()
+1638073977587:usethis::use_pkgdown("_pkgdown.yml", destdir = "docs")
+1638074168264:usethis::use_pkgdown_github_pages()
+1638074192193:pkgdown::clean_site()
+1638074193207:pkgdown::build_site()
+1638074229449:usethis::use_github_action_check_standard()
+1638074232169:usethis::use_github_action("test-coverage")
+1638074234041:knitr::knit("README.Rmd")
+1638074256639:devtools::load_all()
+1638074258769:devtools::document()
+1638074266424:devtools::spell_check()
+1638074296736:getOption(repos)
+1638074298807:getOption("repos")
+1638074314184:install.packages(c("callr", "spelling"))
+1638074325386:devtools::load_all()
+1638074355213:devtools::load_all()
+1638074357849:devtools::document()
+1638074360210:devtools::spell_check()
+1638074362397:spelling::update_wordlist()
+1638074386032:install.packages("checkhelper")
+1638074395688:search_ghr("checkhelper")
+1638074405081:remotes::install_github("thinkr-open/checkhelper")
+1638074423368:globals <- checkhelper::get_no_visible() # remotes::install_github("thinkr-open/checkhelper")
+1638074471147:globals_out <- paste0('"', unique(globals$globalVariables$variable), '"')
+1638074471148:cat(globals_out, file = "R/globals.R", sep = "\n", append = TRUE)
+1638074488929:devtools::load_all()
+1638074492335:devtools::document()
+1638074494288:devtools::check()
+1638074546280:devtools::test()
+1638074548752:devtools::lint()
+1638075306894:usethis::tidy_labels()
+1638075684742:usethis::use_github_labels(
+1638075684743:# delete_default = TRUE,
+1638075684743:labels = c("config", "release", "setup"), #,"data", "app", "api", "refactor"),
+1638075684744:colours = c("config" = "#6A6CDE", "release" = "#12E943", "setup" = "#c5def5"), #, "data" = ""),
+1638075684745:descriptions = c("config" = "Configuration and meta-infrastructural changes",
+1638075684746:"release" = "Indicates a new release",
+1638075684747:"setup" = "Related to setting up the project/package"),
+1638075684747:rename = c("enhancement" = "feature")
+1638075684749:)
+1638075713571:usethis::use_github_labels(
+1638075713572:# delete_default = TRUE,
+1638075713573:labels = c("config", "release", "setup"), #,"data", "app", "api", "refactor"),
+1638075713574:colours = NULL, #c("config" = "#6A6CDE", "release" = "#12E943", "setup" = "#c5def5"), #, "data" = ""),
+1638075713574:descriptions = c("config" = "Configuration and meta-infrastructural changes",
+1638075713575:"release" = "Indicates a new release",
+1638075713576:"setup" = "Related to setting up the project/package"),
+1638075713576:rename = c("enhancement" = "feature")
+1638075713577:)
+1638075987697:covr::codecov()
+1638077055276:system("git-cliff -o NEWS.md")
+1638077225837:chameleon::build_pkgdown(yml = "_pkgdown.yml", favicon = "pkgdown/favicon")
+1638077239342:pak::pak("ThinkR-Open/chameleon")
+1638077247630:search_ghr("chameleon")
+1638077256356:pak::pak("ThinkR-open/chameleon")
+1638077262416:.Last.error.trace
+1638077268587:pak::cache_clean()
+1638077271396:pak::cache_delete()
+1638077273980:pak::cache_list()
+1638077280771:pak::lib_status()
+1638077284837:pak::pak("ThinkR-open/chameleon")
+1638077322589:chameleon::build_pkgdown(yml = "_pkgdown.yml", favicon = "pkgdown/favicon")
+1638077386435:install.packages("callr")
+1638077400116:chameleon::build_pkgdown(yml = "_pkgdown.yml", favicon = "pkgdown/favicon")
+1638077474644:covr::code_coverage()
+1638077481171:covr::codecov()
+1638077493940:covr::codecov
+1638077614938:Sys.setenv('CODECOV_TOKEN'='6686f93e-5216-4ea0-94b7-d1899f0f5741')
+1638077617028:covr::codecov
+1638077618690:covr::codecov()
+1638077636781:library(covr)
+1638077646147:covr::file_report()
+1638077692109:fs::file_create("codecov.yml")
+1638077916443:pkgdown::deploy_site_github()
+1638077931785:pkgdown::build_news()
+1638078459641:chameleon::open_pkgdown_function()
+1638080418509:usethis::use_coverage()
+1638080528941:usethis::use_github_action("test-coverage")
+1638080636783:fs::file_create("cliff.toml")
+1638080643323:system("git-cliff -i")
+1638080658308:system("git-cliff -o inst/CHANGELOG.md")
+1638080806458:system("git-cliff -o NEWS.md")

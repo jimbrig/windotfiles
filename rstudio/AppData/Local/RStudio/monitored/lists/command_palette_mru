@@ -1,2 +1,3 @@
-r_addin|addinit::quick_header
 command|closeAllSourceDocs
+command|newTerminal
+r_addin|addinit::quick_header
