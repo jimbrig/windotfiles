@@ -7,8 +7,6 @@
 #
 #  ------------------------------------------------------------------------
 
-pak::pak_setup()
-pak::pak_setup("copy")
 pak::pak_update()
 pak::pak_sitrep()
 
@@ -30,14 +28,20 @@ get_package_details <- function(pkg_name) {
   is.github <- !is.null(pkg_d$GithubRepo)
   is.base <- !is.null(pkg_d$Priority) && pkg_d$Priority ==
     "base"
-  if (!is.cran & !is.github & !is.base)
+  if (!is.cran & !is.github & !is.base) {
     stop("CRAN or GitHub info for ", pkg_name, " not found. Other packages repos are not supported.",
-         call. = FALSE)
-  if (is.cran)
+      call. = FALSE
+    )
+  }
+  if (is.cran) {
     return(pkg_d[c("Package", "Repository", "Version")])
-  if (is.github)
-    return(pkg_d[c("Package", "GithubUsername",
-                   "GithubRepo", "GithubRef", "GithubSHA1")])
+  }
+  if (is.github) {
+    return(pkg_d[c(
+      "Package", "GithubUsername",
+      "GithubRepo", "GithubRef", "GithubSHA1"
+    )])
+  }
 }
 
 #' @keywords internal
@@ -49,14 +53,20 @@ get_package_details <- function(pkg_name) {
   is.github <- !is.null(pkg_d$GithubRepo)
   is.base <- !is.null(pkg_d$Priority) && pkg_d$Priority ==
     "base"
-  if (!is.cran & !is.github & !is.base)
+  if (!is.cran & !is.github & !is.base) {
     stop("CRAN or GitHub info for ", pkg_name, " not found. Other packages repos are not supported.",
-         call. = FALSE)
-  if (is.cran)
+      call. = FALSE
+    )
+  }
+  if (is.cran) {
     return(pkg_d[c("Package", "Repository", "Version")])
-  if (is.github)
-    return(pkg_d[c("Package", "GithubUsername",
-                   "GithubRepo", "GithubRef", "GithubSHA1")])
+  }
+  if (is.github) {
+    return(pkg_d[c(
+      "Package", "GithubUsername",
+      "GithubRepo", "GithubRef", "GithubSHA1"
+    )])
+  }
 }
 
 get_packages <- function(path = .libPaths()[1],
@@ -64,7 +74,6 @@ get_packages <- function(path = .libPaths()[1],
                          known_gh_pkgs = NULL,
                          known_bio_pkgs = NULL,
                          personal_pkgs = NULL) {
-
   lib <- path
   user_pkgs <- fs::dir_ls(lib, type = "directory") %>%
     basename() %>%
@@ -103,11 +112,12 @@ get_packages <- function(path = .libPaths()[1],
 libs <- .libPaths()
 user_lib <- libs[1]
 
-user_pkgs <- fs::dir_ls(user_lib, type = "directory") %>% basename() %>% setdiff("_cache")
+user_pkgs <- fs::dir_ls(user_lib, type = "directory") %>%
+  basename() %>%
+  setdiff("_cache")
 
 pkgmeta <- purrr::possibly(packageDescription, otherwise = NULL, quiet = TRUE)
 
 user_pkgs_meta <- purrr::map(user_pkgs, pkgmeta) %>%
   purrr::set_names(user_pkgs) %>%
   purrr::compact()
-
