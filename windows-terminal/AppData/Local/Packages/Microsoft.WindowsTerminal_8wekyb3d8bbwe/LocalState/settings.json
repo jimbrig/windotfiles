@@ -146,6 +146,16 @@
                 "name": "Keeper Commander",
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "Keeper Commander"
+            },
+            {
+                "guid": "{2595cd9c-8f05-55ff-a1d4-93f3041ca67f}",
+                "name": "PowerShell Preview (msix)",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
