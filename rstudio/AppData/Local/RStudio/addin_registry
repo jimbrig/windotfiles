@@ -1,0 +1,317 @@
+{
+    "addinit::initProject": {
+        "name": "Init Project",
+        "package": "addinit",
+        "title": "",
+        "description": "Initiating a new project.",
+        "interactive": true,
+        "binding": "initProject",
+        "ordinal": 1
+    },
+    "addinit::quick_header": {
+        "name": "Quick header",
+        "package": "addinit",
+        "title": "",
+        "description": "Quickly add a header to a script.",
+        "interactive": false,
+        "binding": "quick_header",
+        "ordinal": 3
+    },
+    "addinit::quick_script": {
+        "name": "Quick script",
+        "package": "addinit",
+        "title": "",
+        "description": "Quickly create a new script.",
+        "interactive": true,
+        "binding": "quick_script",
+        "ordinal": 2
+    },
+    "bookdown::mathquill": {
+        "name": "Input LaTeX Math",
+        "package": "bookdown",
+        "title": "",
+        "description": "Input math expressions via the MathQuill library.",
+        "interactive": true,
+        "binding": "mathquill",
+        "ordinal": 5
+    },
+    "bookdown::serve_book": {
+        "name": "Preview Book",
+        "package": "bookdown",
+        "title": "",
+        "description": "Run bookdown::serve_book() to live preview a book.",
+        "interactive": true,
+        "binding": "serve_book",
+        "ordinal": 4
+    },
+    "clipr::clipr_output": {
+        "name": "Output to clipboard",
+        "package": "clipr",
+        "title": "",
+        "description": "Copies the console output of a selected expression to the system clipboard",
+        "interactive": false,
+        "binding": "clipr_output",
+        "ordinal": 7
+    },
+    "clipr::clipr_result": {
+        "name": "Value to clipboard",
+        "package": "clipr",
+        "title": "",
+        "description": "Copies the results of a selected expression to the system clipboard",
+        "interactive": false,
+        "binding": "clipr_result",
+        "ordinal": 6
+    },
+    "covr::addin_report": {
+        "name": "Calculate package test coverage",
+        "package": "covr",
+        "title": "",
+        "description": "Calculates the package test coverage and opens a report, using `covr::report()`",
+        "interactive": false,
+        "binding": "addin_report",
+        "ordinal": 8
+    },
+    "devtools::document": {
+        "name": "Document a package",
+        "package": "devtools",
+        "title": "",
+        "description": "A wrapper for `roxygen`'s `roxygen2::roxygenize()`",
+        "interactive": true,
+        "binding": "document",
+        "ordinal": 12
+    },
+    "devtools::test_active_file": {
+        "name": "Run a test file",
+        "package": "devtools",
+        "title": "",
+        "description": "Run the current test file, using `devtools::test_active_file()`.",
+        "interactive": true,
+        "binding": "test_active_file",
+        "ordinal": 9
+    },
+    "devtools::test_coverage": {
+        "name": "Report test coverage for a package",
+        "package": "devtools",
+        "title": "",
+        "description": "Calculate and report the test coverage for the current package, using `devtools::test_coverage()`.",
+        "interactive": true,
+        "binding": "test_coverage",
+        "ordinal": 11
+    },
+    "devtools::test_coverage_active_file": {
+        "name": "Report test coverage for a file",
+        "package": "devtools",
+        "title": "",
+        "description": "Calculate and report test coverage for the current test file, using `devtools::test_coverage_active_file()`.",
+        "interactive": true,
+        "binding": "test_coverage_active_file",
+        "ordinal": 10
+    },
+    "devtri::ldf_picker": {
+        "name": "LDF Picker",
+        "package": "devtri",
+        "title": "",
+        "description": "Select loss development factors for a development triangle",
+        "interactive": true,
+        "binding": "ldf_picker",
+        "ordinal": 13
+    },
+    "docthis::doc_this_addin": {
+        "name": "Document object",
+        "package": "docthis",
+        "title": "",
+        "description": "Inserts roxygen2 documentation skeleton for functions and data.frames",
+        "interactive": false,
+        "binding": "doc_this_addin",
+        "ordinal": 14
+    },
+    "golem::go_to_app_server": {
+        "name": "Open app_server.R",
+        "package": "golem",
+        "title": "",
+        "description": "Opens the app_server.R file.",
+        "interactive": false,
+        "binding": "go_to_app_server",
+        "ordinal": 20
+    },
+    "golem::go_to_app_ui": {
+        "name": "Open app_ui.R",
+        "package": "golem",
+        "title": "",
+        "description": "Opens the app_ui.R file.",
+        "interactive": false,
+        "binding": "go_to_app_ui",
+        "ordinal": 19
+    },
+    "golem::go_to_deploy": {
+        "name": "Open deploy.R",
+        "package": "golem",
+        "title": "",
+        "description": "Opens the 03_deploy.R file.",
+        "interactive": false,
+        "binding": "go_to_deploy",
+        "ordinal": 17
+    },
+    "golem::go_to_dev": {
+        "name": "Open dev.R",
+        "package": "golem",
+        "title": "",
+        "description": "Opens the 02_dev.R file.",
+        "interactive": false,
+        "binding": "go_to_dev",
+        "ordinal": 16
+    },
+    "golem::go_to_run_app": {
+        "name": "Open run_app.R",
+        "package": "golem",
+        "title": "",
+        "description": "Opens the run_app.R file.",
+        "interactive": true,
+        "binding": "go_to_run_app",
+        "ordinal": 21
+    },
+    "golem::go_to_run_dev": {
+        "name": "Open run_dev.R",
+        "package": "golem",
+        "title": "",
+        "description": "Opens the run_dev.R file.",
+        "interactive": false,
+        "binding": "go_to_run_dev",
+        "ordinal": 18
+    },
+    "golem::go_to_start": {
+        "name": "Open start.R",
+        "package": "golem",
+        "title": "",
+        "description": "Opens the 01_start.R file.",
+        "interactive": false,
+        "binding": "go_to_start",
+        "ordinal": 15
+    },
+    "golem::insert_ns": {
+        "name": "Put selected text into between ns()",
+        "package": "golem",
+        "title": "",
+        "description": "add 'ns(' in front of selected text, and add ')' behind.",
+        "interactive": false,
+        "binding": "insert_ns",
+        "ordinal": 22
+    },
+    "golem::run_dev": {
+        "name": "Run run_dev.R",
+        "package": "golem",
+        "title": "",
+        "description": "Runs the run_dev.R file.",
+        "interactive": true,
+        "binding": "run_dev",
+        "ordinal": 23
+    },
+    "jimstools::open_project": {
+        "name": "Open Project",
+        "package": "jimstools",
+        "title": "",
+        "description": "Interactively open RStudio Project",
+        "interactive": false,
+        "binding": "open_project",
+        "ordinal": 25
+    },
+    "jimstools::paste_winslash": {
+        "name": "Paste Converting WinSlash's",
+        "package": "jimstools",
+        "title": "",
+        "description": "Paste's contents from clipboard (a path) and converts any \"\\\"'s to \"\\\\\"'s.",
+        "interactive": false,
+        "binding": "paste_winslash",
+        "ordinal": 24
+    },
+    "lintr::addin_lint": {
+        "name": "Lint current file",
+        "package": "lintr",
+        "title": "",
+        "description": "Runs lintr::lint on the current file",
+        "interactive": true,
+        "binding": "addin_lint",
+        "ordinal": 26
+    },
+    "lintr::addin_lint_package": {
+        "name": "Lint current package",
+        "package": "lintr",
+        "title": "",
+        "description": "Runs lintr::lint_package",
+        "interactive": true,
+        "binding": "addin_lint_package",
+        "ordinal": 27
+    },
+    "listviewer::jsoneditAddin": {
+        "name": "jsonedit",
+        "package": "listviewer",
+        "title": "",
+        "description": "View a list in jsonedit",
+        "interactive": false,
+        "binding": "jsoneditAddin",
+        "ordinal": 28
+    },
+    "packagefinder::packagefinderAddIn": {
+        "name": "packagefinder",
+        "package": "packagefinder",
+        "title": "",
+        "description": "Search packaes on CRAN.",
+        "interactive": true,
+        "binding": "packagefinderAddIn",
+        "ordinal": 29
+    },
+    "pkgdown::build_site_external": {
+        "name": "Build pkgdown",
+        "package": "pkgdown",
+        "title": "",
+        "description": "Runs pkgdown on the current package",
+        "interactive": true,
+        "binding": "build_site_external",
+        "ordinal": 30
+    },
+    "renv::renv_addins_embed": {
+        "name": "Embed a Lockfile",
+        "package": "renv",
+        "title": "",
+        "description": "Embeds a lockfile in the document, via renv::use().",
+        "interactive": false,
+        "binding": "renv_addins_embed",
+        "ordinal": 31
+    },
+    "styler::set_style_transformers": {
+        "name": "Set style",
+        "package": "styler",
+        "title": "",
+        "description": "Prompt for and set the style transformers used by all styler addins",
+        "interactive": true,
+        "binding": "set_style_transformers",
+        "ordinal": 32
+    },
+    "styler::style_active_file": {
+        "name": "Style active file",
+        "package": "styler",
+        "title": "",
+        "description": "Pretty-print active file",
+        "interactive": true,
+        "binding": "style_active_file",
+        "ordinal": 34
+    },
+    "styler::style_active_pkg": {
+        "name": "Style active package",
+        "package": "styler",
+        "title": "",
+        "description": "Pretty-print active package",
+        "interactive": true,
+        "binding": "style_active_pkg",
+        "ordinal": 35
+    },
+    "styler::style_selection": {
+        "name": "Style selection",
+        "package": "styler",
+        "title": "",
+        "description": "Pretty-print selection",
+        "interactive": true,
+        "binding": "style_selection",
+        "ordinal": 33
+    }
+}

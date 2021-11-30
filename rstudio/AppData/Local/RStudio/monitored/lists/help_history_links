@@ -1,0 +1,15 @@
+help/library/testthat/html/00Index.html,R: Unit Testing for R
+help/library/testthat/html/auto_test.html,"R: Watches code and tests for changes, rerunning tests as..."
+help/library/lubridate/html/as_date.html,R: Convert an object to a date or date-time
+help/library/lubridate/html/00Index.html,R: Make Dealing with Dates a Little Easier
+help/library/lubridate/doc/index.html,R: Vignettes and other documentation
+help/library/lubridate/doc/lubridate.html,Do more with dates and times in R
+help/library/usethis/html/use_package.html,R: Depend on another package
+help/library/NULL/help/unique,unique
+help/library/base/html/sort.html,R: Sorting or Ordering Vectors
+help/preview?file=C%3A%2FUsers%2Fjimmy%2FDev%2Fsandbox%2Flossdevt%2Fman%2Fdata-utils.Rd,data-utils.Rd
+help/library/usethis/html/use_pkgdown.html,R: Use pkgdown
+help/library/usethis/html/use_github_labels.html,R: Manage GitHub issue labels
+help/library/covr/html/codecov.html,R: Run covr on a package and upload the result to codecov.io
+help/library/usethis/html/use_coverage.html,R: Test coverage
+help/library/pkgdown/html/build_news.html,R: Build news section
