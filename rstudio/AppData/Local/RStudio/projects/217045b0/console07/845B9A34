@@ -1,0 +1,14 @@
+[0m[0KPowerShell 7.2.0[0K[?25l
+Copyright (c) Microsoft Corporation.[0K
+[0K
+https://aka.ms/powershell[0K
+Type 'help' to get help.[0K
+[0K
+[0K[?25h[?25l
+[0;32;92m[ZLocation] knows about 159 locations.[0m[0K
+[0K
+[0K[?25hLoading personal and system profiles took 3978ms.[0K[?25l
+[0K[?25h[0;36m ~\Dev\jimbrig\lossrx [0;33;93m:: [0;34;94mgit([0;33;93mmain[0;34;94m)[0m                                                                                                   [0;32;92m 00:37:14 [0m[0K[?25l
+[0;32;92m➜ [0m[0K[?25h[0;33;93mwsl[0m [0;37;90m-e[0m cat codecov.yml | [0;33;93mcurl[0m [0;37;90m--data-binary[0m @- https://codecov.io/validate[0K[?25l[0;32;92m➜ [0;33;93mcat[0m codecov.yml | [0;33;93mcurl[0m [0;37;90m--data-binary[0m @- https://codecov.io/validate[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m push[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m merge [0;37;90m--ff-only[0m main[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m checkout develop[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m merge develop[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m checkout main[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m pull[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m-o[0m inst/CHANGELOG.md[0K[?25h[?25l[0;32;92m➜ [0;33;93mkrak[0m[0K[?25h[?25l[0;32;92m➜ [0;33;93mping[0m www.yahoo.com[0K[?25h[?25l[0;32;92m➜ [0;33;93mRscript[0m [0;37;90m-e[0m [0;36m"shiny::runApp('shiny_app')"[0m[0K[?25h[?25l[0;32;92m➜ [0;33;93mping[0m www.yahoo.com[0K[?25h[?25l[0;32;92m➜ [0;33;93mkrak[0m[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m-o[0m inst/CHANGELOG.md[0K[?25h[?25l
+[0K[?25h[0;36m ~\Dev\jimbrig\lossrx [0;33;93m:: [0;34;94mgit([0;33;93mmain[0;34;94m)[0m                                                                                                   [0;32;92m 00:43:33 [0m[0K[?25l
+[0;32;92m➜ [0m[0K[?25h
