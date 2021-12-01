@@ -1,0 +1,16 @@
+
+R_CONFIG_DIR="~/.config/R"
+
+R_LIBS="~/.config/R/lib/4.1"
+R_LIBS_USER="~/.config/R/lib/4.1"
+R_ENVIRON_USER="~/.config/R/.Renviron"
+R_PROFILE_USER="~/.config/R/.Rprofile"
+R_PROJ_DIR="~/Dev"
+R_ARCH="x64"
+R_INSTALL_TAR="tar.exe"
+FULLNAME="Jimmy Briggs"
+LANGUAGE="en-US"
+ORC_ID="0000-0002-7489-8787"
+GITHUB_USERNAME="jimbrig"
+PATH="${RTOOLS40_HOME}\usr\bin;${PATH}"
+
