@@ -7,11 +7,12 @@ All notable changes to this project will be documented in this file.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [[Unreleased]](#unreleased)
+
+- [[1.3.1] - 2021-11-30](#131---2021-11-30)
   - [Configuration](#configuration)
-  - [Documentation](#documentation)
   - [Features](#features)
   - [Bug](#bug)
+  - [Documentation](#documentation)
 - [[1.1.0] - 2021-11-28](#110---2021-11-28)
   - [Configuration](#configuration-1)
   - [Documentation](#documentation-1)
