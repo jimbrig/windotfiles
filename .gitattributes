@@ -4,3 +4,7 @@ git/git-crypt/gpg-users/** filter=git-crypt diff=git-crypt
 azure-cli/.azure/accessTokens.json filter=git-crypt diff=git-crypt
 azure-cli/.azure/azureProfile.json filter=git-crypt diff=git-crypt
 azure-cli/.azure/clouds.config filter=git-crypt diff=git-crypt
+
+*.css liguist-vendored
+*.html linguist-vendored
+*.js linguist-vendored
