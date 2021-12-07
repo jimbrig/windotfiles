@@ -7,11 +7,12 @@ All notable changes to this project will be documented in this file.
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [[Unreleased]](#unreleased)
+
+- [[1.3.1] - 2021-11-30](#131---2021-11-30)
   - [Configuration](#configuration)
-  - [Documentation](#documentation)
   - [Features](#features)
   - [Bug](#bug)
+  - [Documentation](#documentation)
 - [[1.1.0] - 2021-11-28](#110---2021-11-28)
   - [Configuration](#configuration-1)
   - [Documentation](#documentation-1)
@@ -25,30 +26,42 @@ All notable changes to this project will be documented in this file.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 *Generated with [DocToc](https://github.com/thlorenz/doctoc)*
-## [Unreleased]
+
+## [1.3.1] - 2021-11-30
 
 ### Configuration
 
 - RStudio config updates
 - Scoop config updates
 - Obsidian config updates
+- Docker config updates
+- Github Linguist .gitattributes
+- Update .gitignores
 
-### Documentation
+### Features
 
-- Updated CHANGELOG
+- Add various winget configs, scripts, and docs
+- Rebase Git history removing secrets
+- Add GitHub Action for scanning secrets with GitGuardian
+  - RStudio
+  - R
+  - AWS
+- Add github-linguist items to .gitattributes
+- Update to latest version of Rainmeter
+- Update to latest version of PowerToys
+
+### Bug
+
+- Fix bootstrap R packages script
+
+###  Documentation
+
+- Add new Release to CHANGELOG
 - Doctoc CHANGELOG.md
 - Update CHANGELOG
 - Doctocisfy winget README
 - Update R README
 - Create radian README
-
-### Features
-
-- Add various winget configs, scripts, and docs
-
-### Bug
-
-- Fix bootstrap R packages script
 
 ## [1.1.0] - 2021-11-28
 
