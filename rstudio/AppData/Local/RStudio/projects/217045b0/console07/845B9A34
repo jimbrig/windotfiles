@@ -5,10 +5,105 @@ https://aka.ms/powershell[0K
 Type 'help' to get help.[0K
 [0K
 [0K[?25h[?25l
-[0;32;92m[ZLocation] knows about 159 locations.[0m[0K
+[0;32;92m[ZLocation] knows about 191 locations.[0m[0K
 [0K
-[0K[?25hLoading personal and system profiles took 3978ms.[0K[?25l
-[0K[?25h[0;36m ~\Dev\jimbrig\lossrx [0;33;93m:: [0;34;94mgit([0;33;93mmain[0;34;94m)[0m                                                                                                   [0;32;92m 00:37:14 [0m[0K[?25l
-[0;32;92m➜ [0m[0K[?25h[0;33;93mwsl[0m [0;37;90m-e[0m cat codecov.yml | [0;33;93mcurl[0m [0;37;90m--data-binary[0m @- https://codecov.io/validate[0K[?25l[0;32;92m➜ [0;33;93mcat[0m codecov.yml | [0;33;93mcurl[0m [0;37;90m--data-binary[0m @- https://codecov.io/validate[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m push[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m merge [0;37;90m--ff-only[0m main[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m checkout develop[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m merge develop[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m checkout main[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit[0m pull[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m-o[0m inst/CHANGELOG.md[0K[?25h[?25l[0;32;92m➜ [0;33;93mkrak[0m[0K[?25h[?25l[0;32;92m➜ [0;33;93mping[0m www.yahoo.com[0K[?25h[?25l[0;32;92m➜ [0;33;93mRscript[0m [0;37;90m-e[0m [0;36m"shiny::runApp('shiny_app')"[0m[0K[?25h[?25l[0;32;92m➜ [0;33;93mping[0m www.yahoo.com[0K[?25h[?25l[0;32;92m➜ [0;33;93mkrak[0m[0K[?25h[?25l[0;32;92m➜ [0;33;93mgit-cliff[0m [0;37;90m-o[0m inst/CHANGELOG.md[0K[?25h[?25l
-[0K[?25h[0;36m ~\Dev\jimbrig\lossrx [0;33;93m:: [0;34;94mgit([0;33;93mmain[0;34;94m)[0m                                                                                                   [0;32;92m 00:43:33 [0m[0K[?25l
+[0K[?25hfailed to read configuration:  yaml: control characters are not allowed[0K[?25l
+[0K[?25h[0;31;91mInvoke-Expression: [0mC:\Users\jimmy\OneDrive\Documents\PowerShell\Profile\completions\gh-cli.ps1:3[0K[?25l
+[0;36;96mLine |[0m[0K
+[0;36;96m   3 | [0m … nvoke-Expression -Command [0;36;96m$(gh completion -s powershell | Out-String)[0m[0K
+[0;36;96m     | [0;31;91m                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[0K
+[0;36;96m     | [0;31;91mCannot bind argument to parameter 'Command' because it is an empty string.[0m[0K
+[0K
+[0K[?25hLoading personal and system profiles took 4291ms.[0K[?25l
+[0K[?25h[0;36m ~\Dev\jimbrig\lossrx [0;33;93m:: [0;34;94mgit([0;33;93mdevelop[0;34;94m)[0m                                                                                                [0;32;92m 18:50:19 [0m[0K[?25l
+[0;32;92m➜ [0m[0K[?25h[0;33;93mcat[0m codecov.yml | [0;33;93mcurl[0m [0;37;90m--data-binary[0m @- https://codecov.i[0K[?25l
+[0;33m>[0m [0;36;96mcat codecov.yml | curl --data-binary @- https://codecov.i[0mo/validate                      [[0;33mHistory[0m][0K
+[0;33m>[0m wsl -e [0;36;96mcat codecov.yml | curl --data-binary @- https://codecov.i[0mo/validate               [[0;33mHistory[0m][0K[2A[60G[?25h[?25l[0;32;92m➜ [0;33;93mcat[0m codecov.yml | [0;33;93mcurl[0m [0;37;90m--data-binary[0m @- https://codecov.io/validate[0K
+[0;33m>[0m wsl -e [0;36;96mcat codecov.yml | curl --data-binary @- https://codecov.io/validate[0m               [[0;33mHistory[0m][0K
+[0K[2A[70G[?25h[?25l[0;32;92m➜ [0;33;93mwsl[0m [0;37;90m-e[0m cat codecov.yml | [0;33;93mcurl[0m [0;37;90m--data-binary[0m @- https://codecov.io/validate[0K
+[0;33;40;100m>[0;37;40;100m wsl -e [0;36;96;40;100mcat codecov.yml | curl --data-binary @- https://codecov.io/validate[0;37;40;100m               [[0;33;40;100mHistory[0;37;40;100m][0m[0K
+[0K[2A[77G[?25h[?25l
+[0;31;91mParserError: [0m[0K
+[0;36;96mLine |[0m[0K
+[0;36;96m   1 | [0m wsl -e cat codecov.yml | curl --data-binary [0;36;96m@[0m- https://codecov.io/val …[0K
+[0;36;96m     | [0;31;91m                                             ~[0m[0K
+[0;36;96m     | [0;31;91mUnrecognized token in source text.[0m[0K
+[0K
+[0K[?25h[0;36m ~\Dev\jimbrig\lossrx [0;33;93m:: [0;34;94mgit([0;33;93mdevelop[0;34;94m)[0m                                                                                                [0;32;92m 18:50:29 [0m[0K[?25l
+[0;32;92m➜ [0m[0K[?25h[0;33;93mwsl[0m [0;37;90m-e[0m cat codecov.yml | [0;33;93mcurl[0m [0;37;90m--data-binary[0m @- https://codecov.io/validate[0K[?25l[0;32;92m➜ [0m[0K[?25h[0;33;93mw[0m[0K[?25l
+[0;33m>[0m [0;36;96mw[0msl -e cat codecov.yml | curl --data-binary @- https://codecov.io/validate               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mw[0msl -d Ubuntu-CommPrev                                                                   [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mw[0msl -d Ubuntu-CommPrev -e wslfetch                                                       [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mw[0msl                                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mw[0msl --shutdown                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mw[0msl --install                                                                            [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mw[0msl --help                                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mw[0minfr -?                                                                                 [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mw[0mhere.exe java                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mw[0mhich java                                                                               [[0;33mHistory[0m][0K[10A[4G[?25h[?25l[0;32;92m➜ [0;33;93mws[0m[0K
+[0;33m>[0m [0;36;96mws[0ml -e cat codecov.yml | curl --data-binary @- https://codecov.io/validate               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mws[0ml -d Ubuntu-CommPrev                                                                   [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mws[0ml -d Ubuntu-CommPrev -e wslfetch                                                       [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mws[0ml                                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mws[0ml --shutdown                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mws[0ml --install                                                                            [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mws[0ml --help                                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mws[0ml --install Debian                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mws[0ml --install Debin                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mws[0ml --list --online                                                                      [[0;33mHistory[0m][0K[10A[5G[?25h[?25l[0;32;92m➜ [0;33;93mwsl[0m[0K
+[0;33m>[0m [0;36;96mwsl[0m -e cat codecov.yml | curl --data-binary @- https://codecov.io/validate               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mwsl[0m -d Ubuntu-CommPrev                                                                   [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mwsl[0m -d Ubuntu-CommPrev -e wslfetch                                                       [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mwsl[0m --shutdown                                                                           [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mwsl[0m --install                                                                            [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mwsl[0m --help                                                                               [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mwsl[0m --install Debian                                                                     [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mwsl[0m --install Debin                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mwsl[0m --list --online                                                                      [[0;33mHistory[0m][0K
+[0;33m>[0m [0;36;96mwsl[0m --install alpine                                                                     [[0;33mHistory[0m][0K[10A[6G[?25h[?25l
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[9A[?25h]0;Windows Subsystem for Linux Preview{Application Error}[0K[?25l
+The application was unable to start correctly (0x%lx). Click OK to close the application.[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K
+[0K[6A[?25h]0; [0;36m ~\Dev\jimbrig\lossrx [0;33;93m:: [0;34;94mgit([0;33;93mdevelop[0;34;94m)[0m                                                                                                [0;32;92m 18:50:36 [0m[0K[?25l
+[0;32;92m➜ [0m[0K
+[0K
+[0K
+[0K
+[0K
+[0K[5A[3G[?25h[?25l[0;32;92m➜ [0;33;93mcat[0m codecov.yml | [0;33;93mcurl[0m [0;37;90m--data-binary[0m @- https://codecov.io/validate[0K
+[0;33m>[0m wsl -e [0;36;96mcat codecov.yml | curl --data-binary @- https://codecov.io/validate[0m               [[0;33mHistory[0m][0K
+[0K
+[0K
+[0K
+[0K[5A[70G[?25h[?25l
+[0;31;91mParserError: [0m[0K
+[0;36;96mLine |[0m[0K
+[0;36;96m   1 | [0m cat codecov.yml | curl --data-binary [0;36;96m@[0m- https://codecov.io/validate[0K
+[0;36;96m     | [0;31;91m                                      ~[0m[0K
+[0;36;96m     | [0;31;91mUnrecognized token in source text.[0m[0K
+[0K
+[0K[?25h[0;36m ~\Dev\jimbrig\lossrx [0;33;93m:: [0;34;94mgit([0;33;93mdevelop[0;34;94m)[0m                                                                                                [0;32;92m 18:50:38 [0m[0K[?25l
+[0;32;92m➜ [0m[0K[?25h[0;33;93mcat[0m codecov.yml | [0;33;93mcurl[0m [0;37;90m--data-binary[0m @- https://codecov.io/validate[0K[69G[68G[67G[66G[64G[63G[62G[61G[60G[59G[58G[57G[56G[55G[54G[53G[52G[51G[50G[49G[48G[47G[46G[45G[44G[43G[42G[41G[40G[?25l
+[0;31;91mParserError: [0m[0K
+[0;36;96mLine |[0m[0K
+[0;36;96m   1 | [0m cat codecov.yml | curl --data-binary [0;36;96m@[0m- https://codecov.io/validate[0K
+[0;36;96m     | [0;31;91m                                      ~[0m[0K
+[0;36;96m     | [0;31;91mUnrecognized token in source text.[0m[0K
+[0K
+[0K[?25h[0;36m ~\Dev\jimbrig\lossrx [0;33;93m:: [0;34;94mgit([0;33;93mdevelop[0;34;94m)[0m                                                                                                [0;32;92m 18:50:44 [0m[0K[?25l
 [0;32;92m➜ [0m[0K[?25h
