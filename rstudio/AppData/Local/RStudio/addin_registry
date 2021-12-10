@@ -80,6 +80,15 @@
         "binding": "document",
         "ordinal": 12
     },
+    "devtools::run_examples": {
+        "name": "Run examples",
+        "package": "devtools",
+        "title": "",
+        "description": "Runs R code in examples using `devtools::run_examples()`",
+        "interactive": true,
+        "binding": "run_examples",
+        "ordinal": 13
+    },
     "devtools::test_active_file": {
         "name": "Run a test file",
         "package": "devtools",
@@ -114,7 +123,7 @@
         "description": "Select loss development factors for a development triangle",
         "interactive": true,
         "binding": "ldf_picker",
-        "ordinal": 13
+        "ordinal": 14
     },
     "docthis::doc_this_addin": {
         "name": "Document object",
@@ -123,7 +132,7 @@
         "description": "Inserts roxygen2 documentation skeleton for functions and data.frames",
         "interactive": false,
         "binding": "doc_this_addin",
-        "ordinal": 14
+        "ordinal": 15
     },
     "golem::go_to_app_server": {
         "name": "Open app_server.R",
@@ -132,7 +141,7 @@
         "description": "Opens the app_server.R file.",
         "interactive": false,
         "binding": "go_to_app_server",
-        "ordinal": 20
+        "ordinal": 21
     },
     "golem::go_to_app_ui": {
         "name": "Open app_ui.R",
@@ -141,7 +150,7 @@
         "description": "Opens the app_ui.R file.",
         "interactive": false,
         "binding": "go_to_app_ui",
-        "ordinal": 19
+        "ordinal": 20
     },
     "golem::go_to_deploy": {
         "name": "Open deploy.R",
@@ -150,7 +159,7 @@
         "description": "Opens the 03_deploy.R file.",
         "interactive": false,
         "binding": "go_to_deploy",
-        "ordinal": 17
+        "ordinal": 18
     },
     "golem::go_to_dev": {
         "name": "Open dev.R",
@@ -159,7 +168,7 @@
         "description": "Opens the 02_dev.R file.",
         "interactive": false,
         "binding": "go_to_dev",
-        "ordinal": 16
+        "ordinal": 17
     },
     "golem::go_to_run_app": {
         "name": "Open run_app.R",
@@ -168,7 +177,7 @@
         "description": "Opens the run_app.R file.",
         "interactive": true,
         "binding": "go_to_run_app",
-        "ordinal": 21
+        "ordinal": 22
     },
     "golem::go_to_run_dev": {
         "name": "Open run_dev.R",
@@ -177,7 +186,7 @@
         "description": "Opens the run_dev.R file.",
         "interactive": false,
         "binding": "go_to_run_dev",
-        "ordinal": 18
+        "ordinal": 19
     },
     "golem::go_to_start": {
         "name": "Open start.R",
@@ -186,7 +195,7 @@
         "description": "Opens the 01_start.R file.",
         "interactive": false,
         "binding": "go_to_start",
-        "ordinal": 15
+        "ordinal": 16
     },
     "golem::insert_ns": {
         "name": "Put selected text into between ns()",
@@ -195,7 +204,7 @@
         "description": "add 'ns(' in front of selected text, and add ')' behind.",
         "interactive": false,
         "binding": "insert_ns",
-        "ordinal": 22
+        "ordinal": 23
     },
     "golem::run_dev": {
         "name": "Run run_dev.R",
@@ -204,7 +213,7 @@
         "description": "Runs the run_dev.R file.",
         "interactive": true,
         "binding": "run_dev",
-        "ordinal": 23
+        "ordinal": 24
     },
     "jimstools::open_project": {
         "name": "Open Project",
@@ -213,7 +222,7 @@
         "description": "Interactively open RStudio Project",
         "interactive": false,
         "binding": "open_project",
-        "ordinal": 25
+        "ordinal": 26
     },
     "jimstools::paste_winslash": {
         "name": "Paste Converting WinSlash's",
@@ -222,7 +231,7 @@
         "description": "Paste's contents from clipboard (a path) and converts any \"\\\"'s to \"\\\\\"'s.",
         "interactive": false,
         "binding": "paste_winslash",
-        "ordinal": 24
+        "ordinal": 25
     },
     "lintr::addin_lint": {
         "name": "Lint current file",
@@ -231,7 +240,7 @@
         "description": "Runs lintr::lint on the current file",
         "interactive": true,
         "binding": "addin_lint",
-        "ordinal": 26
+        "ordinal": 27
     },
     "lintr::addin_lint_package": {
         "name": "Lint current package",
@@ -240,7 +249,7 @@
         "description": "Runs lintr::lint_package",
         "interactive": true,
         "binding": "addin_lint_package",
-        "ordinal": 27
+        "ordinal": 28
     },
     "listviewer::jsoneditAddin": {
         "name": "jsonedit",
@@ -249,7 +258,7 @@
         "description": "View a list in jsonedit",
         "interactive": false,
         "binding": "jsoneditAddin",
-        "ordinal": 28
+        "ordinal": 29
     },
     "packagefinder::packagefinderAddIn": {
         "name": "packagefinder",
@@ -258,7 +267,7 @@
         "description": "Search packaes on CRAN.",
         "interactive": true,
         "binding": "packagefinderAddIn",
-        "ordinal": 29
+        "ordinal": 30
     },
     "pkgdown::build_site_external": {
         "name": "Build pkgdown",
@@ -267,7 +276,7 @@
         "description": "Runs pkgdown on the current package",
         "interactive": true,
         "binding": "build_site_external",
-        "ordinal": 30
+        "ordinal": 31
     },
     "renv::renv_addins_embed": {
         "name": "Embed a Lockfile",
@@ -276,7 +285,7 @@
         "description": "Embeds a lockfile in the document, via renv::use().",
         "interactive": false,
         "binding": "renv_addins_embed",
-        "ordinal": 31
+        "ordinal": 32
     },
     "styler::set_style_transformers": {
         "name": "Set style",
@@ -285,7 +294,7 @@
         "description": "Prompt for and set the style transformers used by all styler addins",
         "interactive": true,
         "binding": "set_style_transformers",
-        "ordinal": 32
+        "ordinal": 33
     },
     "styler::style_active_file": {
         "name": "Style active file",
@@ -294,7 +303,7 @@
         "description": "Pretty-print active file",
         "interactive": true,
         "binding": "style_active_file",
-        "ordinal": 34
+        "ordinal": 35
     },
     "styler::style_active_pkg": {
         "name": "Style active package",
@@ -303,7 +312,7 @@
         "description": "Pretty-print active package",
         "interactive": true,
         "binding": "style_active_pkg",
-        "ordinal": 35
+        "ordinal": 36
     },
     "styler::style_selection": {
         "name": "Style selection",
@@ -312,6 +321,6 @@
         "description": "Pretty-print selection",
         "interactive": true,
         "binding": "style_selection",
-        "ordinal": 33
+        "ordinal": 34
     }
 }
