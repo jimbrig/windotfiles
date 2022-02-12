@@ -8,7 +8,12 @@
 #  ------------------------------------------------------------------------
 
 r_config_dir <- function(...) {
-  file.path(Sys.getenv("R_CONFIG_DIR", unset = "~/.config/R"), ...)
+  normalizePath(
+    file.path(
+      Sys.getenv("R_CONFIG_DIR", unset = normalizePath("~/.config/R")),
+      ...
+    )
+  )
 }
 
 # Ensure Library is set:
@@ -47,7 +52,8 @@ options(
   blogdown.insertimage.usebaseurl = TRUE,
   shrtcts.path = r_config_dir("config/.shrtcts.yml"),
   gargle_oauth_email = "jimmy.briggs@jimbrig.com",
-  gargle_oauth_cache = r_config_dir("secrets/gargle/gargle-oauth")
+  gargle_oauth_cache = r_config_dir("secrets/gargle/gargle-oauth"),
+  distilltools.templates.path = r_config_dir("templates/Rmd")
 )
 
 # turn on completion of installed package names
@@ -58,7 +64,7 @@ source(r_config_dir("scripts/addinit_options.R"))
 
 # history
 Sys.setenv("R_HISTFILE" = r_config_dir(".Rhistory"))
-.Last <- function() if (interactive()) try(savehistory(r_config_dir(".Rhistory")))
+.Last <- function() if (interactive()) try(savehistory(file = r_config_dir(".Rhistory")))
 
 # error tracing
 if ('rlang' %in% loadedNamespaces()) options(error = rlang::entrace)
