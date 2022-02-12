@@ -26,6 +26,60 @@
         "binding": "quick_script",
         "ordinal": 2
     },
+    "blogdown::insert_image_addin": {
+        "name": "Insert Image",
+        "package": "blogdown",
+        "title": "",
+        "description": "Insert an external image into a blog post.",
+        "interactive": true,
+        "binding": "insert_image_addin",
+        "ordinal": 7
+    },
+    "blogdown::new_post_addin": {
+        "name": "New Post",
+        "package": "blogdown",
+        "title": "",
+        "description": "Create a new post with blogdown::new_post().",
+        "interactive": true,
+        "binding": "new_post_addin",
+        "ordinal": 5
+    },
+    "blogdown::quote_poem_addin": {
+        "name": "Quote Poem",
+        "package": "blogdown",
+        "title": "",
+        "description": "Add > to the beginning of selected paragraphs and two trailing spaces to selected lines.",
+        "interactive": false,
+        "binding": "quote_poem_addin",
+        "ordinal": 9
+    },
+    "blogdown::serve_site": {
+        "name": "Serve Site",
+        "package": "blogdown",
+        "title": "",
+        "description": "Run blogdown::serve_site() to live preview a website locally.",
+        "interactive": true,
+        "binding": "serve_site",
+        "ordinal": 4
+    },
+    "blogdown::touch_file_rstudio": {
+        "name": "Touch File",
+        "package": "blogdown",
+        "title": "",
+        "description": "Change the timestamp of the current file in the editor.",
+        "interactive": false,
+        "binding": "touch_file_rstudio",
+        "ordinal": 8
+    },
+    "blogdown::update_meta_addin": {
+        "name": "Update Metadata",
+        "package": "blogdown",
+        "title": "",
+        "description": "Update the title, author, date, categories, and tags of the current blog post.",
+        "interactive": true,
+        "binding": "update_meta_addin",
+        "ordinal": 6
+    },
     "bookdown::mathquill": {
         "name": "Input LaTeX Math",
         "package": "bookdown",
@@ -33,7 +87,7 @@
         "description": "Input math expressions via the MathQuill library.",
         "interactive": true,
         "binding": "mathquill",
-        "ordinal": 5
+        "ordinal": 11
     },
     "bookdown::serve_book": {
         "name": "Preview Book",
@@ -42,7 +96,7 @@
         "description": "Run bookdown::serve_book() to live preview a book.",
         "interactive": true,
         "binding": "serve_book",
-        "ordinal": 4
+        "ordinal": 10
     },
     "clipr::clipr_output": {
         "name": "Output to clipboard",
@@ -51,7 +105,7 @@
         "description": "Copies the console output of a selected expression to the system clipboard",
         "interactive": false,
         "binding": "clipr_output",
-        "ordinal": 7
+        "ordinal": 13
     },
     "clipr::clipr_result": {
         "name": "Value to clipboard",
@@ -60,7 +114,7 @@
         "description": "Copies the results of a selected expression to the system clipboard",
         "interactive": false,
         "binding": "clipr_result",
-        "ordinal": 6
+        "ordinal": 12
     },
     "covr::addin_report": {
         "name": "Calculate package test coverage",
@@ -69,7 +123,88 @@
         "description": "Calculates the package test coverage and opens a report, using `covr::report()`",
         "interactive": false,
         "binding": "addin_report",
-        "ordinal": 8
+        "ordinal": 14
+    },
+    "data.world::": {
+        "name": "",
+        "package": "data.world",
+        "title": "",
+        "description": "",
+        "interactive": true,
+        "binding": "",
+        "ordinal": 16
+    },
+    "data.world::add_insight_addin": {
+        "name": "New insight",
+        "package": "data.world",
+        "title": "",
+        "description": "Adds an insight to a data.world project",
+        "interactive": true,
+        "binding": "add_insight_addin",
+        "ordinal": 16
+    },
+    "datapasta::df_paste": {
+        "name": "Paste as data.frame",
+        "package": "datapasta",
+        "title": "",
+        "description": "Pastes a table from the clipboard to the editor as a data.frame definition",
+        "interactive": false,
+        "binding": "df_paste",
+        "ordinal": 20
+    },
+    "datapasta::dt_paste": {
+        "name": "Paste as data.table",
+        "package": "datapasta",
+        "title": "",
+        "description": "Pastes a table from the clipboard to the editor as a data.table definition",
+        "interactive": false,
+        "binding": "dt_paste",
+        "ordinal": 21
+    },
+    "datapasta::tribble_paste": {
+        "name": "Paste as tribble",
+        "package": "datapasta",
+        "title": "",
+        "description": "Pastes a table from the clipboard to the editor as a tribble definition",
+        "interactive": false,
+        "binding": "tribble_paste",
+        "ordinal": 17
+    },
+    "datapasta::vector_paste": {
+        "name": "Paste as vector",
+        "package": "datapasta",
+        "title": "",
+        "description": "Pastes data from the clipboard to the editor as character vector, formatted horizontally on a single line.",
+        "interactive": false,
+        "binding": "vector_paste",
+        "ordinal": 18
+    },
+    "datapasta::vector_paste_vertical": {
+        "name": "Paste as vector (vertical)",
+        "package": "datapasta",
+        "title": "",
+        "description": "Pastes data from the clipboard to the editor as character vector, formatted vertically, one element per line.",
+        "interactive": false,
+        "binding": "vector_paste_vertical",
+        "ordinal": 19
+    },
+    "datapasta::zzz_rs_dfiddle": {
+        "name": "Fiddle Selection",
+        "package": "datapasta",
+        "title": "",
+        "description": "Take a selection and fiddle it to something better (maybe).",
+        "interactive": false,
+        "binding": "zzz_rs_dfiddle",
+        "ordinal": 22
+    },
+    "datapasta::zzz_rs_toggle_quotes": {
+        "name": "Toggle Vector Quotes",
+        "package": "datapasta",
+        "title": "",
+        "description": "Toggle quotes in a vector defintion",
+        "interactive": false,
+        "binding": "zzz_rs_toggle_quotes",
+        "ordinal": 23
     },
     "devtools::document": {
         "name": "Document a package",
@@ -78,7 +213,16 @@
         "description": "A wrapper for `roxygen`'s `roxygen2::roxygenize()`",
         "interactive": true,
         "binding": "document",
-        "ordinal": 12
+        "ordinal": 27
+    },
+    "devtools::run_examples": {
+        "name": "Run examples",
+        "package": "devtools",
+        "title": "",
+        "description": "Runs R code in examples using `devtools::run_examples()`",
+        "interactive": true,
+        "binding": "run_examples",
+        "ordinal": 28
     },
     "devtools::test_active_file": {
         "name": "Run a test file",
@@ -87,7 +231,7 @@
         "description": "Run the current test file, using `devtools::test_active_file()`.",
         "interactive": true,
         "binding": "test_active_file",
-        "ordinal": 9
+        "ordinal": 24
     },
     "devtools::test_coverage": {
         "name": "Report test coverage for a package",
@@ -96,7 +240,7 @@
         "description": "Calculate and report the test coverage for the current package, using `devtools::test_coverage()`.",
         "interactive": true,
         "binding": "test_coverage",
-        "ordinal": 11
+        "ordinal": 26
     },
     "devtools::test_coverage_active_file": {
         "name": "Report test coverage for a file",
@@ -105,7 +249,7 @@
         "description": "Calculate and report test coverage for the current test file, using `devtools::test_coverage_active_file()`.",
         "interactive": true,
         "binding": "test_coverage_active_file",
-        "ordinal": 10
+        "ordinal": 25
     },
     "devtri::ldf_picker": {
         "name": "LDF Picker",
@@ -114,7 +258,16 @@
         "description": "Select loss development factors for a development triangle",
         "interactive": true,
         "binding": "ldf_picker",
-        "ordinal": 13
+        "ordinal": 29
+    },
+    "distilltools::create_post_from_template_addin": {
+        "name": "Create post (from template)",
+        "package": "distilltools",
+        "title": "",
+        "description": "Create a new post with distilltools::create_post_from_template().",
+        "interactive": true,
+        "binding": "create_post_from_template_addin",
+        "ordinal": 30
     },
     "docthis::doc_this_addin": {
         "name": "Document object",
@@ -123,7 +276,7 @@
         "description": "Inserts roxygen2 documentation skeleton for functions and data.frames",
         "interactive": false,
         "binding": "doc_this_addin",
-        "ordinal": 14
+        "ordinal": 31
     },
     "golem::go_to_app_server": {
         "name": "Open app_server.R",
@@ -132,7 +285,7 @@
         "description": "Opens the app_server.R file.",
         "interactive": false,
         "binding": "go_to_app_server",
-        "ordinal": 20
+        "ordinal": 37
     },
     "golem::go_to_app_ui": {
         "name": "Open app_ui.R",
@@ -141,7 +294,7 @@
         "description": "Opens the app_ui.R file.",
         "interactive": false,
         "binding": "go_to_app_ui",
-        "ordinal": 19
+        "ordinal": 36
     },
     "golem::go_to_deploy": {
         "name": "Open deploy.R",
@@ -150,7 +303,7 @@
         "description": "Opens the 03_deploy.R file.",
         "interactive": false,
         "binding": "go_to_deploy",
-        "ordinal": 17
+        "ordinal": 34
     },
     "golem::go_to_dev": {
         "name": "Open dev.R",
@@ -159,7 +312,7 @@
         "description": "Opens the 02_dev.R file.",
         "interactive": false,
         "binding": "go_to_dev",
-        "ordinal": 16
+        "ordinal": 33
     },
     "golem::go_to_run_app": {
         "name": "Open run_app.R",
@@ -168,7 +321,7 @@
         "description": "Opens the run_app.R file.",
         "interactive": true,
         "binding": "go_to_run_app",
-        "ordinal": 21
+        "ordinal": 38
     },
     "golem::go_to_run_dev": {
         "name": "Open run_dev.R",
@@ -177,7 +330,7 @@
         "description": "Opens the run_dev.R file.",
         "interactive": false,
         "binding": "go_to_run_dev",
-        "ordinal": 18
+        "ordinal": 35
     },
     "golem::go_to_start": {
         "name": "Open start.R",
@@ -186,7 +339,7 @@
         "description": "Opens the 01_start.R file.",
         "interactive": false,
         "binding": "go_to_start",
-        "ordinal": 15
+        "ordinal": 32
     },
     "golem::insert_ns": {
         "name": "Put selected text into between ns()",
@@ -195,7 +348,7 @@
         "description": "add 'ns(' in front of selected text, and add ')' behind.",
         "interactive": false,
         "binding": "insert_ns",
-        "ordinal": 22
+        "ordinal": 39
     },
     "golem::run_dev": {
         "name": "Run run_dev.R",
@@ -204,7 +357,25 @@
         "description": "Runs the run_dev.R file.",
         "interactive": true,
         "binding": "run_dev",
-        "ordinal": 23
+        "ordinal": 40
+    },
+    "jadd::assign_defaults_addin": {
+        "name": "Assign default values",
+        "package": "jadd",
+        "title": "",
+        "description": "Set function arguments in selection to their default values",
+        "interactive": false,
+        "binding": "assign_defaults_addin",
+        "ordinal": 41
+    },
+    "jadd::rstudioapi_addin": {
+        "name": "Explore the RStudio API",
+        "package": "jadd",
+        "title": "",
+        "description": "Expose information available through the rstudioapi package",
+        "interactive": false,
+        "binding": "rstudioapi_addin",
+        "ordinal": 42
     },
     "jimstools::open_project": {
         "name": "Open Project",
@@ -213,7 +384,7 @@
         "description": "Interactively open RStudio Project",
         "interactive": false,
         "binding": "open_project",
-        "ordinal": 25
+        "ordinal": 44
     },
     "jimstools::paste_winslash": {
         "name": "Paste Converting WinSlash's",
@@ -222,7 +393,7 @@
         "description": "Paste's contents from clipboard (a path) and converts any \"\\\"'s to \"\\\\\"'s.",
         "interactive": false,
         "binding": "paste_winslash",
-        "ordinal": 24
+        "ordinal": 43
     },
     "lintr::addin_lint": {
         "name": "Lint current file",
@@ -231,7 +402,7 @@
         "description": "Runs lintr::lint on the current file",
         "interactive": true,
         "binding": "addin_lint",
-        "ordinal": 26
+        "ordinal": 45
     },
     "lintr::addin_lint_package": {
         "name": "Lint current package",
@@ -240,7 +411,7 @@
         "description": "Runs lintr::lint_package",
         "interactive": true,
         "binding": "addin_lint_package",
-        "ordinal": 27
+        "ordinal": 46
     },
     "listviewer::jsoneditAddin": {
         "name": "jsonedit",
@@ -249,7 +420,7 @@
         "description": "View a list in jsonedit",
         "interactive": false,
         "binding": "jsoneditAddin",
-        "ordinal": 28
+        "ordinal": 47
     },
     "packagefinder::packagefinderAddIn": {
         "name": "packagefinder",
@@ -258,7 +429,7 @@
         "description": "Search packaes on CRAN.",
         "interactive": true,
         "binding": "packagefinderAddIn",
-        "ordinal": 29
+        "ordinal": 48
     },
     "pkgdown::build_site_external": {
         "name": "Build pkgdown",
@@ -267,7 +438,304 @@
         "description": "Runs pkgdown on the current package",
         "interactive": true,
         "binding": "build_site_external",
-        "ordinal": 30
+        "ordinal": 49
+    },
+    "pkgsearch::pkg_search_addin": {
+        "name": "CRAN Package Search",
+        "package": "pkgsearch",
+        "title": "",
+        "description": "Search packages on CRAN",
+        "interactive": false,
+        "binding": "pkg_search_addin",
+        "ordinal": 50
+    },
+    "prefixer::prefixer": {
+        "name": "Prefixer::",
+        "package": "prefixer",
+        "title": "",
+        "description": "Prefix functions",
+        "interactive": true,
+        "binding": "prefixer",
+        "ordinal": 51
+    },
+    "prefixer::rImportFrom": {
+        "name": "@importFrom",
+        "package": "prefixer",
+        "title": "",
+        "description": "Add importFrom tag above functions",
+        "interactive": false,
+        "binding": "rImportFrom",
+        "ordinal": 53
+    },
+    "prefixer::unprefix": {
+        "name": "Unprefix",
+        "package": "prefixer",
+        "title": "",
+        "description": "Remove prefix",
+        "interactive": false,
+        "binding": "unprefix",
+        "ordinal": 52
+    },
+    "prefixer::v_add_roxygen_comment": {
+        "name": "Roxygen comment",
+        "package": "prefixer",
+        "title": "",
+        "description": "Comment selected lines with #'",
+        "interactive": false,
+        "binding": "v_add_roxygen_comment",
+        "ordinal": 54
+    },
+    "prefixer::w_escape_unicode": {
+        "name": "Not-ASCII",
+        "package": "prefixer",
+        "title": "",
+        "description": "Remove not-ASCII characters",
+        "interactive": false,
+        "binding": "w_escape_unicode",
+        "ordinal": 55
+    },
+    "remedy::align_arrow": {
+        "name": "Align",
+        "package": "remedy",
+        "title": "",
+        "description": "Align <- in selection",
+        "interactive": false,
+        "binding": "align_arrow",
+        "ordinal": 56
+    },
+    "remedy::align_equal": {
+        "name": "AlignEqual",
+        "package": "remedy",
+        "title": "",
+        "description": "Align = in selection",
+        "interactive": false,
+        "binding": "align_equal",
+        "ordinal": 57
+    },
+    "remedy::backtickr": {
+        "name": "Backtick",
+        "package": "remedy",
+        "title": "",
+        "description": "Backtick selected word(s)",
+        "interactive": false,
+        "binding": "backtickr",
+        "ordinal": 58
+    },
+    "remedy::blockquoter": {
+        "name": "Blockquote",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into a blockquote",
+        "interactive": false,
+        "binding": "blockquoter",
+        "ordinal": 59
+    },
+    "remedy::boldr": {
+        "name": "Bold",
+        "package": "remedy",
+        "title": "",
+        "description": "Embolden selected text",
+        "interactive": false,
+        "binding": "boldr",
+        "ordinal": 60
+    },
+    "remedy::chunknamer": {
+        "name": "Chunkname",
+        "package": "remedy",
+        "title": "",
+        "description": "Name unnamed chunks in bulk",
+        "interactive": false,
+        "binding": "chunknamer",
+        "ordinal": 63
+    },
+    "remedy::chunkr": {
+        "name": "Chunk",
+        "package": "remedy",
+        "title": "",
+        "description": "Chunk script or file",
+        "interactive": false,
+        "binding": "chunkr",
+        "ordinal": 61
+    },
+    "remedy::chunksplitr": {
+        "name": "Chunksplit",
+        "package": "remedy",
+        "title": "",
+        "description": "Split chunk into two chunks",
+        "interactive": false,
+        "binding": "chunksplitr",
+        "ordinal": 62
+    },
+    "remedy::footnoter": {
+        "name": "Footnote",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into a footnote",
+        "interactive": false,
+        "binding": "footnoter",
+        "ordinal": 64
+    },
+    "remedy::h1r": {
+        "name": "H1",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into an h1 header",
+        "interactive": false,
+        "binding": "h1r",
+        "ordinal": 65
+    },
+    "remedy::h2r": {
+        "name": "H2",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into an h2 header",
+        "interactive": false,
+        "binding": "h2r",
+        "ordinal": 66
+    },
+    "remedy::h3r": {
+        "name": "H3",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into an h3 header",
+        "interactive": false,
+        "binding": "h3r",
+        "ordinal": 67
+    },
+    "remedy::h4r": {
+        "name": "H4",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into an h4 header",
+        "interactive": false,
+        "binding": "h4r",
+        "ordinal": 68
+    },
+    "remedy::h5r": {
+        "name": "H5",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into an h5 header",
+        "interactive": false,
+        "binding": "h5r",
+        "ordinal": 69
+    },
+    "remedy::h6r": {
+        "name": "H6",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into an h6 header",
+        "interactive": false,
+        "binding": "h6r",
+        "ordinal": 70
+    },
+    "remedy::htmlcommentr": {
+        "name": "Htmlcomment",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into an HTML comment or insert new comment",
+        "interactive": false,
+        "binding": "htmlcommentr",
+        "ordinal": 71
+    },
+    "remedy::imager": {
+        "name": "Image",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected path into an embedded image",
+        "interactive": false,
+        "binding": "imager",
+        "ordinal": 72
+    },
+    "remedy::italicsr": {
+        "name": "Italics",
+        "package": "remedy",
+        "title": "",
+        "description": "Italicize selected text",
+        "interactive": false,
+        "binding": "italicsr",
+        "ordinal": 73
+    },
+    "remedy::latexr": {
+        "name": "LaTeX",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert the selected text in inline LaTeX.",
+        "interactive": false,
+        "binding": "latexr",
+        "ordinal": 74
+    },
+    "remedy::listr": {
+        "name": "List (unordered)",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into an unordered list",
+        "interactive": false,
+        "binding": "listr",
+        "ordinal": 76
+    },
+    "remedy::olistr": {
+        "name": "List (ordered)",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into an ordered list",
+        "interactive": false,
+        "binding": "olistr",
+        "ordinal": 75
+    },
+    "remedy::rightr": {
+        "name": "Right",
+        "package": "remedy",
+        "title": "",
+        "description": "Copy selected text (or line) to the right",
+        "interactive": false,
+        "binding": "rightr",
+        "ordinal": 77
+    },
+    "remedy::striker": {
+        "name": "Strike",
+        "package": "remedy",
+        "title": "",
+        "description": "Strikethrough selected text",
+        "interactive": false,
+        "binding": "striker",
+        "ordinal": 78
+    },
+    "remedy::tabler": {
+        "name": "Table",
+        "package": "remedy",
+        "title": "",
+        "description": "Insert a markdown table",
+        "interactive": false,
+        "binding": "tabler",
+        "ordinal": 79
+    },
+    "remedy::urlr": {
+        "name": "Url",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into a url",
+        "interactive": false,
+        "binding": "urlr",
+        "ordinal": 80
+    },
+    "remedy::xaringanr": {
+        "name": "Xaringan",
+        "package": "remedy",
+        "title": "",
+        "description": "xaringan pull left and pull right",
+        "interactive": false,
+        "binding": "xaringanr",
+        "ordinal": 81
+    },
+    "remedy::youtuber": {
+        "name": "Youtube",
+        "package": "remedy",
+        "title": "",
+        "description": "Convert selected text into a markdown youtube frame",
+        "interactive": false,
+        "binding": "youtuber",
+        "ordinal": 82
     },
     "renv::renv_addins_embed": {
         "name": "Embed a Lockfile",
@@ -276,7 +744,34 @@
         "description": "Embeds a lockfile in the document, via renv::use().",
         "interactive": false,
         "binding": "renv_addins_embed",
-        "ordinal": 31
+        "ordinal": 83
+    },
+    "reprex::reprex_addin": {
+        "name": "Render reprex...",
+        "package": "reprex",
+        "title": "",
+        "description": "Run `reprex::reprex()` to prepare a reproducible example for sharing.",
+        "interactive": true,
+        "binding": "reprex_addin",
+        "ordinal": 84
+    },
+    "reprex::reprex_selection": {
+        "name": "Reprex selection",
+        "package": "reprex",
+        "title": "",
+        "description": "Prepare reprex from current selection",
+        "interactive": false,
+        "binding": "reprex_selection",
+        "ordinal": 85
+    },
+    "rhandsontable::editAddin": {
+        "name": "Edit a Data Frame",
+        "package": "rhandsontable",
+        "title": "",
+        "description": "Interactively edit a data frame.",
+        "interactive": true,
+        "binding": "editAddin",
+        "ordinal": 86
     },
     "styler::set_style_transformers": {
         "name": "Set style",
@@ -285,7 +780,7 @@
         "description": "Prompt for and set the style transformers used by all styler addins",
         "interactive": true,
         "binding": "set_style_transformers",
-        "ordinal": 32
+        "ordinal": 87
     },
     "styler::style_active_file": {
         "name": "Style active file",
@@ -294,7 +789,7 @@
         "description": "Pretty-print active file",
         "interactive": true,
         "binding": "style_active_file",
-        "ordinal": 34
+        "ordinal": 89
     },
     "styler::style_active_pkg": {
         "name": "Style active package",
@@ -303,7 +798,7 @@
         "description": "Pretty-print active package",
         "interactive": true,
         "binding": "style_active_pkg",
-        "ordinal": 35
+        "ordinal": 90
     },
     "styler::style_selection": {
         "name": "Style selection",
@@ -312,6 +807,33 @@
         "description": "Pretty-print selection",
         "interactive": true,
         "binding": "style_selection",
-        "ordinal": 33
+        "ordinal": 88
+    },
+    "tfruns::add_in_training_run": {
+        "name": "Training Run",
+        "package": "tfruns",
+        "title": "",
+        "description": "Execute a training run with the current source document",
+        "interactive": false,
+        "binding": "add_in_training_run",
+        "ordinal": 91
+    },
+    "tfruns::add_in_view_latest_run": {
+        "name": "View Latest Run",
+        "package": "tfruns",
+        "title": "",
+        "description": "View the most recent training run",
+        "interactive": false,
+        "binding": "add_in_view_latest_run",
+        "ordinal": 92
+    },
+    "tfruns::add_in_view_run_history": {
+        "name": "View Run History",
+        "package": "tfruns",
+        "title": "",
+        "description": "View all training runs",
+        "interactive": false,
+        "binding": "add_in_view_run_history",
+        "ordinal": 93
     }
 }
