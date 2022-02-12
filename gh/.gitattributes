@@ -1,2 +1,2 @@
-hosts.yml filter=git-crypt diff=git-crypt
+"AppData/Roaming/GitHub CLI/hosts.yml" filter=git-crypt diff=git-crypt
 registry/** filter=git-crypt diff=git-crypt
