@@ -58,6 +58,12 @@ explorer <- function(path = getwd()) {
   })
 }
 
+krak <- function(path = getwd()) {
+  suppressMessages(suppressWarnings({
+    system("pwsh -Command krak", ignore.stdout = TRUE, show.output.on.console = FALSE, wait = FALSE)
+  }))
+}
+
 view_path <- function() {
   writeLines(strsplit(Sys.getenv("PATH"), ";")[[1]])
 }
