@@ -1,3 +1,4 @@
+r_addin|jimstools::open_project
 command|closeAllSourceDocs
 command|newTerminal
 r_addin|addinit::quick_header
